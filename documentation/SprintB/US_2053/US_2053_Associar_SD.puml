@@ -1,0 +1,60 @@
+@startuml
+
+actor "Responsavel Recursos Humanos" as RRH
+participant AssociarColaboradorUI as UI <<presentation>>
+control AssociarColaboradorController as Controller <<application>>
+participant ListarColaboradoresService as listService
+database ColaboradorRepository as Repository <<repository>>
+participant Colaborador as Domain <<domain>>
+
+RRH -> UI: Inicia associação colaborador
+activate UI
+UI -> Controller: create()
+activate Controller
+Controller -> listService: allColaboradores()
+activate listService
+listService -> Repository: findAll()
+activate Repository
+Repository -> listService: iterable<Colaborador>
+deactivate Repository
+listService -> Controller: iterable<Colaborador>
+deactivate listService
+Controller -> UI: iterable<Colaborador>
+deactivate Controller
+UI -> RRH: Lista todas os colaboradores disponiveis
+deactivate UI
+
+RRH -> UI: Seleciona um colaborador
+activate UI
+UI -> Controller: getColaborador(colaboradorId)
+activate Controller
+Controller -> Repository: getColaborador()
+activate Repository
+Repository -> Controller: colaborador
+deactivate Repository
+Controller -> Domain: getTiposEquipa()
+activate Domain
+Domain -> Controller: iterable<TipoEquipa>
+deactivate Domain
+Controller -> ListarEquipasService: listarEquipasTipoDiferente(tipoEquipa)
+activate ListarEquipasService
+ListarEquipasService -> Controller: iterable<Equipa>
+deactivate ListarEquipasService
+Controller -> UI: iterable<Equipa>
+deactivate Controller
+UI -> RRH: Lista todas as equipas compativeis
+deactivate UI
+
+RRH -> UI: Seleciona Equipa
+activate UI
+UI -> Controller: setEquipa(teamId)
+activate Controller
+Controller -> Domain: associarEquipa(equipa)
+activate Domain
+Controller -> Repository: save(colaborador)
+deactivate Domain
+deactivate Controller
+UI-> RRH: Sucesso
+deactivate UI
+deactivate UI
+@enduml

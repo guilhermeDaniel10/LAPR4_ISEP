@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="879px" preserveAspectRatio="none" style="width:1704px;height:879px;" version="1.1" viewBox="0 0 1704 879" width="1704px" zoomAndPan="magnify">
+    <defs>
+        <filter height="300%" id="fvl3bq95p9smj" width="300%" x="-1" y="-1">
+            <feGaussianBlur result="blurOut" stdDeviation="2.0"/>
+            <feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/>
+            <feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/>
+            <feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/>
+        </filter>
+    </defs>
+    <g>
+        <rect fill="#FFFFFF" filter="url(#fvl3bq95p9smj)" height="503.2734" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="572.5" y="119.6094"/>
+        <rect fill="#FFFFFF" filter="url(#fvl3bq95p9smj)" height="121.0547" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="572.5" y="653.2344"/>
+        <rect fill="#FFFFFF" filter="url(#fvl3bq95p9smj)" height="181.4063" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1052.5" y="149.9609"/>
+        <rect fill="#FFFFFF" filter="url(#fvl3bq95p9smj)" height="107.4063" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1052.5" y="515.4766"/>
+        <rect fill="#FFFFFF" filter="url(#fvl3bq95p9smj)" height="60.3516" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1052.5" y="683.5859"/>
+        <rect fill="#FFFFFF" filter="url(#fvl3bq95p9smj)" height="60.3516" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1234.5" y="180.3125"/>
+        <rect fill="#FFFFFF" filter="url(#fvl3bq95p9smj)" height="60.3516" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1234.5" y="271.0156"/>
+        <rect fill="#FFFFFF" filter="url(#fvl3bq95p9smj)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1362" y="210.6641"/>
+        <rect fill="#FFFFFF" filter="url(#fvl3bq95p9smj)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1362" y="301.3672"/>
+        <rect fill="#FFFFFF" filter="url(#fvl3bq95p9smj)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1536.5" y="562.1797"/>
+        <rect fill="#FFFFFF" filter="url(#fvl3bq95p9smj)" height="69.7031" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1654" y="713.9375"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="115" x2="115" y1="87.6094" y2="792.6406"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="577.5" x2="577.5" y1="87.6094" y2="792.6406"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="1057.5" x2="1057.5" y1="87.6094" y2="792.6406"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="1239.5" x2="1239.5" y1="87.6094" y2="792.6406"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="1366.5" x2="1366.5" y1="87.6094" y2="792.6406"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="1541" x2="1541" y1="87.6094" y2="792.6406"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="1659" x2="1659" y1="87.6094" y2="792.6406"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="209" x="8" y="84.5332">Gestor de Serviços de Help Desk</text>
+        <ellipse cx="115.5" cy="13" fill="#FEFECE" filter="url(#fvl3bq95p9smj)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <path d="M115.5,21 L115.5,48 M102.5,29 L128.5,29 M115.5,48 L102.5,63 M115.5,48 L128.5,63 " fill="#FEFECE" filter="url(#fvl3bq95p9smj)" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="209" x="8" y="806.1738">Gestor de Serviços de Help Desk</text>
+        <ellipse cx="115.5" cy="819.25" fill="#FEFECE" filter="url(#fvl3bq95p9smj)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <path d="M115.5,827.25 L115.5,854.25 M102.5,835.25 L128.5,835.25 M115.5,854.25 L102.5,869.25 M115.5,854.25 L128.5,869.25 " fill="#FEFECE" filter="url(#fvl3bq95p9smj)" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <rect fill="#FEFECE" filter="url(#fvl3bq95p9smj)" height="49.2188" style="stroke: #A80036; stroke-width: 1.5;" width="164" x="493.5" y="33.3906"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="95" x="528" y="54.3906">«presentation»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="150" x="500.5" y="72">DefinirNivelCriticidadeUI</text>
+        <rect fill="#FEFECE" filter="url(#fvl3bq95p9smj)" height="49.2188" style="stroke: #A80036; stroke-width: 1.5;" width="164" x="493.5" y="791.6406"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="95" x="528" y="812.6406">«presentation»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="150" x="500.5" y="830.25">DefinirNivelCriticidadeUI</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="84" x="1012.5" y="66.3906">«application»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="200" x="954.5" y="84">DefinirNivelCriticidadeController</text>
+        <ellipse cx="1057.5" cy="36.3906" fill="#FEFECE" filter="url(#fvl3bq95p9smj)" rx="12" ry="12" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <polygon fill="#A80036" points="1053.5,24.3906,1059.5,19.3906,1057.5,24.3906,1059.5,29.3906,1053.5,24.3906" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="84" x="1012.5" y="805.6406">«application»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="200" x="954.5" y="823.25">DefinirNivelCriticidadeController</text>
+        <ellipse cx="1057.5" cy="842.8594" fill="#FEFECE" filter="url(#fvl3bq95p9smj)" rx="12" ry="12" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <polygon fill="#A80036" points="1053.5,830.8594,1059.5,825.8594,1057.5,830.8594,1059.5,835.8594,1053.5,830.8594" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <rect fill="#FEFECE" filter="url(#fvl3bq95p9smj)" height="31.6094" style="stroke: #A80036; stroke-width: 1.5;" width="134" x="1170.5" y="51"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="120" x="1177.5" y="72.5332">ListarCoresService</text>
+        <rect fill="#FEFECE" filter="url(#fvl3bq95p9smj)" height="31.6094" style="stroke: #A80036; stroke-width: 1.5;" width="134" x="1170.5" y="791.6406"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="120" x="1177.5" y="813.1738">ListarCoresService</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="79" x="1324.5" y="66.3906">«repository»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="91" x="1318.5" y="84">CorRepository</text>
+        <path d="M1349,16.3906 C1349,6.3906 1367,6.3906 1367,6.3906 C1367,6.3906 1385,6.3906 1385,16.3906 L1385,42.3906 C1385,52.3906 1367,52.3906 1367,52.3906 C1367,52.3906 1349,52.3906 1349,42.3906 L1349,16.3906 " fill="#FEFECE" filter="url(#fvl3bq95p9smj)" style="stroke: #000000; stroke-width: 1.5;"/>
+        <path d="M1349,16.3906 C1349,26.3906 1367,26.3906 1367,26.3906 C1367,26.3906 1385,26.3906 1385,16.3906 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="79" x="1324.5" y="805.6406">«repository»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="91" x="1318.5" y="823.25">CorRepository</text>
+        <path d="M1349,836.8594 C1349,826.8594 1367,826.8594 1367,826.8594 C1367,826.8594 1385,826.8594 1385,836.8594 L1385,862.8594 C1385,872.8594 1367,872.8594 1367,872.8594 C1367,872.8594 1349,872.8594 1349,862.8594 L1349,836.8594 " fill="#FEFECE" filter="url(#fvl3bq95p9smj)" style="stroke: #000000; stroke-width: 1.5;"/>
+        <path d="M1349,836.8594 C1349,846.8594 1367,846.8594 1367,846.8594 C1367,846.8594 1385,846.8594 1385,836.8594 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/>
+        <rect fill="#FEFECE" filter="url(#fvl3bq95p9smj)" height="49.2188" style="stroke: #A80036; stroke-width: 1.5;" width="111" x="1484" y="33.3906"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="62" x="1508.5" y="54.3906">«domain»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="97" x="1491" y="72">NivelCriticidade</text>
+        <rect fill="#FEFECE" filter="url(#fvl3bq95p9smj)" height="49.2188" style="stroke: #A80036; stroke-width: 1.5;" width="111" x="1484" y="791.6406"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="62" x="1508.5" y="812.6406">«domain»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="97" x="1491" y="830.25">NivelCriticidade</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="79" x="1616.5" y="66.3906">«repository»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="94" x="1609" y="84">SLARepository</text>
+        <path d="M1641,16.3906 C1641,6.3906 1659,6.3906 1659,6.3906 C1659,6.3906 1677,6.3906 1677,16.3906 L1677,42.3906 C1677,52.3906 1659,52.3906 1659,52.3906 C1659,52.3906 1641,52.3906 1641,42.3906 L1641,16.3906 " fill="#FEFECE" filter="url(#fvl3bq95p9smj)" style="stroke: #000000; stroke-width: 1.5;"/>
+        <path d="M1641,16.3906 C1641,26.3906 1659,26.3906 1659,26.3906 C1659,26.3906 1677,26.3906 1677,16.3906 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="79" x="1616.5" y="805.6406">«repository»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="94" x="1609" y="823.25">SLARepository</text>
+        <path d="M1641,836.8594 C1641,826.8594 1659,826.8594 1659,826.8594 C1659,826.8594 1677,826.8594 1677,836.8594 L1677,862.8594 C1677,872.8594 1659,872.8594 1659,872.8594 C1659,872.8594 1641,872.8594 1641,862.8594 L1641,836.8594 " fill="#FEFECE" filter="url(#fvl3bq95p9smj)" style="stroke: #000000; stroke-width: 1.5;"/>
+        <path d="M1641,836.8594 C1641,846.8594 1659,846.8594 1659,846.8594 C1659,846.8594 1677,846.8594 1677,836.8594 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/>
+        <rect fill="#FFFFFF" filter="url(#fvl3bq95p9smj)" height="503.2734" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="572.5" y="119.6094"/>
+        <rect fill="#FFFFFF" filter="url(#fvl3bq95p9smj)" height="121.0547" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="572.5" y="653.2344"/>
+        <rect fill="#FFFFFF" filter="url(#fvl3bq95p9smj)" height="181.4063" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1052.5" y="149.9609"/>
+        <rect fill="#FFFFFF" filter="url(#fvl3bq95p9smj)" height="107.4063" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1052.5" y="515.4766"/>
+        <rect fill="#FFFFFF" filter="url(#fvl3bq95p9smj)" height="60.3516" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1052.5" y="683.5859"/>
+        <rect fill="#FFFFFF" filter="url(#fvl3bq95p9smj)" height="60.3516" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1234.5" y="180.3125"/>
+        <rect fill="#FFFFFF" filter="url(#fvl3bq95p9smj)" height="60.3516" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1234.5" y="271.0156"/>
+        <rect fill="#FFFFFF" filter="url(#fvl3bq95p9smj)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1362" y="210.6641"/>
+        <rect fill="#FFFFFF" filter="url(#fvl3bq95p9smj)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1362" y="301.3672"/>
+        <rect fill="#FFFFFF" filter="url(#fvl3bq95p9smj)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1536.5" y="562.1797"/>
+        <rect fill="#FFFFFF" filter="url(#fvl3bq95p9smj)" height="69.7031" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1654" y="713.9375"/>
+        <polygon fill="#A80036" points="560.5,115.6094,570.5,119.6094,560.5,123.6094,564.5,119.6094" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="115.5" x2="566.5" y1="119.6094" y2="119.6094"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="181" x="122.5" y="115.1045">Iniciar definição nivel criticidade</text>
+        <polygon fill="#A80036" points="1040.5,145.9609,1050.5,149.9609,1040.5,153.9609,1044.5,149.9609" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="582.5" x2="1046.5" y1="149.9609" y2="149.9609"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="44" x="589.5" y="145.4561">create()</text>
+        <polygon fill="#A80036" points="1222.5,176.3125,1232.5,180.3125,1222.5,184.3125,1226.5,180.3125" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1062.5" x2="1228.5" y1="180.3125" y2="180.3125"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="44" x="1069.5" y="175.8076">create()</text>
+        <polygon fill="#A80036" points="1350,206.6641,1360,210.6641,1350,214.6641,1354,210.6641" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1244.5" x2="1356" y1="210.6641" y2="210.6641"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="44" x="1251.5" y="206.1592">create()</text>
+        <polygon fill="#A80036" points="1222.5,267.0156,1232.5,271.0156,1222.5,275.0156,1226.5,271.0156" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1062.5" x2="1228.5" y1="271.0156" y2="271.0156"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="55" x="1069.5" y="266.5107">allCores()</text>
+        <polygon fill="#A80036" points="1350,297.3672,1360,301.3672,1350,305.3672,1354,301.3672" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1244.5" x2="1356" y1="301.3672" y2="301.3672"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="43" x="1251.5" y="296.8623">findAll()</text>
+        <polygon fill="#A80036" points="126.5,373.7188,116.5,377.7188,126.5,381.7188,122.5,377.7188" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="120.5" x2="571.5" y1="377.7188" y2="377.7188"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="433" x="132.5" y="357.2139">Solicita dados relevantes(Etiqueta, valor numa escala numérica de inteiros,</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="283" x="136.5" y="373.5654">designação e os objetivos de tempo para atingir.)</text>
+        <polygon fill="#A80036" points="560.5,404.4219,570.5,408.4219,560.5,412.4219,564.5,408.4219" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="115.5" x2="566.5" y1="408.4219" y2="408.4219"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="103" x="122.5" y="403.917">Introduz os dados</text>
+        <polygon fill="#A80036" points="126.5,434.7734,116.5,438.7734,126.5,442.7734,122.5,438.7734" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="120.5" x2="571.5" y1="438.7734" y2="438.7734"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="149" x="132.5" y="434.2686">Apresenta todas as cores</text>
+        <polygon fill="#A80036" points="560.5,465.125,570.5,469.125,560.5,473.125,564.5,469.125" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="115.5" x2="566.5" y1="469.125" y2="469.125"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="108" x="122.5" y="464.6201">Seleciona uma cor</text>
+        <polygon fill="#A80036" points="1040.5,511.4766,1050.5,515.4766,1040.5,519.4766,1044.5,515.4766" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="582.5" x2="1046.5" y1="515.4766" y2="515.4766"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="413" x="589.5" y="494.9717">createNivelCriticidade(etiqueta,valor,designacao,tempoMedioAprovacao,</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="451" x="589.5" y="511.3232">tempoMaximoAprovacao,tempoMedioResolucao,tempoMaximoResolucao,cor)</text>
+        <polygon fill="#A80036" points="1524.5,558.1797,1534.5,562.1797,1524.5,566.1797,1528.5,562.1797" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1062.5" x2="1530.5" y1="562.1797" y2="562.1797"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="312" x="1069.5" y="541.6748">new(etiqueta,valor,designacao,tempoMedioAprovacao,</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="451" x="1073.5" y="558.0264">tempoMaximoAprovacao,tempoMedioResolucao,tempoMaximoResolucao,cor)</text>
+        <polygon fill="#A80036" points="126.5,618.8828,116.5,622.8828,126.5,626.8828,122.5,622.8828" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="120.5" x2="576.5" y1="622.8828" y2="622.8828"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="261" x="132.5" y="618.3779">Apresenta informacoes do nivel de criticidade</text>
+        <polygon fill="#A80036" points="560.5,649.2344,570.5,653.2344,560.5,657.2344,564.5,653.2344" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="115.5" x2="566.5" y1="653.2344" y2="653.2344"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="51" x="122.5" y="648.7295">Confirma</text>
+        <polygon fill="#A80036" points="1040.5,679.5859,1050.5,683.5859,1040.5,687.5859,1044.5,683.5859" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="582.5" x2="1046.5" y1="683.5859" y2="683.5859"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="34" x="589.5" y="679.0811">save()</text>
+        <polygon fill="#A80036" points="1642,709.9375,1652,713.9375,1642,717.9375,1646,713.9375" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1062.5" x2="1648" y1="713.9375" y2="713.9375"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="120" x="1069.5" y="709.4326">save(nivelCriticidade)</text>
+        <polygon fill="#A80036" points="126.5,770.2891,116.5,774.2891,126.5,778.2891,122.5,774.2891" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="120.5" x2="576.5" y1="774.2891" y2="774.2891"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="51" x="132.5" y="769.7842">Sucesso</text>
+        <!--
+@startuml
+actor "Gestor de Serviços de Help Desk" as GSH
+participant DefinirNivelCriticidadeUI as UI <<presentation>>
+control DefinirNivelCriticidadeController as Controller <<application>>
+participant ListarCoresService as listService
+database CorRepository as CorRepository <<repository>>
+participant NivelCriticidade as Domain <<domain>>
+
+database SLARepository as Repository <<repository>>
+
+
+GSH -> UI: Iniciar definição nivel criticidade
+activate UI
+UI -> Controller: create()
+activate Controller
+Controller -> listService: create()
+activate listService
+listService -> CorRepository: create()
+activate CorRepository
+deactivate CorRepository
+deactivate listService
+Controller -> listService: allCores()
+activate listService
+listService -> CorRepository: findAll()
+activate CorRepository
+deactivate CorRepository
+deactivate listService
+deactivate Controller
+UI -> GSH: Solicita dados relevantes(Etiqueta, valor numa escala numérica de inteiros,\n designação e os objetivos de tempo para atingir.)
+GSH -> UI: Introduz os dados
+UI-> GSH: Apresenta todas as cores
+GSH -> UI: Seleciona uma cor
+
+UI-> Controller: createNivelCriticidade(etiqueta,valor,designacao,tempoMedioAprovacao,\ntempoMaximoAprovacao,tempoMedioResolucao,tempoMaximoResolucao,cor)
+activate Controller
+Controller-> Domain: new(etiqueta,valor,designacao,tempoMedioAprovacao,\n tempoMaximoAprovacao,tempoMedioResolucao,tempoMaximoResolucao,cor)
+activate Domain
+deactivate Domain
+UI -> GSH: Apresenta informacoes do nivel de criticidade
+deactivate Controller
+deactivate UI
+
+GSH -> UI: Confirma
+activate UI
+UI-> Controller: save()
+activate Controller
+Controller -> Repository: save(nivelCriticidade)
+activate Repository
+deactivate Controller
+UI -> GSH: Sucesso
+deactivate UI
+
+@enduml
+
+PlantUML version 2017.11(Wed Apr 19 17:18:59 BST 2017)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_111-b14
+Operating System: Windows 10
+OS Version: 10.0
+Default Encoding: UTF-8
+Language: en
+Country: US
+-->
+    </g>
+</svg>

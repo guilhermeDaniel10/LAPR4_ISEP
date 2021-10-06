@@ -1,0 +1,163 @@
+@startuml
+participant ":RegistarServicoUI" as ui
+		participant ":RegistarServicoController" as ctrl
+
+		participant ":PersistenceContext" as pc
+		participant ":RepositoryFactory" as rf
+		participant ":ColaboradorRepository" as repoC
+		participant ":EquipaRepository" as repoE
+	  participant ":AtributosEmFormularioSettings" as AF
+	  participant ":ScriptDesejado" as scrpt
+		participant ":Formulario" as form
+	  participant ":Workflow" as work
+		participant ":AtividadeAprovacao" as atA
+		participant ":AtividadeRealizacao" as atR
+		participant ":Servico" as serv
+
+		activate ui
+		ui->ctrl:create
+		activate ctrl
+		deactivate ctrl
+		ui->ui:doShow()
+
+		opt no caso em que GSHD opta por introduzir uma atividade de aprovação
+
+    ui->AF:lstAtriAprovacao = criarAtributosEmFormulario()
+    activate AF
+    deactivate AF
+
+    end
+
+	  alt no caso da resolução escolhida ser manual
+
+    ui->AF:lstAtriAjuda = criarAtributosEmFormulario()
+    activate AF
+		deactivate AF
+
+    alt no caso em que o GSHD opta por introduzir uma equipa com responsabilidades de resolução
+
+    ui->ctrl:equipasDisponiveis
+		activate ctrl
+		ctrl->pc:repositories()
+		activate pc
+		pc->rf:create
+		activate rf
+		rf->repoE:create
+		activate repoE
+		deactivate repoE
+		deactivate rf
+		deactivate pc
+		ctrl->repoE:allEquipasAtivas
+		activate repoE
+		deactivate repoE
+		ctrl-->ui: responsaveisConclusao = selectorEquipas
+		deactivate ctrl
+
+		ui->ctrl:registarServico(...,responsavelAprovacao ,strNomeFormularioAjuda, lstAtriAjuda, responsaveisConclusao, strNomeFormularioAprovacaoa, lstAtriAprovacao )
+    activate ctrl
+		ctrl->form: formularioAjuda = new Formulario(strNomeFormularioAjuda, lstAtriAjuda)
+		activate form
+		deactivate form
+		ctrl->form: formularioAprovacao = new Formulario(strNomeFormularioAprovacao, lstAtriAprovacao)
+		activate form
+		deactivate form
+		ctrl->atA: atividadeAprovacao = new AtividadeAprovacao(formularioAprovacao, responsavelAprovacao)
+		activate atA
+		deactivate atA
+		ctrl->atR: atividadeRealizacao = new atividadeRealizacao(formularioAjuda, responsaveisConclusao)
+		activate atR
+		deactivate atR
+		ctrl->work: workflow = new workflow(atividadeAprovacao,atividadeRealizacao)
+		activate work
+		deactivate work
+		ctrl->serv:newServico = create(...)
+		activate serv
+		ctrl->serv:addWorkflow(workflow)
+		deactivate serv
+    deactivate ctrl
+
+    else  no caso em que o GSHD opta por introduzir um colaborador com responsabilidades de resolução
+
+    ui->ctrl:colaboradoresDisponiveis
+		activate ctrl
+		ctrl->pc:repositories()
+		activate pc
+		pc->rf:create
+		activate rf
+		rf->repoC:create
+		activate repoC
+		deactivate repoC
+		deactivate rf
+		deactivate pc
+		ctrl->repoC:allColaboradores
+		activate repoC
+		deactivate repoC
+		ctrl-->ui: responsavelConclusao = selectorColaboradores
+		deactivate ctrl
+
+    ui->ctrl:registarServico(...,strNomeFormularioAjuda, lstAtriAjuda, responsavelConclusao, strNomeFormularioAprovacaoa, lstAtriAprovacao )
+    activate ctrl
+		ctrl->form: formularioAjuda = new Formulario(strNomeFormularioAjuda, lstAtriAjuda)
+		activate form
+		deactivate form
+		ctrl->form: formularioAprovacao = new Formulario(strNomeFormularioAprovacao, lstAtriAprovacao)
+		activate form
+		deactivate form
+		ctrl->atA: atividadeAprovacao = new AtividadeAprovacao(formularioAprovacao, responsavelAprovacao)
+		activate atA
+		deactivate atA
+		ctrl->atR: atividadeRealizacao = new atividadeRealizacao(formularioAjuda, responsavelConclusao)
+		activate atR
+		deactivate atR
+		ctrl->work: workflow = new workflow(atividadeAprovacao,atividadeRealizacao)
+		activate work
+		deactivate work
+		ctrl->serv:newServico = create(...)
+		activate serv
+		ctrl->serv:addWorkflow(workflow)
+		deactivate serv
+    deactivate ctrl
+
+    end
+
+		else  no caso da resolução escolhida ser automatica
+
+    ui->scrpt: scriptResolucao = getScritptDesejado()
+    activate scrpt
+		deactivate scrpt
+
+		ui->ctrl:registarServico(...,strNomeFormularioAprovacao, lstAtriAprovaca, scriptResolucao )
+    activate ctrl
+		ctrl->form: formularioAprovacao = new Formulario(strNomeFormularioAprovacao, lstAtriAprovacao)
+		activate form
+		deactivate form
+		ctrl->atA: atividadeAprovacao = new AtividadeAprovacao(formularioAprovacao, responsavelAprovacao)
+		activate atA
+		deactivate atA
+		ctrl->atR: atividadeRealizacao = new atividadeRealizacao(script)
+		activate atR
+		deactivate atR
+		ctrl->work: workflow = new workflow(atividadeAprovacao,atividadeRealizacao)
+		activate work
+		deactivate work
+		ctrl->serv:newServico = create(...)
+		activate serv
+		ctrl->serv:addWorkflow(workflow)
+		deactivate serv
+    deactivate ctrl
+
+    end
+
+		ctrl->pc:repositories()
+		activate pc
+		pc->rf:create
+		activate rf
+		rf->repo:create
+		deactivate rf
+		deactivate pc
+		activate repo
+		ctrl->repo:save(newServico)
+		deactivate repo
+		deactivate ctrl
+		deactivate ui
+@enduml

@@ -1,0 +1,66 @@
+@startuml
+actor "Gestor de Serviços de Help Desk" as GSH
+participant ListarCumprimentoSlaUI as UI <<presentation>>
+control ListarCumprimentoSlaController as Controller <<application>>
+participant ListarPedidosController as listService
+database PedidoRepository as PedidoRepository <<repository>>
+database ServicoRepository as ServicoRepository <<repository>>
+
+
+GSH -> UI: Listagem sobre o (in)cumprimento de SLA
+activate UI
+UI -> Controller: create()
+activate Controller
+Controller -> listService: create()
+activate listService
+listService -> PedidoRepository: create()
+activate PedidoRepository
+deactivate PedidoRepository
+deactivate listService
+deactivate Controller
+UI -> GSH: Intervalo de datas
+deactivate UI
+
+loop até ao GSH inserir que não pretende continuar
+GSH -> UI: Introduz as datas
+activate UI
+UI -> Controller: listarInfomacaoCumprimentoSLA(Date limiteInferior, Date limiteSuperior,\n Map<String,List<Pedido>> infoPedidos, Map<String,List<Servico>> infoServicos
+activate Controller
+Controller -> listService: listarInfomacaoCumprimentoSLA(Date limiteInferior, Date limiteSuperior)
+activate listService
+listService -> PedidoRepository: pedidosConcluidosForaPrazo
+activate PedidoRepository
+listService -> PedidoRepository: pedidosConcluidosDentroPrazo
+listService -> PedidoRepository: pedidosPorConcluirDentroDoPrazo
+listService -> PedidoRepository: tarefasPorConcluirForaPrazo
+listService -> PedidoRepository: pedidosPorAprovarDentroPrazo
+listService -> PedidoRepository: pedidosPorAprovarForaPrazo
+deactivate PedidoRepository
+
+
+deactivate listService
+Controller -> listService: listarInformacaoCumprimentosMediasSLA()
+activate listService
+listService ->ServicoRepository : findAll()
+activate ServicoRepository
+listService -> PedidoRepository: tempoMedioAprovacaoServico
+deactivate ServicoRepository
+activate PedidoRepository
+listService -> PedidoRepository: tempoMedioResolucaoServico
+deactivate PedidoRepository
+deactivate listService
+deactivate Controller
+UI -> GSH: Listagem sobre cumprimento SLA
+
+UI -> GSH: Continuar ?
+deactivate UI
+
+
+end loop
+
+GSH-> UI: Terminar
+activate UI
+deactivate UI
+
+
+@enduml

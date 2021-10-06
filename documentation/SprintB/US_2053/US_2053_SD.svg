@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="488px" preserveAspectRatio="none" style="width:802px;height:488px;" version="1.1" viewBox="0 0 802 488" width="802px" zoomAndPan="magnify">
+    <defs>
+        <filter height="300%" id="f9xpkq4f1dhqv" width="300%" x="-1" y="-1">
+            <feGaussianBlur result="blurOut" stdDeviation="2.0"/>
+            <feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/>
+            <feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/>
+            <feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/>
+        </filter>
+    </defs>
+    <g>
+        <rect fill="#FFFFFF" filter="url(#f9xpkq4f1dhqv)" height="90.7031" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="485.5" y="119.6094"/>
+        <rect fill="#FFFFFF" filter="url(#f9xpkq4f1dhqv)" height="152.9453" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="485.5" y="240.6641"/>
+        <rect fill="#FFFFFF" filter="url(#f9xpkq4f1dhqv)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="677.5" y="149.9609"/>
+        <rect fill="#FFFFFF" filter="url(#f9xpkq4f1dhqv)" height="129.5938" style="stroke: #000000; stroke-width: 2.0;" width="394" x="399" y="256.0156"/>
+        <rect fill="#FFFFFF" height="63.5391" style="stroke: none; stroke-width: 1.0;" width="394" x="399" y="322.0703"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="115" x2="115" y1="87.6094" y2="402.6094"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="490" x2="490" y1="87.6094" y2="402.6094"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="682" x2="682" y1="87.6094" y2="402.6094"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="209" x="8" y="84.5332">Responsavel Recursos Humanos</text>
+        <ellipse cx="115.5" cy="13" fill="#FEFECE" filter="url(#f9xpkq4f1dhqv)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <path d="M115.5,21 L115.5,48 M102.5,29 L128.5,29 M115.5,48 L102.5,63 M115.5,48 L128.5,63 " fill="#FEFECE" filter="url(#f9xpkq4f1dhqv)" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="209" x="8" y="416.1426">Responsavel Recursos Humanos</text>
+        <ellipse cx="115.5" cy="429.2188" fill="#FEFECE" filter="url(#f9xpkq4f1dhqv)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <path d="M115.5,437.2188 L115.5,464.2188 M102.5,445.2188 L128.5,445.2188 M115.5,464.2188 L102.5,479.2188 M115.5,464.2188 L128.5,479.2188 " fill="#FEFECE" filter="url(#f9xpkq4f1dhqv)" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <rect fill="#FEFECE" filter="url(#f9xpkq4f1dhqv)" height="49.2188" style="stroke: #A80036; stroke-width: 1.5;" width="159" x="409" y="33.3906"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="95" x="441" y="54.3906">«presentation»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="145" x="416" y="72">AssociarColaboradorUI</text>
+        <rect fill="#FEFECE" filter="url(#f9xpkq4f1dhqv)" height="49.2188" style="stroke: #A80036; stroke-width: 1.5;" width="159" x="409" y="401.6094"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="95" x="441" y="422.6094">«presentation»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="145" x="416" y="440.2188">AssociarColaboradorUI</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="84" x="637.5" y="66.3906">«application»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="195" x="582" y="84">AssociarColaboradorController</text>
+        <ellipse cx="682.5" cy="36.3906" fill="#FEFECE" filter="url(#f9xpkq4f1dhqv)" rx="12" ry="12" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <polygon fill="#A80036" points="678.5,24.3906,684.5,19.3906,682.5,24.3906,684.5,29.3906,678.5,24.3906" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="84" x="637.5" y="415.6094">«application»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="195" x="582" y="433.2188">AssociarColaboradorController</text>
+        <ellipse cx="682.5" cy="452.8281" fill="#FEFECE" filter="url(#f9xpkq4f1dhqv)" rx="12" ry="12" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <polygon fill="#A80036" points="678.5,440.8281,684.5,435.8281,682.5,440.8281,684.5,445.8281,678.5,440.8281" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <rect fill="#FFFFFF" filter="url(#f9xpkq4f1dhqv)" height="90.7031" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="485.5" y="119.6094"/>
+        <rect fill="#FFFFFF" filter="url(#f9xpkq4f1dhqv)" height="152.9453" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="485.5" y="240.6641"/>
+        <rect fill="#FFFFFF" filter="url(#f9xpkq4f1dhqv)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="677.5" y="149.9609"/>
+        <polygon fill="#A80036" points="473.5,115.6094,483.5,119.6094,473.5,123.6094,477.5,119.6094" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="115.5" x2="479.5" y1="119.6094" y2="119.6094"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="351" x="122.5" y="115.1045">Iniciar associação/remoção de um colaborador a uma equipa</text>
+        <polygon fill="#A80036" points="665.5,145.9609,675.5,149.9609,665.5,153.9609,669.5,149.9609" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="495.5" x2="671.5" y1="149.9609" y2="149.9609"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="44" x="502.5" y="145.4561">create()</text>
+        <polygon fill="#A80036" points="126.5,206.3125,116.5,210.3125,126.5,214.3125,122.5,210.3125" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="120.5" x2="489.5" y1="210.3125" y2="210.3125"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="189" x="132.5" y="205.8076">Associar ou remover colaborador</text>
+        <polygon fill="#A80036" points="473.5,236.6641,483.5,240.6641,473.5,244.6641,477.5,240.6641" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="115.5" x2="479.5" y1="240.6641" y2="240.6641"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="107" x="122.5" y="236.1592">Seleciona a opção</text>
+        <rect fill="none" height="129.5938" style="stroke: #000000; stroke-width: 2.0;" width="394" x="399" y="256.0156"/>
+        <polygon fill="#EEEEEE" points="399,256.0156,460,256.0156,460,264.0156,450,274.0156,399,274.0156,399,256.0156" style="stroke: #000000; stroke-width: 2.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="16" x="414" y="270.5107">alt</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="57" x="475" y="269.4346">[Associar]</text>
+        <rect fill="#FFFFFF" filter="url(#f9xpkq4f1dhqv)" height="42.7031" style="stroke: #000000; stroke-width: 2.0;" width="376" x="406" y="274.3672"/>
+        <polygon fill="#EEEEEE" points="406,274.3672,468,274.3672,468,282.3672,458,292.3672,406,292.3672,406,274.3672" style="stroke: #000000; stroke-width: 2.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="17" x="419" y="289.8623">ref</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="111" x="540.5" y="309.8623">US_2053_Associar</text>
+        <line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="399" x2="793" y1="323.0703" y2="323.0703"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="58" x="404" y="334.4893">[Remover]</text>
+        <rect fill="#FFFFFF" filter="url(#f9xpkq4f1dhqv)" height="42.7031" style="stroke: #000000; stroke-width: 2.0;" width="376" x="406" y="337.9063"/>
+        <polygon fill="#EEEEEE" points="406,337.9063,468,337.9063,468,345.9063,458,355.9063,406,355.9063,406,337.9063" style="stroke: #000000; stroke-width: 2.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="17" x="419" y="353.4014">ref</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="110" x="541" y="373.4014">US_2053_Remover</text>
+        <!--
+@startuml
+
+actor "Responsavel Recursos Humanos" as RRH
+participant AssociarColaboradorUI as UI <<presentation>>
+control AssociarColaboradorController as Controller <<application>>
+
+
+RRH -> UI: Iniciar associação/remoção de um colaborador a uma equipa
+activate UI
+UI->Controller: create()
+activate Controller
+deactivate Controller
+UI->RRH: Associar ou remover colaborador
+deactivate UI
+
+RRH -> UI: Seleciona a opção
+activate UI
+alt Associar
+ref over UI, Controller:  US_2053_Associar
+else Remover
+ref over UI, Controller:  US_2053_Remover
+end
+@enduml
+
+PlantUML version 2017.11(Wed Apr 19 17:18:59 BST 2017)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_111-b14
+Operating System: Windows 10
+OS Version: 10.0
+Default Encoding: UTF-8
+Language: en
+Country: US
+-->
+    </g>
+</svg>

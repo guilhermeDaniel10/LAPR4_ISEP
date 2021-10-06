@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="922px" preserveAspectRatio="none" style="width:1604px;height:922px;" version="1.1" viewBox="0 0 1604 922" width="1604px" zoomAndPan="magnify">
+    <defs>
+        <filter height="300%" id="f1olyo9pm3b68i" width="300%" x="-1" y="-1">
+            <feGaussianBlur result="blurOut" stdDeviation="2.0"/>
+            <feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/>
+            <feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/>
+            <feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/>
+        </filter>
+    </defs>
+    <g>
+        <rect fill="#FFFFFF" filter="url(#f1olyo9pm3b68i)" height="271.7578" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="192.5" y="119.6094"/>
+        <rect fill="#FFFFFF" filter="url(#f1olyo9pm3b68i)" height="380.9219" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="192.5" y="447.0703"/>
+        <rect fill="#FFFFFF" filter="url(#f1olyo9pm3b68i)" height="241.4063" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="442.5" y="149.9609"/>
+        <rect fill="#FFFFFF" filter="url(#f1olyo9pm3b68i)" height="243.5156" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="442.5" y="584.4766"/>
+        <rect fill="#FFFFFF" filter="url(#f1olyo9pm3b68i)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="639" y="180.3125"/>
+        <rect fill="#FFFFFF" filter="url(#f1olyo9pm3b68i)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="810" y="240.6641"/>
+        <rect fill="#FFFFFF" filter="url(#f1olyo9pm3b68i)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="810" y="301.0156"/>
+        <rect fill="#FFFFFF" filter="url(#f1olyo9pm3b68i)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="810" y="361.3672"/>
+        <rect fill="#FFFFFF" filter="url(#f1olyo9pm3b68i)" height="123.4063" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="810" y="631.1797"/>
+        <rect fill="#FFFFFF" filter="url(#f1olyo9pm3b68i)" height="76.7031" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1060" y="677.8828"/>
+        <rect fill="#FFFFFF" filter="url(#f1olyo9pm3b68i)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1310" y="724.5859"/>
+        <rect fill="#FFFFFF" filter="url(#f1olyo9pm3b68i)" height="413.2734" style="stroke: #000000; stroke-width: 2.0;" width="1582" x="13" y="406.7188"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="65" x2="65" y1="87.6094" y2="836.9922"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="197.5" x2="197.5" y1="87.6094" y2="836.9922"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="447.5" x2="447.5" y1="87.6094" y2="836.9922"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="643.5" x2="643.5" y1="87.6094" y2="836.9922"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="814.5" x2="814.5" y1="87.6094" y2="836.9922"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="1065" x2="1065" y1="87.6094" y2="836.9922"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="1177" x2="1177" y1="87.6094" y2="836.9922"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="1315" x2="1315" y1="87.6094" y2="836.9922"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="79" x="23" y="84.5332">Colaborador</text>
+        <ellipse cx="65.5" cy="13" fill="#FEFECE" filter="url(#f1olyo9pm3b68i)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <path d="M65.5,21 L65.5,48 M52.5,29 L78.5,29 M65.5,48 L52.5,63 M65.5,48 L78.5,63 " fill="#FEFECE" filter="url(#f1olyo9pm3b68i)" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="79" x="23" y="850.5254">Colaborador</text>
+        <ellipse cx="65.5" cy="863.6016" fill="#FEFECE" filter="url(#f1olyo9pm3b68i)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <path d="M65.5,871.6016 L65.5,898.6016 M52.5,879.6016 L78.5,879.6016 M65.5,898.6016 L52.5,913.6016 M65.5,898.6016 L78.5,913.6016 " fill="#FEFECE" filter="url(#f1olyo9pm3b68i)" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <rect fill="#FEFECE" filter="url(#f1olyo9pm3b68i)" height="49.2188" style="stroke: #A80036; stroke-width: 1.5;" width="136" x="127.5" y="33.3906"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="95" x="148" y="54.3906">«presentation»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="122" x="134.5" y="72">ConsultarTarefasUI</text>
+        <rect fill="#FEFECE" filter="url(#f1olyo9pm3b68i)" height="49.2188" style="stroke: #A80036; stroke-width: 1.5;" width="136" x="127.5" y="835.9922"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="95" x="148" y="856.9922">«presentation»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="122" x="134.5" y="874.6016">ConsultarTarefasUI</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="84" x="402.5" y="66.3906">«application»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="172" x="358.5" y="84">ConsultarTarefasController</text>
+        <ellipse cx="447.5" cy="36.3906" fill="#FEFECE" filter="url(#f1olyo9pm3b68i)" rx="12" ry="12" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <polygon fill="#A80036" points="443.5,24.3906,449.5,19.3906,447.5,24.3906,449.5,29.3906,443.5,24.3906" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="84" x="402.5" y="849.9922">«application»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="172" x="358.5" y="867.6016">ConsultarTarefasController</text>
+        <ellipse cx="447.5" cy="887.2109" fill="#FEFECE" filter="url(#f1olyo9pm3b68i)" rx="12" ry="12" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <polygon fill="#A80036" points="443.5,875.2109,449.5,870.2109,447.5,875.2109,449.5,880.2109,443.5,875.2109" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="84" x="599" y="66.3906">«application»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="189" x="546.5" y="84">RegistoColaboradorController</text>
+        <ellipse cx="644" cy="36.3906" fill="#FEFECE" filter="url(#f1olyo9pm3b68i)" rx="12" ry="12" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <polygon fill="#A80036" points="640,24.3906,646,19.3906,644,24.3906,646,29.3906,640,24.3906" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="84" x="599" y="849.9922">«application»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="189" x="546.5" y="867.6016">RegistoColaboradorController</text>
+        <ellipse cx="644" cy="887.2109" fill="#FEFECE" filter="url(#f1olyo9pm3b68i)" rx="12" ry="12" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <polygon fill="#A80036" points="640,875.2109,646,870.2109,644,875.2109,646,880.2109,640,875.2109" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="121" x="751.5" y="84.5332">listTarefaController</text>
+        <ellipse cx="815" cy="54" fill="#FEFECE" filter="url(#f1olyo9pm3b68i)" rx="12" ry="12" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <polygon fill="#A80036" points="811,42,817,37,815,42,817,47,811,42" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="121" x="751.5" y="850.5254">listTarefaController</text>
+        <ellipse cx="815" cy="869.6016" fill="#FEFECE" filter="url(#f1olyo9pm3b68i)" rx="12" ry="12" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <polygon fill="#A80036" points="811,857.6016,817,852.6016,815,857.6016,817,862.6016,811,857.6016" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <rect fill="#FEFECE" filter="url(#f1olyo9pm3b68i)" height="31.6094" style="stroke: #A80036; stroke-width: 1.5;" width="120" x="1003" y="51"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="106" x="1010" y="72.5332">listTarefaService</text>
+        <rect fill="#FEFECE" filter="url(#f1olyo9pm3b68i)" height="31.6094" style="stroke: #A80036; stroke-width: 1.5;" width="120" x="1003" y="835.9922"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="106" x="1010" y="857.5254">listTarefaService</text>
+        <rect fill="#FEFECE" filter="url(#f1olyo9pm3b68i)" height="49.2188" style="stroke: #A80036; stroke-width: 1.5;" width="76" x="1137" y="33.3906"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="62" x="1144" y="54.3906">«domain»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="42" x="1154" y="72">Tarefa</text>
+        <rect fill="#FEFECE" filter="url(#f1olyo9pm3b68i)" height="49.2188" style="stroke: #A80036; stroke-width: 1.5;" width="76" x="1137" y="835.9922"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="62" x="1144" y="856.9922">«domain»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="42" x="1154" y="874.6016">Tarefa</text>
+        <rect fill="#FEFECE" filter="url(#f1olyo9pm3b68i)" height="49.2188" style="stroke: #A80036; stroke-width: 1.5;" width="124" x="1251" y="33.3906"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="62" x="1282" y="54.3906">«domain»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="110" x="1258" y="72">TarefaRepository</text>
+        <rect fill="#FEFECE" filter="url(#f1olyo9pm3b68i)" height="49.2188" style="stroke: #A80036; stroke-width: 1.5;" width="124" x="1251" y="835.9922"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="62" x="1282" y="856.9922">«domain»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="110" x="1258" y="874.6016">TarefaRepository</text>
+        <rect fill="#FFFFFF" filter="url(#f1olyo9pm3b68i)" height="271.7578" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="192.5" y="119.6094"/>
+        <rect fill="#FFFFFF" filter="url(#f1olyo9pm3b68i)" height="380.9219" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="192.5" y="447.0703"/>
+        <rect fill="#FFFFFF" filter="url(#f1olyo9pm3b68i)" height="241.4063" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="442.5" y="149.9609"/>
+        <rect fill="#FFFFFF" filter="url(#f1olyo9pm3b68i)" height="243.5156" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="442.5" y="584.4766"/>
+        <rect fill="#FFFFFF" filter="url(#f1olyo9pm3b68i)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="639" y="180.3125"/>
+        <rect fill="#FFFFFF" filter="url(#f1olyo9pm3b68i)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="810" y="240.6641"/>
+        <rect fill="#FFFFFF" filter="url(#f1olyo9pm3b68i)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="810" y="301.0156"/>
+        <rect fill="#FFFFFF" filter="url(#f1olyo9pm3b68i)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="810" y="361.3672"/>
+        <rect fill="#FFFFFF" filter="url(#f1olyo9pm3b68i)" height="123.4063" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="810" y="631.1797"/>
+        <rect fill="#FFFFFF" filter="url(#f1olyo9pm3b68i)" height="76.7031" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1060" y="677.8828"/>
+        <rect fill="#FFFFFF" filter="url(#f1olyo9pm3b68i)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1310" y="724.5859"/>
+        <polygon fill="#A80036" points="180.5,115.6094,190.5,119.6094,180.5,123.6094,184.5,119.6094" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="65.5" x2="186.5" y1="119.6094" y2="119.6094"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="101" x="72.5" y="115.1045">Consultar Tarefas</text>
+        <polygon fill="#A80036" points="430.5,145.9609,440.5,149.9609,430.5,153.9609,434.5,149.9609" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="202.5" x2="436.5" y1="149.9609" y2="149.9609"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="44" x="209.5" y="145.4561">create()</text>
+        <polygon fill="#A80036" points="627,176.3125,637,180.3125,627,184.3125,631,180.3125" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="452.5" x2="633" y1="180.3125" y2="180.3125"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="137" x="459.5" y="175.8076">getCurrentColaborador()</text>
+        <polygon fill="#A80036" points="798,236.6641,808,240.6641,798,244.6641,802,240.6641" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="452.5" x2="804" y1="240.6641" y2="240.6641"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="146" x="459.5" y="236.1592">assignColaborador(colab)</text>
+        <polygon fill="#A80036" points="798,297.0156,808,301.0156,798,305.0156,802,301.0156" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="452.5" x2="804" y1="301.0156" y2="301.0156"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="117" x="459.5" y="296.5107">criteriosOrdenacao()</text>
+        <polygon fill="#A80036" points="798,357.3672,808,361.3672,798,365.3672,802,361.3672" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="452.5" x2="804" y1="361.3672" y2="361.3672"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="112" x="459.5" y="356.8623">criteriosFiltragerm()</text>
+        <rect fill="none" height="413.2734" style="stroke: #000000; stroke-width: 2.0;" width="1582" x="13" y="406.7188"/>
+        <polygon fill="#EEEEEE" points="13,406.7188,86,406.7188,86,414.7188,76,424.7188,13,424.7188,13,406.7188" style="stroke: #000000; stroke-width: 2.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="28" x="28" y="421.2139">loop</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="138" x="101" y="420.1377">[até o utilizador cancelar]</text>
+        <polygon fill="#A80036" points="180.5,443.0703,190.5,447.0703,180.5,451.0703,184.5,447.0703" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="65.5" x2="186.5" y1="447.0703" y2="447.0703"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="108" x="72.5" y="442.5654">Criterio Ordenacao</text>
+        <polygon fill="#A80036" points="180.5,473.4219,190.5,477.4219,180.5,481.4219,184.5,477.4219" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="65.5" x2="186.5" y1="477.4219" y2="477.4219"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="99" x="72.5" y="472.917">Criterio Filtragem</text>
+        <polygon fill="#A80036" points="180.5,503.7734,190.5,507.7734,180.5,511.7734,184.5,507.7734" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="65.5" x2="186.5" y1="507.7734" y2="507.7734"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="77" x="72.5" y="503.2686">Limite Inferior</text>
+        <polygon fill="#A80036" points="180.5,534.125,190.5,538.125,180.5,542.125,184.5,538.125" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="65.5" x2="186.5" y1="538.125" y2="538.125"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="83" x="72.5" y="533.6201">limite Superior</text>
+        <polygon fill="#A80036" points="430.5,580.4766,440.5,584.4766,430.5,588.4766,434.5,584.4766" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="202.5" x2="436.5" y1="584.4766" y2="584.4766"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="214" x="209.5" y="563.9717">consultarFiltrado(criterio,ascendente,</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="221" x="209.5" y="580.3232">criteriofiltro,limiteinferior,limitesuperior)</text>
+        <polygon fill="#A80036" points="798,627.1797,808,631.1797,798,635.1797,802,631.1797" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="452.5" x2="804" y1="631.1797" y2="631.1797"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="214" x="459.5" y="610.6748">consultarFiltrado(criterio,ascendente,</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="221" x="459.5" y="627.0264">criteriofiltro,limiteinferior,limitesuperior)</text>
+        <polygon fill="#A80036" points="1048,673.8828,1058,677.8828,1048,681.8828,1052,677.8828" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="820" x2="1054" y1="677.8828" y2="677.8828"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="214" x="827" y="657.3779">consultarFiltrado(criterio,ascendente,</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="221" x="827" y="673.7295">criteriofiltro,limiteinferior,limitesuperior)</text>
+        <polygon fill="#A80036" points="1298,720.5859,1308,724.5859,1298,728.5859,1302,724.5859" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1070" x2="1304" y1="724.5859" y2="724.5859"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="214" x="1077" y="704.0811">consultarFiltrado(criterio,ascendente,</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="221" x="1077" y="720.4326">criteriofiltro,limiteinferior,limitesuperior)</text>
+        <polygon fill="#FBFB77" filter="url(#f1olyo9pm3b68i)" points="1320,768.2891,1320,810.2891,1581,810.2891,1581,778.2891,1571,768.2891,1320,768.2891" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1571" x2="1571" y1="768.2891" y2="778.2891"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1581" x2="1571" y1="778.2891" y2="778.2891"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="240" x="1326" y="786.7842">O repositorio irá construir uma query com</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="124" x="1330" y="803.1357">os criterios recebidos</text>
+        <!--
+@startuml
+
+actor "Colaborador" as COLAB
+participant ConsultarTarefasUI as UI <<presentation>>
+control ConsultarTarefasController as Controller <<application>>
+control RegistoColaboradorController as ColabController <<application>>
+control listTarefaController as listController
+participant listTarefaService as listTarefa
+participant Tarefa as Tarefa <<domain>>
+participant TarefaRepository as repo <<domain>>
+
+
+COLAB->UI: Consultar Tarefas
+activate UI
+UI-> Controller: create()
+activate Controller
+Controller -> ColabController: getCurrentColaborador()
+activate ColabController
+deactivate ColabController
+Controller -> listController: assignColaborador(colab)
+activate listController
+deactivate listController
+Controller -> listController: criteriosOrdenacao()
+activate listController
+deactivate listController
+Controller -> listController: criteriosFiltragerm()
+activate listController
+deactivate listController
+deactivate Controller
+deactivate UI
+
+loop até o utilizador cancelar
+COLAB->UI: Criterio Ordenacao
+activate UI
+COLAB->UI: Criterio Filtragem
+COLAB->UI: Limite Inferior
+COLAB->UI: limite Superior
+UI-> Controller: consultarFiltrado(criterio,ascendente,\ncriteriofiltro,limiteinferior,limitesuperior)
+activate Controller
+Controller-> listController: consultarFiltrado(criterio,ascendente,\ncriteriofiltro,limiteinferior,limitesuperior)
+activate listController
+listController -> listTarefa: consultarFiltrado(criterio,ascendente,\ncriteriofiltro,limiteinferior,limitesuperior)
+activate listTarefa
+listTarefa -> repo: consultarFiltrado(criterio,ascendente,\ncriteriofiltro,limiteinferior,limitesuperior)
+activate repo
+deactivate repo
+deactivate listTarefa
+deactivate listController
+note right of repo: O repositorio irá construir uma query com\n os criterios recebidos
+end
+
+
+@enduml
+
+PlantUML version 2017.11(Wed Apr 19 17:18:59 BST 2017)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_111-b14
+Operating System: Windows 10
+OS Version: 10.0
+Default Encoding: UTF-8
+Language: en
+Country: US
+-->
+    </g>
+</svg>

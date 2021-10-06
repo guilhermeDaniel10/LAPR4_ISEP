@@ -1,0 +1,1446 @@
+commit 1ee2625498719e9228643f27fce543d21d19da13
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Sun Jun 20 04:09:16 2021 +0100
+
+    #DMG02-216 Correção da UI da lista de cumprimentos de SLA [Implementação]
+
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/SLA/ListarCumprimentoSlaUI.java
+M	base.core/src/main/java/eapli/base/pedidomanagement/domain/Pedido.java
+M	base.persistence.impl/target/classes/META-INF/persistence.xml
+M	base.persistence.impl/target/maven-archiver/pom.properties
+
+commit 0a08e8ee2473417cf7c59f68e8391f5b310d6142
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Sun Jun 20 03:24:53 2021 +0100
+
+    #ALL_ISSUES Formatação do programa e correções em persistencia para execução final do projeto [Implementação]
+
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/AplicacaoPortalUtilizadores.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/AplicacaoServicosRH.java
+M	base.persistence.impl/src/main/resources/META-INF/persistence.xml
+
+commit 9693c91e9d0d047b600bad7c00e28c5b5ba3a71f
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Sun Jun 20 02:48:09 2021 +0100
+
+    #DMG02-196 Novas informações relativas à implementação dos algoritmos de executar tarefas, nomeadamente do uso de semáforos, na documentação [Implementação]
+
+M	documentation/SprintD/US_4071/US_4071.md
+
+commit 0b2aba91eab36970cc52a47c53eb6bbfe4326748
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Sun Jun 20 02:36:27 2021 +0100
+
+    #DMG02-231 Finalização da documentação de rcomp [Analise]
+
+M	documentation/RCOMP_SPRINT_C_D/review.md
+
+commit f4a67267e4c270845f41a2a5d2795e7969396b10
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Sun Jun 20 02:27:59 2021 +0100
+
+    #DMG02-216 Correção da query de obtenção de tarefas concluidas [Implementação]
+
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/AplicacaoPortalUtilizadores.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/AplicacaoServicosRH.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaPedidoRepository.java
+M	base.persistence.impl/src/main/resources/META-INF/persistence.xml
+M	base.persistence.impl/target/classes/META-INF/persistence.xml
+M	base.persistence.impl/target/maven-archiver/pom.properties
+
+commit 83138155d9f56fa7134dbd70f99443f8280046bb
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Sun Jun 20 01:41:58 2021 +0100
+
+    #DMG02-231 Documentação da review de rcomp [Analise]
+
+M	base.persistence.impl/target/classes/META-INF/persistence.xml
+M	base.persistence.impl/target/maven-archiver/pom.properties
+
+commit b37296c04a847f3a042b0379664aeb46bb1b13cf
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Sun Jun 20 00:38:56 2021 +0100
+
+    Ligueira mudança para execução no putty [Implementação]
+
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/AplicacaoPortalUtilizadores.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/AplicacaoServicosRH.java
+M	base.persistence.impl/src/main/resources/META-INF/persistence.xml
+
+commit fc7a195b13db1802126efd4262f219f7fb1351f5
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Sun Jun 20 00:34:22 2021 +0100
+
+    #DMG02-216 Pequenas correcoes nas queries de obtencao de pedidos para cumprimento dos SLAs [Implementação]
+
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/SLA/ListarCumprimentoSlaUI.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/AplicacaoPortalUtilizadores.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/AplicacaoServicosRH.java
+M	base.core/src/main/java/eapli/base/slamanagement/application/ListarCumprimentoSlaController.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaPedidoRepository.java
+M	base.persistence.impl/src/main/resources/META-INF/persistence.xml
+M	base.persistence.impl/target/classes/META-INF/persistence.xml
+M	base.persistence.impl/target/maven-archiver/pom.properties
+M	base.persistence.impl/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+D	base.persistence.impl/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+
+commit 412ce01dce5171320bdb4941927c851f6b8885f4
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Sat Jun 19 19:09:26 2021 +0100
+
+    #ALL_ISSUES Correeção do persistence xml {Implementacao]
+
+M	base.persistence.impl/target/maven-archiver/pom.properties
+
+commit afb8d0ab2218fca6ee221117272281570b5786f3
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Fri Jun 18 22:16:12 2021 +0100
+
+    #ALL_ISSUES Correções para testagem no putty [Implementação]
+
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/ExecutorAtividades.java
+M	base.persistence.impl/target/maven-archiver/pom.properties
+
+commit 62cfa4c564b05eeeeac9b6235f7bd5a0cd9ad6d0
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Fri Jun 18 19:57:35 2021 +0100
+
+    #ALL_ISSUES Ligeiras mudanças para testagem no putty [Implementação]
+
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/AplicacaoPortalUtilizadores.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/AplicacaoServicosRH.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/MotorFluxoAtividades.java
+
+commit 5183f78cb6c4b51e6da74db8f42d10fcde140392
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Fri Jun 18 19:29:08 2021 +0100
+
+    #DMG02-192 Remoção de prints desnecessários no motor de fluxos de atividade [Implementação]
+
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/MotorAsClient.java
+M	base.linguagem/src/main/java/eapli/base/utils/EmailSender.java
+M	base.persistence.impl/target/classes/META-INF/persistence.xml
+M	base.persistence.impl/target/maven-archiver/pom.properties
+
+commit 207fbcac217c4a5dfd046cd211d58a7beaa5e30a
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Fri Jun 18 15:24:30 2021 +0100
+
+    #ALL_ISSUES Altareção para testagem no putty [Implementação]
+
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/MotorAsClient.java
+M	base.persistence.impl/target/maven-archiver/pom.properties
+
+commit 24be2248497084bfcbdb00ce3a3c27cafc1e60cd
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Fri Jun 18 13:14:30 2021 +0100
+
+    #DMG02-192 Pequenas correções na implementação de semáforos no lado do cliente do motor de fluxo de atividades e alterações no persistence xml para testagem no putty [Implementação]
+
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/ExecutorAtividades.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/MotorAsClient.java
+M	base.app.spd.communicationprotocol/src/main/resources/config.properties
+M	base.persistence.impl/src/main/resources/META-INF/persistence.xml
+M	base.persistence.impl/target/classes/META-INF/persistence.xml
+M	base.persistence.impl/target/maven-archiver/pom.properties
+M	base.persistence.impl/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+D	base.persistence.impl/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+
+commit 569d13502578dd28d3f89027020b5d09ff7c7885
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Fri Jun 18 04:30:08 2021 +0100
+
+    #ALL_ISSUES Alterações no codigo para testagem no putty [Implementação]
+
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/ExecutorAtividades.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/MotorAsClient.java
+M	base.persistence.impl/src/main/resources/META-INF/persistence.xml
+M	base.persistence.impl/target/maven-archiver/pom.properties
+
+commit a66246c4367f4226de4605e999bbb1e6d15dab1e
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Fri Jun 18 03:19:19 2021 +0100
+
+    #ALL_ISSUES mudanças no programa para testagem no putty [Implementação]
+
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/AplicacaoPortalUtilizadores.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/AplicacaoServicosRH.java
+M	base.persistence.impl/src/main/resources/META-INF/persistence.xml
+
+commit ea6c7e8560eeba94d726c833153c79396eb95ea1
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Fri Jun 18 03:16:53 2021 +0100
+
+    #DMG02-192 Implementação de semáforos nas threads de execução de tarefas automáticas para garantir a sincornização da memoria e evitar que sejam acedidos endereços em simultaneo desnecessáriamente [Implementação]
+
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/AplicacaoServicosRH.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/ExecutorAtividades.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/MotorAsClient.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/MotorAsServer.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/MotorFluxoAtividades.java
+M	base.app.spd.communicationprotocol/src/main/resources/config.properties
+M	base.bootstrappers/src/main/java/eapli/base/infrastructure/bootstrapers/demo/CatalogosEServicosBootstrapper.java
+M	base.core/src/main/java/eapli/base/bibliotecaatividades/domain/ScriptAutomatico.java
+M	base.core/src/main/java/eapli/base/servicomanagement/application/SolicitacaoServicoController.java
+M	base.persistence.impl/target/maven-archiver/pom.properties
+
+commit 94f687c40905e2a055e25a3d4cf26c07a838cd2a
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Thu Jun 17 23:21:27 2021 +0100
+
+    #DMG02-208 Correção de prints desnecessarios no sistema e de portas dos servidores e clientes [Implementação]
+
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/AplicacaoServicosRH.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/MotorAsClient.java
+M	base.app.user.console/src/main/java/eapli/base/app/user/console/presentation/colaborador/ProcessarPreencherFormularioUI.java
+M	base.app.user.console/src/main/java/eapli/base/app/user/console/presentation/colaborador/SolicitarServicoUI.java
+M	base.core/src/main/java/eapli/base/formulariomanagement/application/ProcessarFormularioController.java
+M	base.core/src/main/java/eapli/base/servicomanagement/application/SolicitacaoServicoController.java
+D	base.linguagem/src/main/java/eapli/base/linguagem/.antlr/ValidateFormulario.interp
+D	base.linguagem/src/main/java/eapli/base/linguagem/.antlr/ValidateFormulario.tokens
+D	base.linguagem/src/main/java/eapli/base/linguagem/.antlr/ValidateFormularioLexer.interp
+D	base.linguagem/src/main/java/eapli/base/linguagem/.antlr/ValidateFormularioLexer.java
+D	base.linguagem/src/main/java/eapli/base/linguagem/.antlr/ValidateFormularioLexer.tokens
+D	base.linguagem/src/main/java/eapli/base/linguagem/.antlr/ValidateFormularioParser.java
+D	base.linguagem/src/main/java/eapli/base/validascripttarefas/.antlr/ValidaScriptTarefas.interp
+D	base.linguagem/src/main/java/eapli/base/validascripttarefas/.antlr/ValidaScriptTarefas.tokens
+D	base.linguagem/src/main/java/eapli/base/validascripttarefas/.antlr/ValidaScriptTarefasLexer.interp
+D	base.linguagem/src/main/java/eapli/base/validascripttarefas/.antlr/ValidaScriptTarefasLexer.java
+D	base.linguagem/src/main/java/eapli/base/validascripttarefas/.antlr/ValidaScriptTarefasLexer.tokens
+D	base.linguagem/src/main/java/eapli/base/validascripttarefas/.antlr/ValidaScriptTarefasParser.java
+D	base.linguagem/src/main/java/eapli/base/validascripttarefas/respostasparascript/.antlr/RespostasParaScript.interp
+D	base.linguagem/src/main/java/eapli/base/validascripttarefas/respostasparascript/.antlr/RespostasParaScript.tokens
+D	base.linguagem/src/main/java/eapli/base/validascripttarefas/respostasparascript/.antlr/RespostasParaScriptLexer.interp
+D	base.linguagem/src/main/java/eapli/base/validascripttarefas/respostasparascript/.antlr/RespostasParaScriptLexer.java
+D	base.linguagem/src/main/java/eapli/base/validascripttarefas/respostasparascript/.antlr/RespostasParaScriptLexer.tokens
+D	base.linguagem/src/main/java/eapli/base/validascripttarefas/respostasparascript/.antlr/RespostasParaScriptParser.java
+M	base.persistence.impl/target/maven-archiver/pom.properties
+
+commit 4af3050bf01c0aedfd2803bcac2dbe039288e549
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Thu Jun 17 23:00:27 2021 +0100
+
+    #DMG02-176 Finalização da documentação do caso de uso de consulta de tarefas de um colaborador [Implementação]
+
+M	documentation/SprintD/US_3031/US_3031.md
+
+commit 8f93521bc9792a05aa334a2808c3f7fe2496247f
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Thu Jun 17 22:55:26 2021 +0100
+
+    #DMG02-180 Finalização da documentação do caso de uso de realizar uma tarefa manual [Implementação]
+
+M	documentation/SprintD/US_3023/US_3023.md
+
+commit 285b173d36a8d0a59ffa6d023f281b9b3357452d
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Thu Jun 17 22:47:46 2021 +0100
+
+    #DMG02-157 Finalização da documentação de proteger o executor de tarefas automaticas [Design]
+
+M	documentation/SprintD/US_5002/US_5002.md
+
+commit ce13a0b441499d2708a12b7e8ceeb4f6f93709c5
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Thu Jun 17 22:41:39 2021 +0100
+
+    #DMG02-204 Finazalição da parte da implementação da documentação do caso de uso de completar a solicitação de um serviço [Implementação]
+
+M	documentation/SprintD/US_3003/US_3003.md
+
+commit ac6366a3289d85713d808e395a978871ef8a6ba0
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Thu Jun 17 22:37:30 2021 +0100
+
+    #DMG02-200 Finalização da documentação do caso de uso da implementação das gramaticas/linguagens [Implementação]
+
+M	documentation/SprintD/US_1007/US_1007.md
+
+commit 2348ac0626ad90e063ae457aad742889a7c273b9
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Thu Jun 17 22:22:10 2021 +0100
+
+    #DMG02-227 Continuação do design do caso de uso de proteção da aplicação de serviços e rh [Design]
+
+A	documentation/SprintD/US_2102/US_2102.md
+
+commit 99456b4a79c23f9c638fc69c3f74e5fd29ef9924
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Thu Jun 17 17:58:44 2021 +0100
+
+    #DMG02-192 Correcao e pequena implementação de tornar o motor de fluxo de atividades robusto, com correcao de querie de obtencao de tarefas pelo id, e mudanca do estado dos pedidos e tarefas mal sao executados [Implementação]
+
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/AplicacaoPortalUtilizadores.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/AplicacaoServicosRH.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/MotorAsClient.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/MotorFluxoAtividades.java
+M	base.core/src/main/java/eapli/base/servicomanagement/application/SolicitacaoServicoController.java
+M	base.core/src/main/java/eapli/base/tarefamanagement/application/TarefasAutomaticasController.java
+M	base.core/src/main/java/eapli/base/tarefamanagement/repositories/TarefaRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/inmemory/InMemoryTarefaRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaTarefaRepository.java
+M	base.persistence.impl/src/main/resources/META-INF/persistence.xml
+M	base.persistence.impl/target/maven-archiver/pom.properties
+
+commit 4fc5769ce9e8423c77365a3c8223b984cd30c12d
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Thu Jun 17 16:19:46 2021 +0100
+
+    #ALL_ISSUES Mudança no programa para testagem no putty [Implementacção]
+
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/AplicacaoPortalUtilizadores.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/AplicacaoServicosRH.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/MotorFluxoAtividades.java
+M	base.persistence.impl/src/main/resources/META-INF/persistence.xml
+M	documentation/SprintD/US_4003/US_4003.md
+
+commit 13165eb56342b49729b9a59d34bb9d6e0afff0dc
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Thu Jun 17 01:34:28 2021 +0100
+
+    #DMG02-186 Correção da analise do caso de uso de proteção de comunicações do servidor do motor de fluxo de atividades [Analise]
+
+A	documentation/SprintD/US_4051/US_4051.md
+
+commit c94102ff3436cdada13c263a48ffbdfa635869d6
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Thu Jun 17 01:20:29 2021 +0100
+
+    #DMG02-211 Correcao do design do caso de uso de tornar o motor de fluxo de atividades robusto [Design]
+
+M	documentation/SprintD/US_4003/US_4003.md
+
+commit 5049c1935e42c1b6a9dcd042d83fe48d23293216
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Thu Jun 17 01:16:35 2021 +0100
+
+    #DMG02-211 Correcao do design do caso de uso de tornar o motor de fluxo de atividades robusto [Design]
+
+M	documentation/SprintD/US_4003/US_4003.md
+
+commit 601c32f0296bab8aa31cb7b4b6a071ac2bc51a22
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Thu Jun 17 00:53:52 2021 +0100
+
+    #DMG02-211 Continuacao do desenvolvimeno do design do caso de uso de tornar o motor de fluxo de atividades robusto [Design]
+
+M	documentation/SprintD/US_4003/US_4003.md
+A	documentation/SprintD/US_4003/US_4003_Assignar_SD.png
+
+commit b2defa1e1563891b806c794514571b3895a80878
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Thu Jun 17 00:34:15 2021 +0100
+
+    #DMG02-210 Analise do caso de uso de de tornar o motor de fluxo de atividades robusto [Analise]
+
+A	documentation/SprintD/US_4003/US_4003.md
+
+commit 6daef53d8db9d869008c058ac057a33515c9967c
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Thu Jun 17 00:24:46 2021 +0100
+
+    #DMG02-203 Continuação do design do caso de uso de continuacao de solicitacao de um serviço [Design]
+
+D	base.persistence.impl/target/classes/.netbeans_automatic_build
+D	base.persistence.impl/target/test-classes/.netbeans_automatic_build
+M	documentation/SprintD/US_3003/US_3003.md
+A	documentation/SprintD/US_3003/US_3003_SD.png
+
+commit 3e2554e931666f993e48bd5a73df134d7fb33a57
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Wed Jun 16 23:57:52 2021 +0100
+
+    #DMG02-202 Cotinuação da análise do caso de uso de solicitação de um serviço [Analise]
+
+M	documentation/SprintD/US_3003/US_3003.md
+
+commit f4961ab42dafdfd6513a7936d2cddc10f037657e
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Wed Jun 16 23:52:41 2021 +0100
+
+    #DMG02-202 Inicio da analise do caso de uso de continuacao da solicitacao de um servico [Analise]
+
+A	documentation/SprintD/US_3003/US_3003.md
+
+commit 0f24fda96311f161069eaeac5534316b86fd3286
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Wed Jun 16 23:43:17 2021 +0100
+
+    #DMG02-230 Correcao da analise e planeamento de casos de uso de rcomp [Analise]
+
+M	documentation/RCOMP_SPRINT_C_D/planning_and_analise.md
+
+commit 86eeaf107a55ec2c329fe888e7edef3857046b6d
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Wed Jun 16 18:26:29 2021 +0100
+
+    #DMG02-230 Atualização do planning dos casos de uso de RCOMP [Analise]
+
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/AplicacaoPortalUtilizadores.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/AplicacaoServicosRH.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/ExecutorAtividades.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/MotorAsServer.java
+M	base.core/src/main/java/eapli/base/tarefamanagement/application/AtribuirTarefaAColaboradorController.java
+M	base.core/src/main/java/eapli/base/tarefamanagement/application/ConvertRespostaParaScriptController.java
+M	base.linguagem/src/main/java/eapli/base/linguagem/EvalVisitor.java
+M	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/EvalListener.java
+M	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/TarefasAutomaticasExecutor.java
+M	base.linguagem/src/main/java/eapli/base/validascripttarefas/ValidarScriptsTarefas.java
+M	base.linguagem/src/main/java/eapli/base/validascripttarefas/respostasparascript/RespostasParaScript.java
+M	base.persistence.impl/src/main/resources/META-INF/persistence.xml
+M	base.persistence.impl/target/classes/META-INF/persistence.xml
+M	base.persistence.impl/target/maven-archiver/pom.properties
+A	documentation/RCOMP_SPRINT_C_D/planning_and_analise.md
+R100	documentation/RCOMP_SPRINT_D/review.md	documentation/RCOMP_SPRINT_C_D/review.md
+D	documentation/RCOMP_SPRINT_D/planning.md
+M	eapli_base.linguagem_jar_1.4.0-SNAPSHOT/src/main/java/eapli/base/linguagem/EvalVisitor.java
+M	eapli_base.linguagem_jar_1.4.0-SNAPSHOT/src/main/java/eapli/base/linguagem/Expressions.java
+
+commit ce49b4727857afed6175971c02426c71c6697d85
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Wed Jun 16 13:43:28 2021 +0100
+
+    #DMG02-212 Correcao de uma query de assignacao de tarefas automaticas [Implementacao]
+
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/AplicacaoPortalUtilizadores.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaPedidoRepository.java
+M	base.persistence.impl/target/maven-archiver/pom.properties
+
+commit 0634890f39d6ba5bdbc29065592e191d200fb49a
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Wed Jun 16 13:09:05 2021 +0100
+
+    #ALL_ISSUES Alteracao no programa para testagem no putty [Implementação]
+
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/AplicacaoServicosRH.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/MotorFluxoAtividades.java
+
+commit 7358fea816daf0570888a51ac058f4499cf9aebf
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Wed Jun 16 12:54:37 2021 +0100
+
+    #ALL_ISSUES Alteracao no programa para testagem no putty [Implementação]
+
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/ExecutorAtividades.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/MotorAsClient.java
+
+commit ba0806b8bf6f0c7eb555b9ec6b2974c0b8783a65
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Wed Jun 16 12:39:24 2021 +0100
+
+    #ALL_ISSUES ligeiras alteracoes no programa para testagem no putty [Implementação]
+
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/AplicacaoPortalUtilizadores.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/AplicacaoServicosRH.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/ExecutorAtividades.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/MotorAsClient.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/MotorFluxoAtividades.java
+M	base.app.spd.communicationprotocol/src/main/resources/config.properties
+M	base.persistence.impl/src/main/resources/META-INF/persistence.xml
+M	base.persistence.impl/target/classes/META-INF/persistence.xml
+M	base.persistence.impl/target/maven-archiver/pom.properties
+M	base.persistence.impl/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+A	base.persistence.impl/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+
+commit 55daf17bc07346137ad9a0469d587a4b1f2cacc7
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Wed Jun 16 00:01:29 2021 +0100
+
+    #DMG02-212 Implementacao dos algoritmos de assignação de tarefas a colaboradores disponiveis [Implementação]
+
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/MotorAsServer.java
+M	base.app.spd.communicationprotocol/src/main/resources/config.properties
+M	base.bootstrappers/src/main/java/eapli/base/infrastructure/bootstrapers/demo/CatalogosEServicosBootstrapper.java
+M	base.core/src/main/java/eapli/base/bibliotecaatividades/domain/AtividadeManual.java
+M	base.core/src/main/java/eapli/base/catalogomanagement/domain/Catalogo.java
+M	base.core/src/main/java/eapli/base/colaboradormanagement/domain/Colaborador.java
+M	base.core/src/main/java/eapli/base/colaboradormanagement/repositories/ColaboradorRepository.java
+M	base.core/src/main/java/eapli/base/equipamanagement/domain/Equipa.java
+M	base.core/src/main/java/eapli/base/equipamanagement/domain/ResponsavelEquipa.java
+M	base.core/src/main/java/eapli/base/equipamanagement/repositories/EquipaRepository.java
+M	base.core/src/main/java/eapli/base/formulariomanagement/domain/Formulario.java
+M	base.core/src/main/java/eapli/base/objetivosmanagement/domain/Objetivos.java
+M	base.core/src/main/java/eapli/base/objetivosmanagement/domain/TempoMedioResolucao.java
+A	base.core/src/main/java/eapli/base/pedidomanagement/application/ListPedidoManualController.java
+A	base.core/src/main/java/eapli/base/pedidomanagement/application/ListPedidoManualService.java
+M	base.core/src/main/java/eapli/base/pedidomanagement/domain/Pedido.java
+M	base.core/src/main/java/eapli/base/pedidomanagement/repositories/PedidoRepository.java
+M	base.core/src/main/java/eapli/base/servicomanagement/domain/AtividadeRealizacao.java
+M	base.core/src/main/java/eapli/base/servicomanagement/domain/Servico.java
+M	base.core/src/main/java/eapli/base/slamanagement/domain/NivelCriticidade.java
+A	base.core/src/main/java/eapli/base/tarefamanagement/application/AtribuirTarefaAColaboradorController.java
+M	base.core/src/main/java/eapli/base/tarefamanagement/domain/Tarefa.java
+M	base.core/src/main/java/eapli/base/tipoequipamanagement/domain/TipoEquipa.java
+M	base.core/src/test/java/eapli/base/pedidomanagement/domain/PedidoTest.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/inmemory/InMemoryColaboradorRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/inmemory/InMemoryEquipaRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/inmemory/InMemoryPedidoRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaColaboradorRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaEquipaRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaPedidoRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaTarefaRepository.java
+M	base.persistence.impl/src/main/resources/META-INF/persistence.xml
+M	base.persistence.impl/target/classes/META-INF/persistence.xml
+M	base.persistence.impl/target/maven-archiver/pom.properties
+
+commit d0dabe859fb66963ab419aed8504796d7d7ea634
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Tue Jun 15 12:52:31 2021 +0100
+
+    #DMG02-158 Implementação completa do segundo algoritmo, tendo por base a carga de cada executor de tarefas [Implementação]
+
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/ExecutorAtividades.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/MotorAsClient.java
+M	base.app.spd.communicationprotocol/src/main/resources/config.properties
+M	base.persistence.impl/target/maven-archiver/pom.properties
+M	base.persistence.impl/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+A	base.persistence.impl/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+
+commit a1e0379478e63b3718cf5f7998e86c9658332d1b
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Tue Jun 15 01:44:57 2021 +0100
+
+    #DMG02-199 Fim do Design do caso de uso de gramaticas de tarefas automaticas e formularios [Design]
+
+M	documentation/SprintD/US_1007/US_1007.md
+A	documentation/SprintD/US_1007/Validar_Script_SD.png
+
+commit f74c854a37c166f7801c23dd2435b5fd8ba319b3
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Mon Jun 14 20:54:12 2021 +0100
+
+    #DMG02-196 Correcao de um erro que provocava o falhanco inesperado do motor de fluxo de atividades e ligeira melhoria da interface com o utilizador quando se começa a executar o motor de fluxo de atividades e o executor de tarefas automaticas [Implementação]
+
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/ExecutorAtividades.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/MotorAsClient.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/MotorFluxoAtividades.java
+D	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/TesteOnly.java
+M	base.persistence.impl/src/main/resources/META-INF/persistence.xml
+M	base.persistence.impl/target/classes/META-INF/persistence.xml
+M	base.persistence.impl/target/maven-archiver/pom.properties
+M	base.persistence.impl/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+A	base.persistence.impl/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+
+commit 37d27f28da24ddc7675bf73ce72235bca3439a28
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Mon Jun 14 16:36:27 2021 +0100
+
+    #DMG02-199 Inicio do design do caso de uso das gramaticas dos formularios e tarefas [Design]
+
+A	documentation/SprintD/US_1007/Formularios_SD.png
+A	documentation/SprintD/US_1007/Generico_ValidarForm_SD.png
+M	documentation/SprintD/US_1007/US_1007.md
+
+commit 83f86a5ccf22c597a06b5becc0a3fb4ac9075047
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Mon Jun 14 14:28:32 2021 +0100
+
+    #DMG02-198 Inicio da analise do caso de uso de criacao de gramaticas para tarefas automaticas e formularios [Analise]
+
+A	documentation/SprintD/US_1007/US_1007.md
+
+commit 11c861f572c08b2733fd6e49e772923602509f1a
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Mon Jun 14 14:13:07 2021 +0100
+
+    #DMG02-158 Correcao da mensagem de envio de emails, da query de mudanca de estado de tarefa e correcoes do envio de mensagens no executor e no motor [Implementacao]
+
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/ExecutorAtividades.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/MotorAsClient.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/TesteOnly.java
+M	base.bootstrappers/pom.xml
+M	base.core/src/main/java/eapli/base/tarefamanagement/application/TarefasAutomaticasController.java
+M	base.core/src/main/java/eapli/base/tarefamanagement/domain/EstadoTarefa.java
+M	base.core/src/main/java/eapli/base/tarefamanagement/repositories/TarefaRepository.java
+M	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/EvalListener.java
+M	base.persistence.impl/pom.xml
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/inmemory/InMemoryInitializer.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/inmemory/InMemoryTarefaRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaTarefaRepository.java
+M	base.persistence.impl/target/maven-archiver/pom.properties
+
+commit 38955b3ed8312501c434bd88ffb683060ef9823b
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Sun Jun 13 18:09:47 2021 +0100
+
+    #DMG02-158 Implementacao em bootstrap de servicos automaticos e correcao de threads no motor de fluxo de atividades do lado do cliente [Implementacao]
+
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/servicos/AtributosEmFormularioSettings.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/MotorAsClient.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/MotorAsServer.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/MotorFluxoAtividades.java
+M	base.bootstrappers/src/main/java/eapli/base/infrastructure/bootstrapers/demo/CatalogosEServicosBootstrapper.java
+M	base.bootstrappers/src/main/java/eapli/base/infrastructure/bootstrapers/demo/EstruturaOrganizacaoBootstraper.java
+M	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/EvalListener.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaTarefaRepository.java
+M	base.persistence.impl/target/maven-archiver/pom.properties
+M	base.persistence.impl/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+A	base.persistence.impl/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+
+commit 8aa8fc144d9341ebe28f6adee6e5403ee049dd7c
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Sun Jun 13 12:24:48 2021 +0100
+
+    #DMG02-158 Pequena implementação de mais threads para varios servidores de executores de tarefas automaticas [Implementação]
+
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/MotorAsClient.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/TesteOnly.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaTarefaRepository.java
+M	base.persistence.impl/target/maven-archiver/pom.properties
+
+commit 61d99c9096466b308816a7cf82dcc8179b9c7ca7
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Sat Jun 12 17:02:17 2021 +0100
+
+    #DMG02-158 Continuacao da testagem das tarefas automaticas [Implementacao]
+
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/ExecutorAtividades.java
+M	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/EvalListener.java
+M	base.persistence.impl/target/maven-archiver/pom.properties
+
+commit 1a184ad2e5b5804d1a15ad4f750c503c92f71775
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Sat Jun 12 16:38:38 2021 +0100
+
+    #DMG02-158 Ligeira pre implementacao para testagem da execucao de scripts de tarefas automaticas [Implementacao]
+
+M	base.app.spd.communicationprotocol/pom.xml
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/ExecutorAtividades.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/MotorAsClient.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/TesteOnly.java
+M	base.core/src/main/java/eapli/base/pedidomanagement/domain/Pedido.java
+M	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/TarefasAutomaticasExecutor.java
+M	base.linguagem/src/main/java/eapli/base/utils/EmailSender.java
+M	base.linguagem/src/main/java/eapli/base/utils/ReadXMLFile.java
+M	base.persistence.impl/target/maven-archiver/pom.properties
+A	clientes.xml
+A	produtos.xml
+
+commit 7c7edcd5d36a4ed61c4cd34cd8132297f7da68a4
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Sat Jun 12 14:27:35 2021 +0100
+
+    #DMG02-172 Correcao da aprovacao de um pedido automatico [Implementacao]
+
+M	base.core/src/main/java/eapli/base/pedidomanagement/application/AprovarPedidoController.java
+M	base.core/src/main/java/eapli/base/pedidomanagement/repositories/PedidoRepository.java
+M	base.core/src/main/java/eapli/base/servicomanagement/application/SolicitacaoServicoController.java
+M	base.core/src/main/java/eapli/base/tarefamanagement/application/ConvertRespostaParaScriptController.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/inmemory/InMemoryPedidoRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaPedidoRepository.java
+M	base.persistence.impl/target/maven-archiver/pom.properties
+
+commit 9ee16dd17426563a355156c55f7f4a980c13de36
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Sat Jun 12 13:47:41 2021 +0100
+
+    #DMG02-150 Implementacao da conversao de respotas de formularios para scripts executavais [Implementacao]
+
+M	base.app.user.console/src/main/java/eapli/base/app/user/console/presentation/colaborador/SolicitarServicoUI.java
+M	base.core/src/main/java/eapli/base/formulariomanagement/application/ProcessarFormularioController.java
+M	base.core/src/main/java/eapli/base/pedidomanagement/domain/Pedido.java
+M	base.core/src/main/java/eapli/base/servicomanagement/application/SolicitacaoServicoController.java
+A	base.core/src/main/java/eapli/base/tarefamanagement/application/ConvertRespostaParaScriptController.java
+A	base.linguagem/src/main/java/eapli/base/linguagem/.antlr/ValidateFormulario.interp
+A	base.linguagem/src/main/java/eapli/base/linguagem/.antlr/ValidateFormulario.tokens
+M	base.linguagem/src/main/java/eapli/base/linguagem/.antlr/ValidateFormularioLexer.interp
+M	base.linguagem/src/main/java/eapli/base/linguagem/.antlr/ValidateFormularioLexer.java
+A	base.linguagem/src/main/java/eapli/base/linguagem/.antlr/ValidateFormularioParser.java
+M	base.linguagem/src/main/java/eapli/base/linguagem/ValidateFormulario.g4
+M	base.linguagem/src/main/java/eapli/base/linguagem/ValidateFormularioBaseVisitor.java
+M	base.linguagem/src/main/java/eapli/base/linguagem/ValidateFormularioLexer.interp
+M	base.linguagem/src/main/java/eapli/base/linguagem/ValidateFormularioLexer.java
+M	base.linguagem/src/main/java/eapli/base/linguagem/ValidateFormularioParser.java
+M	base.linguagem/src/main/java/eapli/base/linguagem/ValidateFormularioVisitor.java
+D	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/.antlr/TarefasAutomaticas.interp
+D	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/.antlr/TarefasAutomaticas.tokens
+D	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/.antlr/TarefasAutomaticasLexer.interp
+D	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/.antlr/TarefasAutomaticasLexer.java
+D	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/.antlr/TarefasAutomaticasLexer.tokens
+A	base.linguagem/src/main/java/eapli/base/validascripttarefas/respostasparascript/.antlr/RespostasParaScript.interp
+A	base.linguagem/src/main/java/eapli/base/validascripttarefas/respostasparascript/.antlr/RespostasParaScript.tokens
+A	base.linguagem/src/main/java/eapli/base/validascripttarefas/respostasparascript/.antlr/RespostasParaScriptLexer.interp
+A	base.linguagem/src/main/java/eapli/base/validascripttarefas/respostasparascript/.antlr/RespostasParaScriptLexer.java
+A	base.linguagem/src/main/java/eapli/base/validascripttarefas/respostasparascript/.antlr/RespostasParaScriptLexer.tokens
+R070	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/.antlr/TarefasAutomaticasParser.java	base.linguagem/src/main/java/eapli/base/validascripttarefas/respostasparascript/.antlr/RespostasParaScriptParser.java
+A	base.linguagem/src/main/java/eapli/base/validascripttarefas/respostasparascript/EvalVisitorRespostasParaScript.java
+A	base.linguagem/src/main/java/eapli/base/validascripttarefas/respostasparascript/RUNAntLR.bat
+A	base.linguagem/src/main/java/eapli/base/validascripttarefas/respostasparascript/RespostasParaScript.g4
+A	base.linguagem/src/main/java/eapli/base/validascripttarefas/respostasparascript/RespostasParaScript.interp
+A	base.linguagem/src/main/java/eapli/base/validascripttarefas/respostasparascript/RespostasParaScript.java
+A	base.linguagem/src/main/java/eapli/base/validascripttarefas/respostasparascript/RespostasParaScript.tokens
+A	base.linguagem/src/main/java/eapli/base/validascripttarefas/respostasparascript/RespostasParaScriptBaseVisitor.java
+A	base.linguagem/src/main/java/eapli/base/validascripttarefas/respostasparascript/RespostasParaScriptLexer.interp
+A	base.linguagem/src/main/java/eapli/base/validascripttarefas/respostasparascript/RespostasParaScriptLexer.java
+A	base.linguagem/src/main/java/eapli/base/validascripttarefas/respostasparascript/RespostasParaScriptLexer.tokens
+A	base.linguagem/src/main/java/eapli/base/validascripttarefas/respostasparascript/RespostasParaScriptParser.java
+A	base.linguagem/src/main/java/eapli/base/validascripttarefas/respostasparascript/RespostasParaScriptVisitor.java
+A	base.linguagem/src/main/java/eapli/base/validascripttarefas/respostasparascript/teste.txt
+M	base.persistence.impl/target/maven-archiver/pom.properties
+
+commit 56ba0fde3e0680a15f5188ee7a0a0b979dadee95
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Sat Jun 12 01:33:32 2021 +0100
+
+    #DMG02-184 Implementacao completa da interface com o utilizador do grau de aprovacao de um pedido executado por um utilizador [Implementacao]
+
+M	base.app.user.console/src/main/java/eapli/base/app/user/console/presentation/MainMenu.java
+A	base.app.user.console/src/main/java/eapli/base/app/user/console/presentation/colaborador/AvaliacaoResolucaoAction.java
+A	base.app.user.console/src/main/java/eapli/base/app/user/console/presentation/colaborador/AvaliacaoResolucaoUI.java
+M	base.core/src/main/java/eapli/base/infrastructure/persistence/RepositoryFactory.java
+M	base.core/src/main/java/eapli/base/pedidomanagement/application/AprovarPedidoController.java
+M	base.core/src/main/java/eapli/base/servicomanagement/application/SolicitacaoServicoController.java
+A	base.core/src/main/java/eapli/base/tarefamanagement/application/AvaliarTarefaController.java
+M	base.core/src/main/java/eapli/base/tarefamanagement/application/ListTarefasExecucaoController.java
+M	base.core/src/main/java/eapli/base/tarefamanagement/application/ListTarefasExecucaoService.java
+M	base.core/src/main/java/eapli/base/tarefamanagement/application/ReivindicarTarefaController.java
+M	base.core/src/main/java/eapli/base/tarefamanagement/domain/GrauSatisfacao.java
+M	base.core/src/main/java/eapli/base/tarefamanagement/domain/Tarefa.java
+A	base.core/src/main/java/eapli/base/tarefamanagement/repositories/GrauSatisfacaoRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/inmemory/InMemoryRepositoryFactory.java
+A	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaGrauSatisfacaoRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaRepositoryFactory.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaTarefaRepository.java
+M	base.persistence.impl/target/maven-archiver/pom.properties
+M	base.persistence.impl/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+M	base.persistence.impl/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+
+commit 87f3da5a0df33ab2f413be5d5f8bd17a14186e59
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Sat Jun 12 00:32:44 2021 +0100
+
+    #DMG02-184 Implementacao da query de obtencao de pedidos executador pelo colaborador que necessitem de satisfacao [Implementacao]
+
+M	base.core/src/main/java/eapli/base/tarefamanagement/repositories/TarefaRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/inmemory/InMemoryTarefaRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaTarefaRepository.java
+M	base.persistence.impl/target/maven-archiver/pom.properties
+
+commit 2179649c6bf72021f4dea546455aa8f9dce34ee8
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Sat Jun 12 00:22:45 2021 +0100
+
+    #DMG02-184 Implementacao da possibilidade de ter um grau de satisfacao como atributo de um servico [Implementacao]
+
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/servicos/RegistarServicoUI.java
+M	base.bootstrappers/src/main/java/eapli/base/infrastructure/bootstrapers/demo/CatalogosEServicosBootstrapper.java
+M	base.core/src/main/java/eapli/base/servicomanagement/application/RegistarServicoController.java
+M	base.core/src/main/java/eapli/base/servicomanagement/domain/Servico.java
+A	base.core/src/main/java/eapli/base/tarefamanagement/domain/GrauSatisfacao.java
+M	base.core/src/test/java/eapli/base/pedidomanagement/domain/PedidoTest.java
+M	base.persistence.impl/src/main/resources/META-INF/persistence.xml
+M	base.persistence.impl/target/classes/META-INF/persistence.xml
+M	base.persistence.impl/target/maven-archiver/pom.properties
+
+commit b19f57d8e6d0533bf83314f93ba430f69c843d92
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Sat Jun 12 00:00:32 2021 +0100
+
+    #DMG02-182 #DMG02-183 Analise e Design do caso de uso de atribuir um grau de satisfacao a um pedido realizado pelo utilizador [Analise] [Design]
+
+A	documentation/SprintD/US_3051/US_3051.md
+A	documentation/SprintD/US_3051/US_3051_SD.png
+
+commit c6536e99fed60d6f95333a571942563b58e00011
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Fri Jun 11 23:23:44 2021 +0100
+
+    #DMG02-176 Desenvolvimento da aprovacao de um colaborador por parte do responsavel pelos catalogos [Implementacao]
+
+M	base.core/src/main/java/eapli/base/servicomanagement/application/SolicitacaoServicoController.java
+M	base.core/src/main/java/eapli/base/tarefamanagement/application/ExecutarTarefaController.java
+M	base.persistence.impl/target/maven-archiver/pom.properties
+
+commit 4f107c4567cd66c752fe90e58d81fdca4bc64439
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Fri Jun 11 22:48:07 2021 +0100
+
+    #DMG02-176 Correcao da query de listagem de pedidos assim como a implementacao da possibilidade de ser selecionado um pedido e so depois ser listada a sua informacao [Implementacao]
+
+M	base.app.user.console/src/main/java/eapli/base/app/user/console/presentation/colaborador/ConsultarPedidosUI.java
+M	base.app.user.console/src/main/java/eapli/base/app/user/console/presentation/colaborador/PedidosDTOPrinter.java
+A	base.app.user.console/src/main/java/eapli/base/app/user/console/presentation/colaborador/SimplePedidoDTOPrinter.java
+M	base.app.user.console/src/main/java/eapli/base/app/user/console/presentation/colaborador/SolicitarServicoUI.java
+M	base.core/src/main/java/eapli/base/bibliotecaatividades/domain/AtividadeAutomatica.java
+M	base.core/src/main/java/eapli/base/pedidomanagement/domain/Pedido.java
+M	base.core/src/main/java/eapli/base/pedidomanagement/dto/PedidoDTO.java
+A	base.linguagem/src/main/java/eapli/base/linguagem/.antlr/ValidateFormularioLexer.interp
+A	base.linguagem/src/main/java/eapli/base/linguagem/.antlr/ValidateFormularioLexer.java
+A	base.linguagem/src/main/java/eapli/base/linguagem/.antlr/ValidateFormularioLexer.tokens
+A	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/.antlr/TarefasAutomaticas.interp
+A	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/.antlr/TarefasAutomaticas.tokens
+A	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/.antlr/TarefasAutomaticasLexer.interp
+A	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/.antlr/TarefasAutomaticasLexer.java
+A	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/.antlr/TarefasAutomaticasLexer.tokens
+A	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/.antlr/TarefasAutomaticasParser.java
+M	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/EvalListener.java
+M	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/teste.txt
+A	base.linguagem/src/main/java/eapli/base/validascripttarefas/.antlr/ValidaScriptTarefas.interp
+A	base.linguagem/src/main/java/eapli/base/validascripttarefas/.antlr/ValidaScriptTarefas.tokens
+A	base.linguagem/src/main/java/eapli/base/validascripttarefas/.antlr/ValidaScriptTarefasLexer.interp
+A	base.linguagem/src/main/java/eapli/base/validascripttarefas/.antlr/ValidaScriptTarefasLexer.java
+A	base.linguagem/src/main/java/eapli/base/validascripttarefas/.antlr/ValidaScriptTarefasLexer.tokens
+A	base.linguagem/src/main/java/eapli/base/validascripttarefas/.antlr/ValidaScriptTarefasParser.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaPedidoRepository.java
+M	base.persistence.impl/target/maven-archiver/pom.properties
+
+commit bd8c2115435cca0709f7c6e48a170b61da7e040a
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Thu Jun 10 20:36:50 2021 +0100
+
+    #DMG02-150 Atualizacao da API de envio de emails com o script de tarefas automaticas, assim como a sua gramaticas e respetivas classes lexicais [Implementacao]
+
+M	base.bootstrappers/src/main/java/eapli/base/infrastructure/bootstrapers/demo/EstruturaOrganizacaoBootstraper.java
+M	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/EvalListener.java
+M	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/TarefasAutomaticas.g4
+M	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/TarefasAutomaticas.interp
+M	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/TarefasAutomaticas.tokens
+M	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/TarefasAutomaticasBaseListener.java
+D	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/TarefasAutomaticasBaseVisitor.java
+M	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/TarefasAutomaticasExecutor.java
+M	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/TarefasAutomaticasLexer.interp
+M	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/TarefasAutomaticasLexer.java
+M	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/TarefasAutomaticasLexer.tokens
+M	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/TarefasAutomaticasListener.java
+M	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/TarefasAutomaticasParser.java
+D	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/TarefasAutomaticasVisitor.java
+M	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/produtos.xml
+M	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/teste.txt
+M	base.linguagem/src/main/java/eapli/base/utils/ReadXMLFile.java
+M	base.persistence.impl/target/maven-archiver/pom.properties
+M	base.persistence.impl/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+A	base.persistence.impl/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+M	teste.txt
+
+commit 31431b4ffa4164c8153b58723d0465fdaa5ada45
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Thu Jun 10 17:09:03 2021 +0100
+
+    #DMG02-180 Correcao na listagem de pedidos a aprovar e da respetiva rejeicao ou aprovacao [Implementacao]
+
+M	base.app.user.console/src/main/java/eapli/base/app/user/console/presentation/colaborador/AprovarPedidoUI.java
+M	base.app.user.console/src/main/java/eapli/base/app/user/console/presentation/colaborador/ProcessarPreencherFormularioUI.java
+M	base.app.user.console/src/main/java/eapli/base/app/user/console/presentation/colaborador/RealizarTarefaUI.java
+M	base.core/src/main/java/eapli/base/formulariomanagement/domain/Atributo.java
+M	base.core/src/main/java/eapli/base/pedidomanagement/domain/Pedido.java
+M	base.core/src/main/java/eapli/base/servicomanagement/application/SolicitacaoServicoController.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaPedidoRepository.java
+M	base.persistence.impl/target/maven-archiver/pom.properties
+A	base.persistence.impl/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+
+commit 070cb2c922f4973f7ad04a216d68ebaadec9c387
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Thu Jun 10 15:22:26 2021 +0100
+
+    #DMG02-180 Correcao de erro provocados pelo merge  [Implementacao]
+
+M	base.core/src/main/java/eapli/base/formulariomanagement/application/ProcessarFormularioController.java
+M	base.linguagem/pom.xml
+M	base.linguagem/src/main/java/eapli/base/linguagem/Expressions.java
+M	base.persistence.impl/target/maven-archiver/pom.properties
+M	base.persistence.impl/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+
+commit 328b323fc3e5b74df758d11e349935d0cbe6b4a6
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Thu Jun 10 15:17:10 2021 +0100
+
+    #DMG02-180 Correcao da aprovacao de pedidos face a necessidade de obter respostas a um formulario no decorrer do sistema [Implementacao]
+
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/servicos/AtributosEmFormularioSettings.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/servicos/RegistarServicoUI.java
+M	base.app.user.console/src/main/java/eapli/base/app/user/console/presentation/colaborador/AprovarPedidoUI.java
+M	base.app.user.console/src/main/java/eapli/base/app/user/console/presentation/colaborador/ProcessarPreencherFormularioUI.java
+M	base.app.user.console/src/main/java/eapli/base/app/user/console/presentation/colaborador/SolicitarServicoUI.java
+M	base.core/src/main/java/eapli/base/formulariomanagement/application/CreateFormularioController.java
+M	base.core/src/main/java/eapli/base/formulariomanagement/domain/Atributo.java
+M	base.core/src/main/java/eapli/base/formulariomanagement/domain/DescricaoAjuda.java
+M	base.core/src/main/java/eapli/base/pedidomanagement/domain/Pedido.java
+M	base.core/src/main/java/eapli/base/respostaformularios/domain/AtributoEmResposta.java
+M	base.core/src/main/java/eapli/base/respostaformularios/domain/RespostaFormulario.java
+M	base.core/src/main/java/eapli/base/servicomanagement/application/SolicitacaoServicoController.java
+M	base.persistence.impl/target/maven-archiver/pom.properties
+
+commit 7b824e826b8b732156f1967110a23fd517fde6ce
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Thu Jun 10 01:25:45 2021 +0100
+
+    #DMG02-180 Implementacao da capacidade de criar um formulario baseado em atributos de um formulario de solicitacao [Implementacao]
+
+A	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/servicos/AtributoPrinter.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/servicos/AtributosEmFormularioSettings.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/servicos/DadosServicoSettings.java
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/servicos/RegistarServicoUI.java
+M	base.bootstrappers/src/main/java/eapli/base/infrastructure/bootstrapers/demo/CatalogosEServicosBootstrapper.java
+M	base.core/src/main/java/eapli/base/bibliotecaatividades/domain/ScriptAutomatico.java
+M	base.core/src/main/java/eapli/base/formulariomanagement/domain/EtiquetaAtributo.java
+A	base.core/src/main/java/eapli/base/formulariomanagement/domain/TiposFormulario.java
+M	base.core/src/main/java/eapli/base/servicomanagement/application/CreateWorkflowController.java
+M	base.core/src/main/java/eapli/base/servicomanagement/application/RegistarServicoController.java
+A	base.linguagem/src/main/java/eapli/base/validascripttarefas/EvalValidarScriptsVisitor.java
+A	base.linguagem/src/main/java/eapli/base/validascripttarefas/RUNAntLR.bat
+A	base.linguagem/src/main/java/eapli/base/validascripttarefas/ValidaScriptTarefas.g4
+A	base.linguagem/src/main/java/eapli/base/validascripttarefas/ValidaScriptTarefas.interp
+A	base.linguagem/src/main/java/eapli/base/validascripttarefas/ValidaScriptTarefas.tokens
+A	base.linguagem/src/main/java/eapli/base/validascripttarefas/ValidaScriptTarefasBaseVisitor.java
+A	base.linguagem/src/main/java/eapli/base/validascripttarefas/ValidaScriptTarefasLexer.interp
+A	base.linguagem/src/main/java/eapli/base/validascripttarefas/ValidaScriptTarefasLexer.java
+A	base.linguagem/src/main/java/eapli/base/validascripttarefas/ValidaScriptTarefasLexer.tokens
+A	base.linguagem/src/main/java/eapli/base/validascripttarefas/ValidaScriptTarefasParser.java
+A	base.linguagem/src/main/java/eapli/base/validascripttarefas/ValidaScriptTarefasVisitor.java
+A	base.linguagem/src/main/java/eapli/base/validascripttarefas/ValidarScriptsTarefas.java
+A	base.linguagem/src/main/java/eapli/base/validascripttarefas/teste.txt
+M	base.persistence.impl/target/maven-archiver/pom.properties
+A	client10_J.jks
+A	client10_J.pem
+A	client11_J.jks
+A	client11_J.pem
+A	client12_J.jks
+A	client12_J.pem
+A	client13_J.jks
+A	client13_J.pem
+A	client14_J.jks
+A	client14_J.pem
+A	client15_J.jks
+A	client15_J.pem
+A	client16_J.jks
+A	client16_J.pem
+M	client1_J.jks
+M	client1_J.pem
+M	client2_J.jks
+M	client2_J.pem
+M	client3_J.jks
+M	client3_J.pem
+M	client4_J.jks
+M	client4_J.pem
+A	client5_J.jks
+A	client5_J.pem
+A	client6_J.jks
+A	client6_J.pem
+A	client7_J.jks
+A	client7_J.pem
+A	client8_J.jks
+A	client8_J.pem
+A	client9_J.jks
+A	client9_J.pem
+M	make_certs.sh
+A	server2_J.jks
+A	server2_J.pem
+A	server3_J.jks
+A	server3_J.pem
+A	server4_J.jks
+A	server4_J.pem
+M	server_J.jks
+M	server_J.pem
+
+commit a3455d8f5f6e3217cf9946bb4a37d2cf03fc1562
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Wed Jun 9 01:27:34 2021 +0100
+
+    [ALL ISSUES] Ligeira alteracao na persistence xml para testagem no putty [Implementacao]
+
+M	base.persistence.impl/target/classes/META-INF/persistence.xml
+M	base.persistence.impl/target/maven-archiver/pom.properties
+
+commit 944186faf4969145f0039c595144c511848812d2
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Wed Jun 9 01:25:22 2021 +0100
+
+    [ALL ISSUES] Pequena alteracao na classe de aplicacao de servicos e RH para testagem no putty [Implementacao]
+
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/AplicacaoServicosRH.java
+M	base.persistence.impl/target/classes/META-INF/persistence.xml
+M	base.persistence.impl/target/maven-archiver/pom.properties
+
+commit 1d14cd9677ce81dd99665050f49380ebd2d36759
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Wed Jun 9 00:53:42 2021 +0100
+
+    #DMG02-180 Implementacao da persistencia de uma tarefa executada na base de dados apos a realizacao [Implementacao]
+
+M	base.app.user.console/src/main/java/eapli/base/app/user/console/presentation/colaborador/RealizarTarefaUI.java
+M	base.bootstrappers/src/main/java/eapli/base/infrastructure/bootstrapers/demo/CatalogosEServicosBootstrapper.java
+M	base.core/src/main/java/eapli/base/bibliotecaatividades/domain/AtividadeManual.java
+M	base.core/src/main/java/eapli/base/servicomanagement/domain/AtividadeRealizacao.java
+M	base.core/src/main/java/eapli/base/tarefamanagement/DTO/TarefaDTO.java
+A	base.core/src/main/java/eapli/base/tarefamanagement/application/ExecutarTarefaController.java
+M	base.core/src/main/java/eapli/base/tarefamanagement/domain/Tarefa.java
+M	base.core/src/main/java/eapli/base/tarefamanagement/repositories/TarefaRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/inmemory/InMemoryFormularioRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/inmemory/InMemoryTarefaRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaTarefaRepository.java
+M	base.persistence.impl/target/maven-archiver/pom.properties
+
+commit ecbd12ef95dd70731a1505ec7125b403f7ea0fd1
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Tue Jun 8 23:13:22 2021 +0100
+
+    #DMG02-180 Correcoes na persistencia de informacao apos aprovacao de um servico [Implementacao]
+
+M	base.core/src/main/java/eapli/base/tarefamanagement/application/ReivindicarTarefaController.java
+M	base.persistence.impl/target/maven-archiver/pom.properties
+
+commit 2647943c5a7cd0b42cedc522eb5f8970a6299a0c
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Tue Jun 8 23:03:32 2021 +0100
+
+    #DMG02-180 Correcao da aprovacao de um pedido por parte de um utilizador [Implementacao]
+
+M	base.app.user.console/src/main/java/eapli/base/app/user/console/presentation/MainMenu.java
+A	base.app.user.console/src/main/java/eapli/base/app/user/console/presentation/colaborador/RealizarTarefaAction.java
+A	base.app.user.console/src/main/java/eapli/base/app/user/console/presentation/colaborador/RealizarTarefaUI.java
+M	base.core/src/main/java/eapli/base/pedidomanagement/application/ListPedidoService.java
+M	base.core/src/main/java/eapli/base/pedidomanagement/repositories/PedidoRepository.java
+M	base.core/src/main/java/eapli/base/tarefamanagement/application/ReivindicarTarefaController.java
+M	base.core/src/main/java/eapli/base/tarefamanagement/repositories/TarefaRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/inmemory/InMemoryPedidoRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaPedidoRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaTarefaRepository.java
+M	base.persistence.impl/target/maven-archiver/pom.properties
+
+commit 144f641878bc5ecbd7d1fd7a90cab29b00c8f83e
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Tue Jun 8 21:29:59 2021 +0100
+
+    #DMG02-180 Implementacao dos controladores de interacao entre a query da tarefas pendentes do colaborador com a UI [Implementacao]
+
+M	base.core/src/main/java/eapli/base/tarefamanagement/application/ListTarefaService.java
+A	base.core/src/main/java/eapli/base/tarefamanagement/application/ListTarefasExecucaoController.java
+A	base.core/src/main/java/eapli/base/tarefamanagement/application/ListTarefasExecucaoService.java
+M	base.persistence.impl/target/maven-archiver/pom.properties
+M	documentation/SprintD/US_3023/US_3023_SD.png
+
+commit ba39fd997204fc56ee30b4529272aa0ab8570339
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Tue Jun 8 21:18:09 2021 +0100
+
+    #DMG02-180 Implementacao da query de obtencao de tarefas pendentes do colaborador [Implementacao]
+
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaTarefaRepository.java
+M	base.persistence.impl/target/maven-archiver/pom.properties
+
+commit 9ed49074a6c5e47c87d9185460236aa6f663f594
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Tue Jun 8 21:07:41 2021 +0100
+
+    #DMG02-180 Implementacao da atividade manual do passado sprint no servico de modo a obdecer a todos os requisitos do sistema [Implementacao]
+
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/servicos/RegistarServicoUI.java
+M	base.core/src/main/java/eapli/base/bibliotecaatividades/domain/AtividadeManual.java
+M	base.core/src/main/java/eapli/base/servicomanagement/domain/AtividadeRealizacao.java
+M	base.core/src/main/java/eapli/base/tarefamanagement/repositories/TarefaRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/inmemory/InMemoryTarefaRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaTarefaRepository.java
+M	base.persistence.impl/src/main/resources/META-INF/persistence.xml
+M	base.persistence.impl/target/classes/META-INF/persistence.xml
+M	base.persistence.impl/target/maven-archiver/pom.properties
+
+commit 414920f7f093d68dc56aa7b5549a8aedba7543a9
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Tue Jun 8 20:47:03 2021 +0100
+
+    #DMG02-179 Inicio do design do caso de uso de realizar uma tarefa, comm diagrama de sequencia e perguntas e respostas do caso de uso [Analise]
+
+M	documentation/SprintD/US_3023/US_3023.md
+A	documentation/SprintD/US_3023/US_3023_SD.png
+
+commit f04d853eeaa54278c3581d317c264375b05fda60
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Tue Jun 8 19:58:55 2021 +0100
+
+    #DMG02-178 Inicio da analise do caso de uso de realizacao de uma tarefa pendente do utilizador [Analise]
+
+A	documentation/SprintD/US_3023/US_3023.md
+
+commit 0d9183729e587a9de25234057b0353db0e3b4496
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Tue Jun 8 19:28:04 2021 +0100
+
+    #DMG02-172 Correcao na query de obtencao de tarefas por aprovar [Implementacao]
+
+M	base.app.user.console/src/main/java/eapli/base/app/user/console/presentation/colaborador/AprovarPedidoUI.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaPedidoRepository.java
+M	base.persistence.impl/target/maven-archiver/pom.properties
+
+commit c07e47d363e0adb4bf320e4b18fa3ae426da4508
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Tue Jun 8 14:58:27 2021 +0100
+
+    #DMG02-150 Correcoes na gramatica de tarefas automaticas [Implementacao]
+
+M	base.bootstrappers/src/main/java/eapli/base/infrastructure/bootstrapers/demo/CatalogosEServicosBootstrapper.java
+M	base.core/src/main/java/eapli/base/bibliotecaatividades/domain/ScriptAutomatico.java
+M	base.core/src/main/java/eapli/base/servicomanagement/application/CreateWorkflowController.java
+M	base.linguagem/src/main/java/eapli/base/utils/EmailSender.java
+M	base.persistence.impl/target/maven-archiver/pom.properties
+M	scripts/Validacao1.txt
+
+commit 69d89776c208e1e6cb3206b5e8fbce87a6051874
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Tue Jun 8 13:49:13 2021 +0100
+
+    #DMG02-172 Implementacao da possibilidade de resposnder a formularios na aprovacao de um pedido [Implementacao]
+
+A	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/EvalListener.java
+A	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/TarefasAutomaticas.interp
+A	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/TarefasAutomaticas.java
+A	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/TarefasAutomaticas.tokens
+A	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/TarefasAutomaticasBaseListener.java
+A	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/TarefasAutomaticasBaseVisitor.java
+A	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/TarefasAutomaticasLexer.interp
+A	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/TarefasAutomaticasLexer.java
+A	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/TarefasAutomaticasLexer.tokens
+A	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/TarefasAutomaticasListener.java
+A	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/TarefasAutomaticasParser.java
+A	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/TarefasAutomaticasVisitor.java
+A	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/clientes.xml
+A	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/produtos.xml
+A	base.linguagem/src/main/java/eapli/base/utils/EmailSender.java
+A	base.linguagem/src/main/java/eapli/base/utils/ReadXMLFile.java
+
+commit 2d84f69be222aafff25e163f8968713cc16c7e5e
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Tue Jun 8 13:48:33 2021 +0100
+
+    #DMG02-150 Implementacao completa da gramatica de tarefas automaticas e do envio de emails para clientes [Implementacao]
+
+M	base.linguagem/pom.xml
+M	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/TarefasAutomaticas.g4
+M	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/teste.txt
+M	base.persistence.impl/target/maven-archiver/pom.properties
+
+commit c7e80e2558aed3c4be6faaf8cb58e0b065fffd44
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Tue Jun 8 10:17:24 2021 +0100
+
+    #DMG02-172 Implementacao da possibilidade de resposnder a formularios na aprovacao de um pedido [Implementacao]
+
+M	base.app.user.console/src/main/java/eapli/base/app/user/console/presentation/colaborador/AprovarPedidoUI.java
+M	base.core/src/main/java/eapli/base/pedidomanagement/application/AprovarPedidoController.java
+D	base.linguagem/src/main/java/eapli/base/linguagem/.antlr/ValidateFormularioLexer.interp
+D	base.linguagem/src/main/java/eapli/base/linguagem/.antlr/ValidateFormularioLexer.java
+D	base.linguagem/src/main/java/eapli/base/linguagem/.antlr/ValidateFormularioLexer.tokens
+D	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/.antlr/TarefasAutomaticas.interp
+D	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/.antlr/TarefasAutomaticas.tokens
+D	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/.antlr/TarefasAutomaticasLexer.interp
+D	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/.antlr/TarefasAutomaticasLexer.java
+D	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/.antlr/TarefasAutomaticasLexer.tokens
+D	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/.antlr/TarefasAutomaticasParser.java
+M	base.persistence.impl/target/maven-archiver/pom.properties
+
+commit 26988ba5e3a867952de2eb5e7cd17bb713544615
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Mon Jun 7 17:22:29 2021 +0100
+
+    #DMG02-50 Implementacao inicial da gramatica de tarefas automaticas [Implementacao]
+
+M	base.app.user.console/src/main/java/eapli/base/app/user/console/presentation/colaborador/AprovarPedidoUI.java
+M	base.core/src/main/java/eapli/base/bibliotecaatividades/domain/ScriptAutomatico.java
+A	base.linguagem/src/main/java/eapli/base/linguagem/.antlr/ValidateFormularioLexer.interp
+A	base.linguagem/src/main/java/eapli/base/linguagem/.antlr/ValidateFormularioLexer.java
+A	base.linguagem/src/main/java/eapli/base/linguagem/.antlr/ValidateFormularioLexer.tokens
+A	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/.antlr/TarefasAutomaticas.interp
+A	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/.antlr/TarefasAutomaticas.tokens
+A	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/.antlr/TarefasAutomaticasLexer.interp
+A	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/.antlr/TarefasAutomaticasLexer.java
+A	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/.antlr/TarefasAutomaticasLexer.tokens
+A	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/.antlr/TarefasAutomaticasParser.java
+A	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/RUNAntLR.bat
+A	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/TarefasAutomaticas.g4
+A	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/teste.txt
+
+commit 45dd02c64932adb5f691d1b4e52b2c6a30583778
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Sun Jun 6 22:12:30 2021 +0100
+
+    #DMG02-150 Implementacao do tratamento de excecoes com o antlr e java [Implementacao]
+
+M	base.core/src/main/java/eapli/base/formulariomanagement/application/ProcessarFormularioController.java
+M	base.linguagem/src/main/java/eapli/base/linguagem/Expressions.java
+A	base.linguagem/src/main/java/eapli/base/linguagem/ThrowingErrorListener.java
+M	base.linguagem/src/main/java/eapli/base/linguagem/ValidateFormulario.g4
+M	base.linguagem/src/main/java/eapli/base/linguagem/teste.txt
+M	base.persistence.impl/target/maven-archiver/pom.properties
+
+commit dc64e16246fedca47310f3a4a55495cbea1a076b
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Sun Jun 6 18:07:46 2021 +0100
+
+    #DMG02-172 Implementacao do caso de uso de consulta, nomeadamente da consulta de pedidos ainda em execucao [Implementacao]
+
+M	base.app.user.console/src/main/java/eapli/base/app/user/console/presentation/colaborador/ConsultarPedidosUI.java
+M	base.core/src/main/java/eapli/base/pedidomanagement/application/ListPedidoController.java
+M	base.core/src/main/java/eapli/base/pedidomanagement/application/ListPedidoService.java
+M	base.core/src/main/java/eapli/base/pedidomanagement/repositories/PedidoRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/inmemory/InMemoryPedidoRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaPedidoRepository.java
+M	base.persistence.impl/target/maven-archiver/pom.properties
+
+commit 064bcf5738119eb558ef04f3503297eae87e3684
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Sun Jun 6 17:41:39 2021 +0100
+
+    #DMG02-172 Implementacao da listagem do historico de pedidos feitos pelo colaborador [Implementacao]
+
+M	base.app.user.console/src/main/java/eapli/base/app/user/console/presentation/MainMenu.java
+A	base.app.user.console/src/main/java/eapli/base/app/user/console/presentation/colaborador/ConsultarPedidosAction.java
+A	base.app.user.console/src/main/java/eapli/base/app/user/console/presentation/colaborador/ConsultarPedidosUI.java
+M	base.core/src/main/java/eapli/base/pedidomanagement/application/ListPedidoController.java
+M	base.core/src/main/java/eapli/base/pedidomanagement/application/ListPedidoService.java
+M	base.core/src/main/java/eapli/base/pedidomanagement/repositories/PedidoRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/inmemory/InMemoryPedidoRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaPedidoRepository.java
+M	base.persistence.impl/target/maven-archiver/pom.properties
+
+commit 65dd92bd7abc6d352819eba04a1f705d3aa651f9
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Sun Jun 6 12:07:20 2021 +0100
+
+    #DMG02-150 Correcao da gramatica de validacao de formularios e respetivas classes [Implementacao]
+
+M	base.app.user.console/src/main/java/eapli/base/app/user/console/presentation/colaborador/ProcessarPreencherFormularioUI.java
+M	base.bootstrappers/src/main/java/eapli/base/infrastructure/bootstrapers/demo/CatalogosEServicosBootstrapper.java
+M	base.core/src/main/java/eapli/base/formulariomanagement/domain/DadosBase.java
+M	base.core/src/main/java/eapli/base/respostaformularios/domain/AtributoEmResposta.java
+M	base.core/src/main/java/eapli/base/servicomanagement/application/SolicitacaoServicoController.java
+M	base.linguagem/src/main/java/eapli/base/linguagem/EvalVisitor.java
+M	base.linguagem/src/main/java/eapli/base/linguagem/Expressions.java
+M	base.linguagem/src/main/java/eapli/base/linguagem/ValidateFormulario.g4
+M	base.linguagem/src/main/java/eapli/base/linguagem/ValidateFormularioLexer.interp
+M	base.linguagem/src/main/java/eapli/base/linguagem/ValidateFormularioLexer.java
+M	base.persistence.impl/target/maven-archiver/pom.properties
+
+commit bbda4b1136de0a458b1a903e07cb61270beb105b
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Sun Jun 6 03:44:38 2021 +0100
+
+    #DMG02-176 Implementacao completa da aprovacao de um pedido [Implementacao]
+
+M	base.app.user.console/src/main/java/eapli/base/app/user/console/presentation/MainMenu.java
+M	base.app.user.console/src/main/java/eapli/base/app/user/console/presentation/colaborador/AprovarPedidoAction.java
+M	base.app.user.console/src/main/java/eapli/base/app/user/console/presentation/colaborador/AprovarPedidoUI.java
+A	base.app.user.console/src/main/java/eapli/base/app/user/console/presentation/colaborador/PedidosPrinter.java
+M	base.core/src/main/java/eapli/base/pedidomanagement/application/ListPedidoService.java
+M	base.core/src/main/java/eapli/base/tarefamanagement/application/ReivindicarTarefaController.java
+M	base.core/src/main/java/eapli/base/tarefamanagement/repositories/TarefaRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/inmemory/InMemoryTarefaRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaAtividadeRealizacaoRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaTarefaRepository.java
+M	base.persistence.impl/target/maven-archiver/pom.properties
+
+commit f80273f297d6fe7d54428ca4a0d52ffcee8c0af0
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Sun Jun 6 02:35:48 2021 +0100
+
+    #DMG02-176 Implementacao da possibilidade de serem listados todos o pedidos ainda nao aprovados de um utilizador [Implementacao]
+
+M	base.core/src/main/java/eapli/base/pedidomanagement/application/ListPedidoController.java
+M	base.core/src/main/java/eapli/base/pedidomanagement/application/ListPedidoService.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaPedidoRepository.java
+M	base.persistence.impl/target/maven-archiver/pom.properties
+
+commit 649a3162a3d80b399e1c30fd7b6273c7868817ce
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Sun Jun 6 02:27:18 2021 +0100
+
+    #DMG02-176 Inicio da implementação da possibilidade de aprovar um pedido feito [Implementacao]
+
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/servicos/DadosServicoSettings.java
+A	base.app.user.console/src/main/java/eapli/base/app/user/console/presentation/colaborador/AprovarPedidoAction.java
+A	base.app.user.console/src/main/java/eapli/base/app/user/console/presentation/colaborador/AprovarPedidoUI.java
+M	base.bootstrappers/src/main/java/eapli/base/infrastructure/bootstrapers/demo/CatalogosEServicosBootstrapper.java
+M	base.core/src/main/java/eapli/base/equipamanagement/domain/Equipa.java
+M	base.core/src/main/java/eapli/base/pedidomanagement/application/ListPedidoService.java
+M	base.core/src/main/java/eapli/base/pedidomanagement/domain/Pedido.java
+M	base.core/src/main/java/eapli/base/pedidomanagement/repositories/PedidoRepository.java
+M	base.core/src/main/java/eapli/base/servicomanagement/application/CreateWorkflowController.java
+M	base.core/src/main/java/eapli/base/servicomanagement/application/RegistarServicoController.java
+M	base.core/src/main/java/eapli/base/servicomanagement/application/SolicitacaoServicoController.java
+M	base.core/src/main/java/eapli/base/servicomanagement/domain/AtividadeAprovacao.java
+M	base.core/src/main/java/eapli/base/servicomanagement/domain/Workflow.java
+M	base.linguagem/src/main/java/eapli/base/linguagem/teste.txt
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/inmemory/InMemoryPedidoRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaPedidoRepository.java
+M	base.persistence.impl/target/maven-archiver/pom.properties
+
+commit b153548db69db6e6c297984eae68d735c7a62630
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Sat Jun 5 13:08:23 2021 +0100
+
+    [ALL ISSUES] Correcoes do antigo caso de 1004 de validacao de formularios, para ser possivel trabalhar nos novos casos de uso- trabalhado em conjunto com 1171589 e 1191038 [Implementacao]
+
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/servicos/AtributosEmFormularioSettings.java
+M	base.app.user.console/src/main/java/eapli/base/app/user/console/presentation/colaborador/ProcessarPreencherFormularioUI.java
+M	base.bootstrappers/src/main/java/eapli/base/infrastructure/bootstrapers/demo/CatalogosEServicosBootstrapper.java
+M	base.core/pom.xml
+M	base.core/src/main/java/eapli/base/formulariomanagement/application/BuildFormularioValidationController.java
+M	base.core/src/main/java/eapli/base/formulariomanagement/application/CreateFormularioController.java
+M	base.core/src/main/java/eapli/base/formulariomanagement/application/ProcessarFormularioController.java
+M	base.core/src/main/java/eapli/base/formulariomanagement/domain/Atributo.java
+A	base.core/src/main/java/eapli/base/pedidomanagement/application/AprovarPedidoController.java
+M	base.core/src/main/java/eapli/base/respostaformularios/domain/AtributoEmResposta.java
+M	base.core/src/main/java/eapli/base/respostaformularios/domain/RespostaFormulario.java
+M	base.core/src/main/java/eapli/base/tarefamanagement/domain/EstadoTarefa.java
+M	base.linguagem/src/main/java/eapli/base/linguagem/EvalVisitor.java
+M	base.linguagem/src/main/java/eapli/base/linguagem/Expressions.java
+M	base.persistence.impl/target/maven-archiver/pom.properties
+
+commit 65d2503e248f002b4601d12a519a6446a75d44a2
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Fri Jun 4 10:46:32 2021 +0100
+
+    #DMG02-174 Inicio do design do caso de uso de consulta de pedidos do utilizados [Design]
+
+M	documentation/SprintD/US_3031/US_3031.md
+A	documentation/SprintD/US_3031/US_3031_SD.png
+
+commit 942776cc0cf83796e71d7cefeabb02bac1349aa5
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Fri Jun 4 10:16:23 2021 +0100
+
+    #DMG02-174 Inicio da analise do caso de uso de consulta de pedidos do utilizador [Analise]
+
+M	base.persistence.impl/target/maven-archiver/pom.properties
+A	documentation/SprintD/US_3031/US_3031.md
+
+commit bffc2ed3b403f3313242bd4a522513189aa39e4e
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Fri Jun 4 00:28:37 2021 +0100
+
+    #DMG02-150 Implementacao da linguagem do passado caso de uso 1004 para a validacao de formularios [Implementacao]
+
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/servicos/AtributosEmFormularioSettings.java
+M	base.app.user.console/src/main/java/eapli/base/app/user/console/presentation/colaborador/ProcessarPreencherFormularioUI.java
+M	base.bootstrappers/src/main/java/eapli/base/infrastructure/bootstrapers/demo/CatalogosEServicosBootstrapper.java
+A	base.core/src/main/java/eapli/base/formulariomanagement/application/BuildFormularioValidationController.java
+M	base.core/src/main/java/eapli/base/formulariomanagement/application/CreateFormularioController.java
+M	base.core/src/main/java/eapli/base/formulariomanagement/application/ProcessarFormularioController.java
+M	base.core/src/main/java/eapli/base/formulariomanagement/domain/Atributo.java
+M	base.core/src/main/java/eapli/base/formulariomanagement/domain/DadosBase.java
+M	base.core/src/main/java/eapli/base/formulariomanagement/domain/ExpressaoRegular.java
+M	base.core/src/main/java/eapli/base/respostaformularios/domain/AtributoEmResposta.java
+M	base.core/src/main/java/eapli/base/respostaformularios/domain/RespostaFormulario.java
+M	base.core/src/test/java/eapli/base/pedidomanagement/domain/PedidoTest.java
+M	base.linguagem/pom.xml
+A	base.linguagem/src/main/java/eapli/base/linguagem/EvalVisitor.java
+A	base.linguagem/src/main/java/eapli/base/linguagem/Expressions.java
+A	base.linguagem/src/main/java/eapli/base/linguagem/RUNAntLR.bat
+A	base.linguagem/src/main/java/eapli/base/linguagem/ValidateFormulario.g4
+A	base.linguagem/src/main/java/eapli/base/linguagem/ValidateFormulario.interp
+A	base.linguagem/src/main/java/eapli/base/linguagem/ValidateFormulario.tokens
+A	base.linguagem/src/main/java/eapli/base/linguagem/ValidateFormularioBaseVisitor.java
+A	base.linguagem/src/main/java/eapli/base/linguagem/ValidateFormularioLexer.interp
+A	base.linguagem/src/main/java/eapli/base/linguagem/ValidateFormularioLexer.java
+A	base.linguagem/src/main/java/eapli/base/linguagem/ValidateFormularioLexer.tokens
+A	base.linguagem/src/main/java/eapli/base/linguagem/ValidateFormularioParser.java
+A	base.linguagem/src/main/java/eapli/base/linguagem/ValidateFormularioVisitor.java
+M	base.linguagem/src/main/java/eapli/base/linguagem/teste.txt
+D	base.linguagem/src/main/java/eapli/base/linguagem/validateFormulario.g4
+M	base.persistence.impl/target/maven-archiver/pom.properties
+A	eapli_base.linguagem_jar_1.4.0-SNAPSHOT/pom.xml
+A	eapli_base.linguagem_jar_1.4.0-SNAPSHOT/src/main/java/eapli/base/linguagem/EvalVisitor.java
+A	eapli_base.linguagem_jar_1.4.0-SNAPSHOT/src/main/java/eapli/base/linguagem/Expressions.java
+A	eapli_base.linguagem_jar_1.4.0-SNAPSHOT/src/main/java/eapli/base/linguagem/RUNAntLR.bat
+A	eapli_base.linguagem_jar_1.4.0-SNAPSHOT/src/main/java/eapli/base/linguagem/ValidateFormulario.g4
+A	eapli_base.linguagem_jar_1.4.0-SNAPSHOT/src/main/java/eapli/base/linguagem/ValidateFormulario.interp
+A	eapli_base.linguagem_jar_1.4.0-SNAPSHOT/src/main/java/eapli/base/linguagem/ValidateFormulario.tokens
+A	eapli_base.linguagem_jar_1.4.0-SNAPSHOT/src/main/java/eapli/base/linguagem/ValidateFormularioBaseVisitor.java
+A	eapli_base.linguagem_jar_1.4.0-SNAPSHOT/src/main/java/eapli/base/linguagem/ValidateFormularioLexer.interp
+A	eapli_base.linguagem_jar_1.4.0-SNAPSHOT/src/main/java/eapli/base/linguagem/ValidateFormularioLexer.java
+A	eapli_base.linguagem_jar_1.4.0-SNAPSHOT/src/main/java/eapli/base/linguagem/ValidateFormularioLexer.tokens
+A	eapli_base.linguagem_jar_1.4.0-SNAPSHOT/src/main/java/eapli/base/linguagem/ValidateFormularioParser.java
+A	eapli_base.linguagem_jar_1.4.0-SNAPSHOT/src/main/java/eapli/base/linguagem/ValidateFormularioVisitor.java
+A	eapli_base.linguagem_jar_1.4.0-SNAPSHOT/src/main/java/eapli/base/linguagem/teste.txt
+M	filename.txt
+A	teste.txt
+
+commit b7cc0b856a7f8c3cd02ea5dc54516ff42b58913c
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Wed Jun 2 18:01:14 2021 +0100
+
+    #DMG02-166 Continuacao da analise do caso de uso de protecao do executor de atividades automaticas [Analise]
+
+M	base.persistence.impl/target/maven-archiver/pom.properties
+M	base.persistence.impl/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+R100	base.persistence.impl/target/classes/.netbeans_automatic_build	base.persistence.impl/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+D	base.persistence.impl/target/test-classes/.netbeans_automatic_build
+A	documentation/SprintD/US_5002/ComprovativoFuturo.png
+A	documentation/SprintD/US_5002/US_5002.md
+
+commit 494160feaddf86602bd7334330c224e6f5e0c755
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Wed Jun 2 17:56:18 2021 +0100
+
+    #DMG02-157 Preparacao do caso de uso para implementacao dos casos de uso de ligacao entre servidores e clientes [Implementacao]
+
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/MotorAsClient.java
+M	base.persistence.impl/target/maven-archiver/pom.properties
+
+commit e3d2ab6f8a1629c7bbdce843350866c94514809d
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Wed Jun 2 17:18:59 2021 +0100
+
+    #DMG02-166 Inicio da analise do caso de uso de protecao das ligacoes com o executor de tarefas automaticas [Analise]
+
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/AplicacaoPortalUtilizadores.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/AplicacaoServicosRH.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/ExecutorAtividades.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/MotorAsClient.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/MotorFluxoAtividades.java
+M	base.persistence.impl/src/main/resources/META-INF/persistence.xml
+M	base.persistence.impl/target/maven-archiver/pom.properties
+
+commit 12fdb18b1ed316c1516830872063115ef7720110
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Wed Jun 2 12:10:44 2021 +0100
+
+    #DMG02-157 Correcao dos enderecos dos diferentes servidores para testagem no ssh do isep [Implementacao]
+
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/AplicacaoPortalUtilizadores.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/ExecutorAtividades.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/MotorFluxoAtividades.java
+M	base.persistence.impl/src/main/resources/META-INF/persistence.xml
+
+commit a80f5f9214f9060f19fd967720b0cc7cdde7ff44
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Wed Jun 2 11:59:05 2021 +0100
+
+    #DMG02-157 Preparacao do caso de uso de protecao do executor de fluxo de atividades, corrigindo a possibilidade de varias iteracoes do fluxo de ativididades a correr no sistema [Implementacao]
+
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/MotorAsClient.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/TesteOnly.java
+M	base.persistence.impl/target/maven-archiver/pom.properties
+
+commit 289d8da34101bb05dad58b5c6b429b67440720b9
+Author: Guilherme Daniel <1181743@isep.ipp.pt>
+Date:   Tue Jun 1 14:30:27 2021 +0100
+
+    [ALL ISSUES] Correcao de queries e informacoes do protocolo de comunicacao que foram criados no sprint anterior, para concordancia com o sprint atual [Implementacao]
+
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/AplicacaoPortalUtilizadores.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/ExecutorAtividades.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/MotorAsClient.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/MotorFluxoAtividades.java
+A	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/TesteOnly.java
+A	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/make_certificados.bat
+A	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/make_certificados.sh
+M	base.bootstrappers/src/main/java/eapli/base/infrastructure/bootstrapers/demo/CatalogosEServicosBootstrapper.java
+M	base.core/src/main/java/eapli/base/servicomanagement/application/SolicitacaoServicoController.java
+M	base.core/src/main/java/eapli/base/servicomanagement/repositories/ServicoRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/inmemory/InMemoryServicoRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaPedidoRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaServicoRepository.java
+M	base.persistence.impl/src/main/resources/META-INF/persistence.xml
+M	base.persistence.impl/target/classes/META-INF/persistence.xml
+M	base.persistence.impl/target/maven-archiver/pom.properties
+A	client1_J.jks
+A	client1_J.pem
+A	client2_J.jks
+A	client2_J.pem
+A	client3_J.jks
+A	client3_J.pem
+A	client4_J.jks
+A	client4_J.pem
+A	make_certs.sh
+A	only_teste.bat
+A	server_J.jks
+A	server_J.pem

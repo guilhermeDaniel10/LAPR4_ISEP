@@ -1,0 +1,215 @@
+commit 0ff6cc9499b260ccb5ce2204360bdd754fd402e1
+Author: Lucas Sousa <1171589@isep.ipp.pt>
+Date:   Fri Jun 18 12:19:34 2021 +0100
+
+    #DMG02-192 Implemntação de semaforos para não haver acesso concorrente a base de dados, tratamento de possíveis erros no futuro [Implementacao]
+
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/MotorAsClient.java
+
+commit b8b8e6b27d53f8b3af9be016fa31d67576d4abc3
+Author: Lucas Sousa <1171589@isep.ipp.pt>
+Date:   Thu Jun 17 17:30:09 2021 +0100
+
+    #DMG02-211 Alterações ao Design devido a novas informações do cliente [Design]
+
+A	documentation/SprintD/US_4072/SD_4072.svg
+A	documentation/SprintD/US_4072/SD_4072.txt
+M	documentation/SprintD/US_4072/US_4072.md
+
+commit dc043fc5c97db5c31dfa36b2b5a82b40f99372a5
+Author: Lucas Sousa <1171589@isep.ipp.pt>
+Date:   Thu Jun 17 15:22:26 2021 +0100
+
+    #DMG02-162 Conclusão do Design tendo em conta todas as informações dadas pelo cliente e as alterações feitas em implemntação [Design]
+
+M	documentation/SprintD/US_4072/US_4072.md
+
+commit 2966fcd5b719fdd5cb3f407db9e6155d00288b93
+Author: Lucas Sousa <1171589@isep.ipp.pt>
+Date:   Thu Jun 17 15:03:09 2021 +0100
+
+    #DMG02-162 Alterações tendo em conta novas informações dadas pelo cliente [Análise]
+
+M	documentation/SprintD/US_3101/US_3101.md
+M	documentation/SprintD/US_4072/US_4072.md
+
+commit ca5a7c29d460e102e6777a35b302504765917217
+Author: Lucas Sousa <1171589@isep.ipp.pt>
+Date:   Wed Jun 16 17:10:22 2021 +0100
+
+    ALL_ISSUES_RCOMP
+
+M	base.linguagem/src/main/java/eapli/base/linguagem/Expressions.java
+A	base.persistence.impl/target/classes/.netbeans_automatic_build
+A	base.persistence.impl/target/test-classes/.netbeans_automatic_build
+A	documentation/RCOMP_SPRINT_D/planning.md
+A	documentation/RCOMP_SPRINT_D/review.md
+M	documentation/SprintD/US_4071/US_4071.md
+
+commit 1eb14a7ae77fca366e877f156b13ad8624b7b1cc
+Author: Lucas Sousa <1171589@isep.ipp.pt>
+Date:   Wed Jun 16 12:07:43 2021 +0100
+
+    #DMG02-172 Conclusao da implementacao de todos os protocolos desejados pelo cliente [Implementacao]
+
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/AplicacaoPortalUtilizadores.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/AplicacaoServicosRH.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/HTTPmessage.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/HttpServicosRHRequest.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/HttpWebTarefasRequest.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/MotorAsServer.java
+M	base.app.spd.communicationprotocol/src/main/resources/config.properties
+M	base.persistence.impl/target/maven-archiver/pom.properties
+M	base.persistence.impl/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+D	base.persistence.impl/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+
+commit 85d432c4a5b097d9ab46fbc0122253726f6f8d0f
+Author: Lucas Sousa <1171589@isep.ipp.pt>
+Date:   Tue Jun 15 14:01:15 2021 +0100
+
+    #DMG02-162 Finalização da análise tendo em conta todos os pedidos do cliente [Analise]
+
+R100	documentation/SprintD/US_4072/US_4071.md	documentation/SprintD/US_4071/US_4071.md
+A	documentation/SprintD/US_4072/US_4072.md
+
+commit 837d1886c67626b1e0821b066e8487cb0d401223
+Author: Lucas Sousa <1171589@isep.ipp.pt>
+Date:   Tue Jun 15 11:12:06 2021 +0100
+
+    #DMG02-156 criação de um ficheiro config que nos vai dar a versao do algoritmo a implementar [implementacao]
+
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/MotorAsClient.java
+A	base.app.spd.communicationprotocol/src/main/resources/config.properties
+M	base.persistence.impl/target/maven-archiver/pom.properties
+M	base.persistence.impl/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+D	base.persistence.impl/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+
+commit 1a850e2b53e67934423698032ae6751664fb4371
+Author: Lucas Sousa <1171589@isep.ipp.pt>
+Date:   Mon Jun 14 18:39:57 2021 +0100
+
+    #DMG02-196 Inicio da implementacao de algoritmos de atribuicao de tarefas a executores de atividades [Implementacao]
+
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/ExecutorAtividades.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/MotorAsClient.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/TesteOnly.java
+D	base.persistence.impl/target/classes/.netbeans_automatic_build
+M	base.persistence.impl/target/maven-archiver/pom.properties
+M	base.persistence.impl/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+D	base.persistence.impl/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+D	base.persistence.impl/target/test-classes/.netbeans_automatic_build
+M	produtos.xml
+
+commit e84d2f7a9e5a6749e69d7beca1066bc2271439f4
+Author: Lucas Sousa <1171589@isep.ipp.pt>
+Date:   Mon Jun 14 15:46:11 2021 +0100
+
+    #DMG02-194 Realização da análise do caso de uso de implementação de algorítmos para atribuir tarefas aos motores dos fluxos de atividades [Design]
+
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/MotorAsClient.java
+M	documentation/SprintD/US_4072/US_4071.md
+
+commit 9b35f7ab96b56e496e020bd6ad31deb1970e1977
+Author: Lucas Sousa <1171589@isep.ipp.pt>
+Date:   Mon Jun 14 15:20:01 2021 +0100
+
+    #DMG02-194 Realização da análise do caso de uso de implementação de algorítmos para atribuir tarefas aos motores dos fluxos de atividades [Analise]
+
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/MotorAsClient.java
+M	base.persistence.impl/target/maven-archiver/pom.properties
+A	documentation/SprintD/US_4072/US_4071.md
+
+commit e2f2ec1ca917cdf66c03b120d3812c8ee23815c2
+Author: Lucas Sousa <1171589@isep.ipp.pt>
+Date:   Sun Jun 13 15:16:09 2021 +0100
+
+    #DMG02-158 Correcao de pequenos erros para executar melhor o programa [implementacao]
+
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/MotorAsClient.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/TesteOnly.java
+M	base.core/src/main/java/eapli/base/formulariomanagement/domain/DadosBase.java
+M	base.linguagem/src/main/java/eapli/base/linguagem/EvalVisitor.java
+M	base.persistence.impl/target/maven-archiver/pom.properties
+M	base.persistence.impl/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+D	base.persistence.impl/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+
+commit 5382452a2d5d8c8a21ab49c71ade2a1ddc20af6c
+Author: Lucas Sousa <1171589@isep.ipp.pt>
+Date:   Thu Jun 10 17:47:44 2021 +0100
+
+    #DMG02-150 Desenvolvimento de da valição dos scripts das tarefas automaticas [implementacao]
+
+M	base.core/src/main/java/eapli/base/formulariomanagement/application/ProcessarFormularioController.java
+M	base.core/src/main/java/eapli/base/servicomanagement/application/RegistarServicoController.java
+M	base.linguagem/pom.xml
+D	base.persistence.impl/target/classes/.netbeans_automatic_build
+M	base.persistence.impl/target/maven-archiver/pom.properties
+M	base.persistence.impl/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+D	base.persistence.impl/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+D	base.persistence.impl/target/test-classes/.netbeans_automatic_build
+
+commit 4560e4befe5a943ea463631de3b9c35363d272e4
+Author: Lucas Sousa <1171589@isep.ipp.pt>
+Date:   Thu Jun 10 17:36:19 2021 +0100
+
+    #DMG02-150 Desenvolvimento de da valição dos scripts das tarefas automaticas [implementacao]
+
+M	base.core/src/main/java/eapli/base/formulariomanagement/application/ProcessarFormularioController.java
+M	base.linguagem/pom.xml
+M	base.linguagem/src/main/java/eapli/base/linguagem/Expressions.java
+M	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/TarefasAutomaticas.g4
+R083	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/TarefasAutomaticas.java	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/TarefasAutomaticasExecutor.java
+M	base.linguagem/src/main/java/eapli/base/tarefasautomaticas/teste.txt
+M	base.linguagem/src/main/java/eapli/base/validascripttarefas/EvalValidarScriptsVisitor.java
+M	base.linguagem/src/main/java/eapli/base/validascripttarefas/ValidaScriptTarefas.g4
+M	base.linguagem/src/main/java/eapli/base/validascripttarefas/ValidaScriptTarefas.interp
+M	base.linguagem/src/main/java/eapli/base/validascripttarefas/ValidaScriptTarefas.tokens
+M	base.linguagem/src/main/java/eapli/base/validascripttarefas/ValidaScriptTarefasBaseVisitor.java
+M	base.linguagem/src/main/java/eapli/base/validascripttarefas/ValidaScriptTarefasLexer.interp
+M	base.linguagem/src/main/java/eapli/base/validascripttarefas/ValidaScriptTarefasLexer.java
+M	base.linguagem/src/main/java/eapli/base/validascripttarefas/ValidaScriptTarefasLexer.tokens
+M	base.linguagem/src/main/java/eapli/base/validascripttarefas/ValidaScriptTarefasParser.java
+M	base.linguagem/src/main/java/eapli/base/validascripttarefas/ValidaScriptTarefasVisitor.java
+M	base.linguagem/src/main/java/eapli/base/validascripttarefas/ValidarScriptsTarefas.java
+M	base.linguagem/src/main/java/eapli/base/validascripttarefas/teste.txt
+A	base.persistence.impl/target/classes/.netbeans_automatic_build
+M	base.persistence.impl/target/maven-archiver/pom.properties
+A	base.persistence.impl/target/test-classes/.netbeans_automatic_build
+
+commit f877264c047f663f00e37b3c4f3cff8deab5037f
+Author: Lucas Sousa <1171589@isep.ipp.pt>
+Date:   Thu Jun 10 11:34:11 2021 +0100
+
+    Correcao de erros de merge
+
+M	base.core/src/main/java/eapli/base/formulariomanagement/application/ProcessarFormularioController.java
+M	base.linguagem/pom.xml
+M	base.linguagem/src/main/java/eapli/base/linguagem/Expressions.java
+M	base.persistence.impl/target/maven-archiver/pom.properties
+M	base.persistence.impl/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+D	base.persistence.impl/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+
+commit df6bc0822428d62961f83c7f0372b2e79e59890e
+Author: Lucas Sousa <1171589@isep.ipp.pt>
+Date:   Wed Jun 2 21:35:19 2021 +0100
+
+    #DMG02-171 Otimização de código, implementação de metade do protocologo SSL, é necessário a criação de mais servers e clients [Implementacao]
+
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/AplicacaoPortalUtilizadores.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/HttpWebTarefasRequest.java
+M	base.app.spd.communicationprotocol/src/main/java/eapli/base/app/spd/communicationprotocol/MotorAsServer.java
+D	base.persistence.impl/target/classes/.netbeans_automatic_build
+M	base.persistence.impl/target/maven-archiver/pom.properties
+D	base.persistence.impl/target/test-classes/.netbeans_automatic_build
+
+commit c04a462a9a2f8aaa5d08e8f3f16c6b301c3bffd3
+Author: Lucas Sousa <1171589@isep.ipp.pt>
+Date:   Wed Jun 2 17:52:38 2021 +0100
+
+    #DMG02-170 Analise do caso de Uso, devido ao tipo US apenas é necessário uma análise inicial [Analise]
+
+R100	base.persistence.impl/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst	base.persistence.impl/target/classes/.netbeans_automatic_build
+M	base.persistence.impl/target/maven-archiver/pom.properties
+M	base.persistence.impl/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+A	base.persistence.impl/target/test-classes/.netbeans_automatic_build
+A	documentation/SprintD/US_3101/US_3101.md

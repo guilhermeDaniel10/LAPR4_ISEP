@@ -1,0 +1,4 @@
+"nome IDENTIFICADOR quantidade" Cli1
+"Miguelito Antonio identificador IDENTIFICADOR quantidade" Cli3
+"Miguelito Antonio Cli3 IDENTIFICADOR quantidade" Prod3
+"Miguelito Antonio Cli3 Prod3 15 valor desconto" 14.14

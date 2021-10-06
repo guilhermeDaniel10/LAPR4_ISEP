@@ -1,0 +1,116 @@
+@startuml
+participant ":RegisterCatalogoUI" as ui
+		participant ":RegisterCatalogoController" as ctrl
+		participant ":PersistenceContext" as pc
+		participant ":RepositoryFactory" as rf
+		participant ":ColaboradorRepository" as repoC
+		participant ":SLARepository" as repoS
+		participant ":EquipaRepository" as repoE
+		participant ":EquipasComAcessoList" as listE
+		participant ":TituloCatalogo" as ti 
+		participant ":DescBreveCatalogo" as descB 
+		participant ":DescCompletaCatalogo" as descC 
+		participant ":IconeCatalogo" as ic
+		participant ":Catalogo" as cat
+		participant ":CatalogoRepository" as repo
+        
+        activate ui
+		ui->ctrl:create
+		activate ctrl
+		ui->ctrl:getColaboradoresDisponiveis
+		ctrl->pc:repositories()
+		activate pc
+		pc->rf:create
+		activate rf
+		rf->repoC:create
+		activate repoC
+		deactivate repoC
+		deactivate rf
+		deactivate pc
+		ctrl->repoC:findColaboradoresDisponiveis
+		activate repoC
+		deactivate repoC
+		ctrl-->ui:Colaboradores
+		deactivate ctrl
+		ui->ui:doShow()
+		
+		ui->ctrl:getNiveisSLA
+		activate ctrl
+		ctrl->pc:repositories()
+		activate pc
+		pc->rf:create
+		activate rf
+		rf->repoS:create
+		activate repoS
+		deactivate repoS
+		deactivate rf
+		deactivate pc
+		ctrl->repoS:findNiveisSLA
+		activate repoS
+		deactivate repoS
+		ctrl-->ui:NiveisSLA
+		deactivate ctrl
+		ui->ui:doShow()
+		
+		loop até serem definidas todas as equipas com acesso
+		
+		ui->ctrl:createListAcesso
+		activate ctrl
+		ctrl->listE **
+		deactivate ctrl
+		ui->ctrl:getEquipasAtivas
+		activate ctrl
+		ctrl->pc:repositories()
+		activate pc
+		pc->rf:create
+		activate rf
+		rf->repoE:create
+		activate repoE
+		deactivate repoE
+		deactivate rf
+		deactivate pc
+		ctrl->repoE:findEquipasAtivas
+		activate repoE
+		deactivate repoE
+		ctrl-->ui:EquipasAtivas
+		deactivate ctrl
+		ui->ui:doShow()
+		ui->ctrl:adicionarEquipaPremissaoAcesso(equipa)
+		activate ctrl
+		ctrl->listE:adicionarEquipaPremissaoAcesso(equipa)
+		activate listE
+		deactivate listE
+		deactivate ctrl
+		
+		end
+		
+		ui->ctrl:registarCatalogo(responsavelCat, nivelSLA, listEquipasComAcesso, titulo, descBreve, descCompleta, IconeLocation, IconeHeight, IconeWidth)
+        activate ctrl
+		ctrl->ti:ti = create(titulo)
+		activate ti
+		deactivate ti
+		ctrl->descB:descB = create(descBreve)
+		activate descB
+		deactivate descB
+		ctrl->descC:descC = create(descComp)
+		activate descC
+		deactivate descC
+		ctrl->ic:icone = create( IconeLocation, IconeHeight, IconeWidth)
+		activate ic
+		deactivate ic
+		ctrl->cat:newCatalogo = create(responsavelCat, nivelSLA, listEquipasComAcesso,ti,descB,descC,icone)
+        activate cat
+		deactivate cat
+		ctrl->pc:repositories()
+		activate pc
+		pc->rf:create
+		activate rf
+		rf->repo:create
+		deactivate rf
+		deactivate pc
+		activate repo
+		ctrl->repo:save(newCatalogo)
+		deactivate repo
+		deactivate ctrl
+		deactivate ui
+@enduml

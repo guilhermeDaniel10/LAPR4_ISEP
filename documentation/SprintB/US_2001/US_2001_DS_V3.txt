@@ -1,0 +1,125 @@
+@startuml
+participant ":RegistarCatalogoUI" as ui
+		participant ":RegistarCatalogoController" as ctrl
+		participant ":ImageController" as imCtrl
+		participant ":PersistenceContext" as pc
+		participant ":RepositoryFactory" as rf
+		participant ":ColaboradorRepository" as repoC
+		participant ":SLARepository" as repoS
+		participant ":EquipasEmCatalogoSettings" as equipaS
+		participant ":EquipaRepository" as repoE
+		participant ":EquipasComAcessoList" as listE
+		participant ":IdentificadorCatalogo" as id
+	    participant ":TituloCatalogo" as ti 
+		participant ":DescBreveCatalogo" as descB 
+		participant ":DescCompletaCatalogo" as descC 
+		participant ":IconeCatalogo" as ic
+		participant ":Catalogo" as cat
+		participant ":CatalogoRepository" as repo
+
+        activate ui
+		ui->ctrl:create
+		activate ctrl
+		deactivate ctrl
+		ui->imCtrl:create
+		activate imCtrl
+		deactivate imCtrl
+		
+		ui->ui:doShow()
+		
+		ui->ctrl:colaboradoresDisponiveis
+		activate ctrl
+		ctrl->pc:repositories()
+		activate pc
+		pc->rf:create
+		activate rf
+		rf->repoC:create
+		activate repoC
+		deactivate repoC
+		deactivate rf
+		deactivate pc
+		ctrl->repoC:allColaboradores
+		activate repoC
+		deactivate repoC
+		ctrl-->ui:selectorColaboradores
+		deactivate ctrl
+
+
+		ui->ctrl:NiveisSLADisponoveis
+		activate ctrl
+		ctrl->pc:repositories()
+		activate pc
+		pc->rf:create
+		activate rf
+		rf->repoS:create
+		activate repoS
+		deactivate repoS
+		deactivate rf
+		deactivate pc
+		ctrl->repoS:allNiveisSLA
+		activate repoS
+		deactivate repoS
+		ctrl-->ui:selectorNiveisSLA
+		deactivate ctrl
+
+		ui->ctrl:equipasDisponiveis
+		activate ctrl
+		ctrl->pc:repositories()
+		activate pc
+		pc->rf:create
+		activate rf
+		rf->repoE:create
+		activate repoE
+		deactivate repoE
+		deactivate rf
+		deactivate pc
+		ctrl->repoE:allEquipasAtivas
+		activate repoE
+		deactivate repoE
+		ctrl-->ui:todasEquipas
+		deactivate ctrl
+		
+	    
+		ui->equipaS:EquipasEmCatalogoSettings(todasEquipas)
+		activate equipaS
+		ref over equipaS : US_2001_EquipasEmCatalogoSettings_DS
+		
+        
+    	ui->ctrl:registarCatalogo(idCatalogo, responsavelCat, nivelSLA, listEquipasComAcesso, titulo, descBreve, descCompleta,icone)
+        deactivate equipaS
+        activate ctrl
+        ctrl->id:id = create(strIdentificadorCatalogo)
+		activate id
+		deactivate id
+        ctrl->ti:ti = create(strTituloCatalogo)
+		activate ti
+		deactivate ti
+		ctrl->descB:descB = create(strDescBreveCatalogo)
+		activate descB
+		deactivate descB
+		ctrl->descC:descC = create(strDescCompCatalogo)
+		activate descC
+		deactivate descC
+		ctrl->imCtrl: fileConverter(strLocationImage)
+		activate imCtrl
+		deactivate imCtrl
+		ctrl->ic:icone = create(iconeCat)
+		activate ic
+		deactivate ic
+
+		ctrl->cat:newCatalogo = create(idCatalogo, responsavelCat, nivelSLA, listEquipasComAcesso, titulo, descBreve, descCompleta,icone)
+        activate cat
+		deactivate cat
+		ctrl->pc:repositories()
+		activate pc
+		pc->rf:create
+		activate rf
+		rf->repo:create
+		deactivate rf
+		deactivate pc
+		activate repo
+		ctrl->repo:save(newCatalogo)
+		deactivate repo
+		deactivate ctrl
+		deactivate ui
+@enduml

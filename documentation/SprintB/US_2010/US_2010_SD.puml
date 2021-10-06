@@ -1,0 +1,57 @@
+@startuml
+actor "Gestor de Serviços de Help Desk" as GSH
+participant DefinirNivelCriticidadeUI as UI <<presentation>>
+control DefinirNivelCriticidadeController as Controller <<application>>
+participant ListarCoresService as listService
+database CorRepository as CorRepository <<repository>>
+participant NivelCriticidade as Domain <<domain>>
+
+database SLARepository as Repository <<repository>>
+
+
+GSH -> UI: Iniciar definição nivel criticidade
+activate UI
+UI -> Controller: create()
+activate Controller
+Controller -> listService: create()
+activate listService
+listService -> CorRepository: create()
+activate CorRepository
+deactivate CorRepository
+deactivate listService
+Controller -> listService: allCores()
+activate listService
+listService -> CorRepository: findAll()
+activate CorRepository
+deactivate CorRepository
+deactivate listService
+deactivate Controller
+UI -> GSH: Solicita dados relevantes(Etiqueta, valor numa escala numérica de inteiros,\n designação e os objetivos de tempo para atingir.)
+GSH -> UI: Introduz os dados
+UI-> GSH: Apresenta todas as cores
+GSH -> UI: Seleciona uma cor
+
+UI-> Controller: createNivelCriticidade(etiqueta,valor,designacao,tempoMedioAprovacao,\ntempoMaximoAprovacao,tempoMedioResolucao,tempoMaximoResolucao,cor)
+activate Controller
+Controller-> Domain: new(etiqueta,valor,designacao,tempoMedioAprovacao,\n tempoMaximoAprovacao,tempoMedioResolucao,tempoMaximoResolucao,cor)
+activate Domain
+deactivate Domain
+UI -> GSH: Apresenta informacoes do nivel de criticidade
+deactivate Controller
+deactivate UI
+
+GSH -> UI: Confirma
+activate UI
+UI-> Controller: save()
+activate Controller
+Controller -> Repository: create()
+activate Repository
+deactivate Repository
+Controller -> Repository: save(nivelCriticidade)
+activate Repository
+deactivate Repository
+deactivate Controller
+UI -> GSH: Sucesso
+deactivate UI
+
+@enduml

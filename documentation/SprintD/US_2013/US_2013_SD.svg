@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="940px" preserveAspectRatio="none" style="width:1784px;height:940px;" version="1.1" viewBox="0 0 1784 940" width="1784px" zoomAndPan="magnify">
+    <defs>
+        <filter height="300%" id="f1h7ukne0u61pv" width="300%" x="-1" y="-1">
+            <feGaussianBlur result="blurOut" stdDeviation="2.0"/>
+            <feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/>
+            <feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/>
+            <feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/>
+        </filter>
+    </defs>
+    <g>
+        <rect fill="#FFFFFF" filter="url(#f1h7ukne0u61pv)" height="151.4063" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="393.5" y="119.6094"/>
+        <rect fill="#FFFFFF" filter="url(#f1h7ukne0u61pv)" height="441.2734" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="393.5" y="326.7188"/>
+        <rect fill="#FFFFFF" filter="url(#f1h7ukne0u61pv)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="393.5" y="805.3438"/>
+        <rect fill="#FFFFFF" filter="url(#f1h7ukne0u61pv)" height="90.7031" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="892.5" y="149.9609"/>
+        <rect fill="#FFFFFF" filter="url(#f1h7ukne0u61pv)" height="334.2188" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="892.5" y="373.0703"/>
+        <rect fill="#FFFFFF" filter="url(#f1h7ukne0u61pv)" height="60.3516" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1336.5" y="180.3125"/>
+        <rect fill="#FFFFFF" filter="url(#f1h7ukne0u61pv)" height="182.1094" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1336.5" y="403.7734"/>
+        <rect fill="#FFFFFF" filter="url(#f1h7ukne0u61pv)" height="91.0547" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1336.5" y="616.2344"/>
+        <rect fill="#FFFFFF" filter="url(#f1h7ukne0u61pv)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1570.5" y="210.6641"/>
+        <rect fill="#FFFFFF" filter="url(#f1h7ukne0u61pv)" height="151.7578" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1570.5" y="434.125"/>
+        <rect fill="#FFFFFF" filter="url(#f1h7ukne0u61pv)" height="30.3516" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1570.5" y="676.9375"/>
+        <rect fill="#FFFFFF" filter="url(#f1h7ukne0u61pv)" height="30.3516" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1700" y="646.5859"/>
+        <rect fill="#FFFFFF" filter="url(#f1h7ukne0u61pv)" height="489.9766" style="stroke: #000000; stroke-width: 2.0;" width="1762.5" x="13" y="286.3672"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="130" x2="130" y1="87.6094" y2="853.6953"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="398" x2="398" y1="87.6094" y2="853.6953"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="897" x2="897" y1="87.6094" y2="853.6953"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="1341.5" x2="1341.5" y1="87.6094" y2="853.6953"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="1575.5" x2="1575.5" y1="87.6094" y2="853.6953"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="1704.5" x2="1704.5" y1="87.6094" y2="853.6953"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="209" x="23" y="84.5332">Gestor de Serviços de Help Desk</text>
+        <ellipse cx="130.5" cy="13" fill="#FEFECE" filter="url(#f1h7ukne0u61pv)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <path d="M130.5,21 L130.5,48 M117.5,29 L143.5,29 M130.5,48 L117.5,63 M130.5,48 L143.5,63 " fill="#FEFECE" filter="url(#f1h7ukne0u61pv)" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="209" x="23" y="867.2285">Gestor de Serviços de Help Desk</text>
+        <ellipse cx="130.5" cy="880.3047" fill="#FEFECE" filter="url(#f1h7ukne0u61pv)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <path d="M130.5,888.3047 L130.5,915.3047 M117.5,896.3047 L143.5,896.3047 M130.5,915.3047 L117.5,930.3047 M130.5,915.3047 L143.5,930.3047 " fill="#FEFECE" filter="url(#f1h7ukne0u61pv)" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <rect fill="#FEFECE" filter="url(#f1h7ukne0u61pv)" height="49.2188" style="stroke: #A80036; stroke-width: 1.5;" width="165" x="314" y="33.3906"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="95" x="349" y="54.3906">«presentation»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="151" x="321" y="72">ListarCumprimentoSlaUI</text>
+        <rect fill="#FEFECE" filter="url(#f1h7ukne0u61pv)" height="49.2188" style="stroke: #A80036; stroke-width: 1.5;" width="165" x="314" y="852.6953"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="95" x="349" y="873.6953">«presentation»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="151" x="321" y="891.3047">ListarCumprimentoSlaUI</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="84" x="852.5" y="66.3906">«application»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="201" x="794" y="84">ListarCumprimentoSlaController</text>
+        <ellipse cx="897.5" cy="36.3906" fill="#FEFECE" filter="url(#f1h7ukne0u61pv)" rx="12" ry="12" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <polygon fill="#A80036" points="893.5,24.3906,899.5,19.3906,897.5,24.3906,899.5,29.3906,893.5,24.3906" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="84" x="852.5" y="866.6953">«application»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="201" x="794" y="884.3047">ListarCumprimentoSlaController</text>
+        <ellipse cx="897.5" cy="903.9141" fill="#FEFECE" filter="url(#f1h7ukne0u61pv)" rx="12" ry="12" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <polygon fill="#A80036" points="893.5,891.9141,899.5,886.9141,897.5,891.9141,899.5,896.9141,893.5,891.9141" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <rect fill="#FEFECE" filter="url(#f1h7ukne0u61pv)" height="31.6094" style="stroke: #A80036; stroke-width: 1.5;" width="162" x="1258.5" y="51"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="148" x="1265.5" y="72.5332">ListarPedidosController</text>
+        <rect fill="#FEFECE" filter="url(#f1h7ukne0u61pv)" height="31.6094" style="stroke: #A80036; stroke-width: 1.5;" width="162" x="1258.5" y="852.6953"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="148" x="1265.5" y="874.2285">ListarPedidosController</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="79" x="1533" y="66.3906">«repository»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="112" x="1516.5" y="84">PedidoRepository</text>
+        <path d="M1557.5,16.3906 C1557.5,6.3906 1575.5,6.3906 1575.5,6.3906 C1575.5,6.3906 1593.5,6.3906 1593.5,16.3906 L1593.5,42.3906 C1593.5,52.3906 1575.5,52.3906 1575.5,52.3906 C1575.5,52.3906 1557.5,52.3906 1557.5,42.3906 L1557.5,16.3906 " fill="#FEFECE" filter="url(#f1h7ukne0u61pv)" style="stroke: #000000; stroke-width: 1.5;"/>
+        <path d="M1557.5,16.3906 C1557.5,26.3906 1575.5,26.3906 1575.5,26.3906 C1575.5,26.3906 1593.5,26.3906 1593.5,16.3906 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="79" x="1533" y="866.6953">«repository»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="112" x="1516.5" y="884.3047">PedidoRepository</text>
+        <path d="M1557.5,897.9141 C1557.5,887.9141 1575.5,887.9141 1575.5,887.9141 C1575.5,887.9141 1593.5,887.9141 1593.5,897.9141 L1593.5,923.9141 C1593.5,933.9141 1575.5,933.9141 1575.5,933.9141 C1575.5,933.9141 1557.5,933.9141 1557.5,923.9141 L1557.5,897.9141 " fill="#FEFECE" filter="url(#f1h7ukne0u61pv)" style="stroke: #000000; stroke-width: 1.5;"/>
+        <path d="M1557.5,897.9141 C1557.5,907.9141 1575.5,907.9141 1575.5,907.9141 C1575.5,907.9141 1593.5,907.9141 1593.5,897.9141 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="79" x="1662.5" y="66.3906">«repository»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="115" x="1644.5" y="84">ServicoRepository</text>
+        <path d="M1687,16.3906 C1687,6.3906 1705,6.3906 1705,6.3906 C1705,6.3906 1723,6.3906 1723,16.3906 L1723,42.3906 C1723,52.3906 1705,52.3906 1705,52.3906 C1705,52.3906 1687,52.3906 1687,42.3906 L1687,16.3906 " fill="#FEFECE" filter="url(#f1h7ukne0u61pv)" style="stroke: #000000; stroke-width: 1.5;"/>
+        <path d="M1687,16.3906 C1687,26.3906 1705,26.3906 1705,26.3906 C1705,26.3906 1723,26.3906 1723,16.3906 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="79" x="1662.5" y="866.6953">«repository»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="115" x="1644.5" y="884.3047">ServicoRepository</text>
+        <path d="M1687,897.9141 C1687,887.9141 1705,887.9141 1705,887.9141 C1705,887.9141 1723,887.9141 1723,897.9141 L1723,923.9141 C1723,933.9141 1705,933.9141 1705,933.9141 C1705,933.9141 1687,933.9141 1687,923.9141 L1687,897.9141 " fill="#FEFECE" filter="url(#f1h7ukne0u61pv)" style="stroke: #000000; stroke-width: 1.5;"/>
+        <path d="M1687,897.9141 C1687,907.9141 1705,907.9141 1705,907.9141 C1705,907.9141 1723,907.9141 1723,897.9141 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/>
+        <rect fill="#FFFFFF" filter="url(#f1h7ukne0u61pv)" height="151.4063" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="393.5" y="119.6094"/>
+        <rect fill="#FFFFFF" filter="url(#f1h7ukne0u61pv)" height="441.2734" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="393.5" y="326.7188"/>
+        <rect fill="#FFFFFF" filter="url(#f1h7ukne0u61pv)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="393.5" y="805.3438"/>
+        <rect fill="#FFFFFF" filter="url(#f1h7ukne0u61pv)" height="90.7031" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="892.5" y="149.9609"/>
+        <rect fill="#FFFFFF" filter="url(#f1h7ukne0u61pv)" height="334.2188" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="892.5" y="373.0703"/>
+        <rect fill="#FFFFFF" filter="url(#f1h7ukne0u61pv)" height="60.3516" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1336.5" y="180.3125"/>
+        <rect fill="#FFFFFF" filter="url(#f1h7ukne0u61pv)" height="182.1094" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1336.5" y="403.7734"/>
+        <rect fill="#FFFFFF" filter="url(#f1h7ukne0u61pv)" height="91.0547" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1336.5" y="616.2344"/>
+        <rect fill="#FFFFFF" filter="url(#f1h7ukne0u61pv)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1570.5" y="210.6641"/>
+        <rect fill="#FFFFFF" filter="url(#f1h7ukne0u61pv)" height="151.7578" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1570.5" y="434.125"/>
+        <rect fill="#FFFFFF" filter="url(#f1h7ukne0u61pv)" height="30.3516" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1570.5" y="676.9375"/>
+        <rect fill="#FFFFFF" filter="url(#f1h7ukne0u61pv)" height="30.3516" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1700" y="646.5859"/>
+        <polygon fill="#A80036" points="381.5,115.6094,391.5,119.6094,381.5,123.6094,385.5,119.6094" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="130.5" x2="387.5" y1="119.6094" y2="119.6094"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="244" x="137.5" y="115.1045">Listagem sobre o (in)cumprimento de SLA</text>
+        <polygon fill="#A80036" points="880.5,145.9609,890.5,149.9609,880.5,153.9609,884.5,149.9609" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="403.5" x2="886.5" y1="149.9609" y2="149.9609"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="44" x="410.5" y="145.4561">create()</text>
+        <polygon fill="#A80036" points="1324.5,176.3125,1334.5,180.3125,1324.5,184.3125,1328.5,180.3125" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="902.5" x2="1330.5" y1="180.3125" y2="180.3125"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="44" x="909.5" y="175.8076">create()</text>
+        <polygon fill="#A80036" points="1558.5,206.6641,1568.5,210.6641,1558.5,214.6641,1562.5,210.6641" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1346.5" x2="1564.5" y1="210.6641" y2="210.6641"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="44" x="1353.5" y="206.1592">create()</text>
+        <polygon fill="#A80036" points="141.5,267.0156,131.5,271.0156,141.5,275.0156,137.5,271.0156" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="135.5" x2="397.5" y1="271.0156" y2="271.0156"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="101" x="147.5" y="266.5107">Intervalo de datas</text>
+        <rect fill="none" height="489.9766" style="stroke: #000000; stroke-width: 2.0;" width="1762.5" x="13" y="286.3672"/>
+        <polygon fill="#EEEEEE" points="13,286.3672,86,286.3672,86,294.3672,76,304.3672,13,304.3672,13,286.3672" style="stroke: #000000; stroke-width: 2.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="28" x="28" y="300.8623">loop</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="262" x="101" y="299.7861">[até ao GSH inserir que não pretende continuar]</text>
+        <polygon fill="#A80036" points="381.5,322.7188,391.5,326.7188,381.5,330.7188,385.5,326.7188" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="130.5" x2="387.5" y1="326.7188" y2="326.7188"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="100" x="137.5" y="322.2139">Introduz as datas</text>
+        <polygon fill="#A80036" points="880.5,369.0703,890.5,373.0703,880.5,377.0703,884.5,373.0703" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="403.5" x2="886.5" y1="373.0703" y2="373.0703"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="415" x="410.5" y="352.5654">listarInfomacaoCumprimentoSLA(Date limiteInferior, Date limiteSuperior,</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="466" x="414.5" y="368.917">Map&lt;String,List&lt;Pedido&gt;&gt; infoPedidos, Map&lt;String,List&lt;Servico&gt;&gt; infoServicos</text>
+        <polygon fill="#A80036" points="1324.5,399.7734,1334.5,403.7734,1324.5,407.7734,1328.5,403.7734" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="902.5" x2="1330.5" y1="403.7734" y2="403.7734"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="415" x="909.5" y="399.2686">listarInfomacaoCumprimentoSLA(Date limiteInferior, Date limiteSuperior)</text>
+        <polygon fill="#A80036" points="1558.5,430.125,1568.5,434.125,1558.5,438.125,1562.5,434.125" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1346.5" x2="1564.5" y1="434.125" y2="434.125"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="169" x="1353.5" y="429.6201">pedidosConcluidosForaPrazo</text>
+        <polygon fill="#A80036" points="1558.5,460.4766,1568.5,464.4766,1558.5,468.4766,1562.5,464.4766" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1346.5" x2="1564.5" y1="464.4766" y2="464.4766"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="181" x="1353.5" y="459.9717">pedidosConcluidosDentroPrazo</text>
+        <polygon fill="#A80036" points="1558.5,490.8281,1568.5,494.8281,1558.5,498.8281,1562.5,494.8281" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1346.5" x2="1564.5" y1="494.8281" y2="494.8281"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="200" x="1353.5" y="490.3232">pedidosPorConcluirDentroDoPrazo</text>
+        <polygon fill="#A80036" points="1558.5,521.1797,1568.5,525.1797,1558.5,529.1797,1562.5,525.1797" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1346.5" x2="1564.5" y1="525.1797" y2="525.1797"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="166" x="1353.5" y="520.6748">tarefasPorConcluirForaPrazo</text>
+        <polygon fill="#A80036" points="1558.5,551.5313,1568.5,555.5313,1558.5,559.5313,1562.5,555.5313" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1346.5" x2="1564.5" y1="555.5313" y2="555.5313"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="180" x="1353.5" y="551.0264">pedidosPorAprovarDentroPrazo</text>
+        <polygon fill="#A80036" points="1563.5,581.8828,1573.5,585.8828,1563.5,589.8828,1567.5,585.8828" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1341.5" x2="1569.5" y1="585.8828" y2="585.8828"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="168" x="1348.5" y="581.3779">pedidosPorAprovarForaPrazo</text>
+        <polygon fill="#A80036" points="1324.5,612.2344,1334.5,616.2344,1324.5,620.2344,1328.5,616.2344" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="902.5" x2="1330.5" y1="616.2344" y2="616.2344"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="250" x="909.5" y="611.7295">listarInformacaoCumprimentosMediasSLA()</text>
+        <polygon fill="#A80036" points="1688,642.5859,1698,646.5859,1688,650.5859,1692,646.5859" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1346.5" x2="1694" y1="646.5859" y2="646.5859"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="43" x="1353.5" y="642.0811">findAll()</text>
+        <polygon fill="#A80036" points="1558.5,672.9375,1568.5,676.9375,1558.5,680.9375,1562.5,676.9375" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1346.5" x2="1564.5" y1="676.9375" y2="676.9375"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="173" x="1353.5" y="672.4326">tempoMedioAprovacaoServico</text>
+        <polygon fill="#A80036" points="1563.5,703.2891,1573.5,707.2891,1563.5,711.2891,1567.5,707.2891" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1341.5" x2="1569.5" y1="707.2891" y2="707.2891"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="174" x="1348.5" y="702.7842">tempoMedioResolucaoServico</text>
+        <polygon fill="#A80036" points="141.5,733.6406,131.5,737.6406,141.5,741.6406,137.5,737.6406" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="135.5" x2="392.5" y1="737.6406" y2="737.6406"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="197" x="147.5" y="733.1357">Listagem sobre cumprimento SLA</text>
+        <polygon fill="#A80036" points="141.5,763.9922,131.5,767.9922,141.5,771.9922,137.5,767.9922" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="135.5" x2="397.5" y1="767.9922" y2="767.9922"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="66" x="147.5" y="763.4873">Continuar ?</text>
+        <polygon fill="#A80036" points="381.5,801.3438,391.5,805.3438,381.5,809.3438,385.5,805.3438" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="130.5" x2="387.5" y1="805.3438" y2="805.3438"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="50" x="137.5" y="800.8389">Terminar</text>
+        <!--
+@startuml
+actor "Gestor de Serviços de Help Desk" as GSH
+participant ListarCumprimentoSlaUI as UI <<presentation>>
+control ListarCumprimentoSlaController as Controller <<application>>
+participant ListarPedidosController as listService
+database PedidoRepository as PedidoRepository <<repository>>
+database ServicoRepository as ServicoRepository <<repository>>
+
+
+GSH -> UI: Listagem sobre o (in)cumprimento de SLA
+activate UI
+UI -> Controller: create()
+activate Controller
+Controller -> listService: create()
+activate listService
+listService -> PedidoRepository: create()
+activate PedidoRepository
+deactivate PedidoRepository
+deactivate listService
+deactivate Controller
+UI -> GSH: Intervalo de datas
+deactivate UI
+
+loop até ao GSH inserir que não pretende continuar
+GSH -> UI: Introduz as datas
+activate UI
+UI -> Controller: listarInfomacaoCumprimentoSLA(Date limiteInferior, Date limiteSuperior,\n Map<String,List<Pedido>> infoPedidos, Map<String,List<Servico>> infoServicos
+activate Controller
+Controller -> listService: listarInfomacaoCumprimentoSLA(Date limiteInferior, Date limiteSuperior)
+activate listService
+listService -> PedidoRepository: pedidosConcluidosForaPrazo
+activate PedidoRepository
+listService -> PedidoRepository: pedidosConcluidosDentroPrazo
+listService -> PedidoRepository: pedidosPorConcluirDentroDoPrazo
+listService -> PedidoRepository: tarefasPorConcluirForaPrazo
+listService -> PedidoRepository: pedidosPorAprovarDentroPrazo
+listService -> PedidoRepository: pedidosPorAprovarForaPrazo
+deactivate PedidoRepository
+
+
+deactivate listService
+Controller -> listService: listarInformacaoCumprimentosMediasSLA()
+activate listService
+listService ->ServicoRepository : findAll()
+activate ServicoRepository
+listService -> PedidoRepository: tempoMedioAprovacaoServico
+deactivate ServicoRepository
+activate PedidoRepository
+listService -> PedidoRepository: tempoMedioResolucaoServico
+deactivate PedidoRepository
+deactivate listService
+deactivate Controller
+UI -> GSH: Listagem sobre cumprimento SLA
+
+UI -> GSH: Continuar ?
+deactivate UI
+
+
+end loop
+
+GSH-> UI: Terminar
+activate UI
+deactivate UI
+
+
+@enduml
+
+PlantUML version 2017.11(Wed Apr 19 17:18:59 BST 2017)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_111-b14
+Operating System: Windows 10
+OS Version: 10.0
+Default Encoding: UTF-8
+Language: en
+Country: US
+-->
+    </g>
+</svg>

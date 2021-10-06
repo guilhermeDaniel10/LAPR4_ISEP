@@ -1,0 +1,53 @@
+@startuml
+
+actor "Colaborador" as COLAB
+participant ConsultarTarefasUI as UI <<presentation>>
+control ConsultarTarefasController as Controller <<application>>
+control RegistoColaboradorController as ColabController <<application>>
+control listTarefaController as listController
+participant listTarefaService as listTarefa
+participant Tarefa as Tarefa <<domain>>
+participant TarefaRepository as repo <<domain>>
+
+
+COLAB->UI: Consultar Tarefas
+activate UI
+UI-> Controller: create()
+activate Controller
+Controller -> ColabController: getCurrentColaborador()
+activate ColabController
+deactivate ColabController
+Controller -> listController: assignColaborador(colab)
+activate listController
+deactivate listController
+Controller -> listController: criteriosOrdenacao()
+activate listController
+deactivate listController
+Controller -> listController: criteriosFiltragerm()
+activate listController
+deactivate listController
+deactivate Controller
+deactivate UI
+
+loop até o utilizador cancelar
+COLAB->UI: Criterio Ordenacao
+activate UI
+COLAB->UI: Criterio Filtragem
+COLAB->UI: Limite Inferior
+COLAB->UI: limite Superior
+UI-> Controller: consultarFiltrado(criterio,ascendente,\ncriteriofiltro,limiteinferior,limitesuperior)
+activate Controller
+Controller-> listController: consultarFiltrado(criterio,ascendente,\ncriteriofiltro,limiteinferior,limitesuperior)
+activate listController
+listController -> listTarefa: consultarFiltrado(criterio,ascendente,\ncriteriofiltro,limiteinferior,limitesuperior)
+activate listTarefa
+listTarefa -> repo: consultarFiltrado(criterio,ascendente,\ncriteriofiltro,limiteinferior,limitesuperior)
+activate repo
+deactivate repo
+deactivate listTarefa
+deactivate listController
+note right of repo: O repositorio irá construir uma query com\n os criterios recebidos
+end
+
+
+@enduml

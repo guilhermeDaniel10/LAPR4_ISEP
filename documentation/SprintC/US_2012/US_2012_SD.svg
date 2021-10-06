@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1045px" preserveAspectRatio="none" style="width:1696px;height:1045px;" version="1.1" viewBox="0 0 1696 1045" width="1696px" zoomAndPan="magnify">
+    <defs>
+        <filter height="300%" id="fjucw9qi4xmdx" width="300%" x="-1" y="-1">
+            <feGaussianBlur result="blurOut" stdDeviation="2.0"/>
+            <feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/>
+            <feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/>
+            <feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/>
+        </filter>
+    </defs>
+    <g>
+        <rect fill="#FFFFFF" filter="url(#fjucw9qi4xmdx)" height="212.4609" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="365" y="119.6094"/>
+        <rect fill="#FFFFFF" filter="url(#fjucw9qi4xmdx)" height="212.4609" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="365" y="362.4219"/>
+        <rect fill="#FFFFFF" filter="url(#fjucw9qi4xmdx)" height="334.8125" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="365" y="605.2344"/>
+        <rect fill="#FFFFFF" filter="url(#fjucw9qi4xmdx)" height="151.7578" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="823" y="149.9609"/>
+        <rect fill="#FFFFFF" filter="url(#fjucw9qi4xmdx)" height="151.7578" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="823" y="392.7734"/>
+        <rect fill="#FFFFFF" filter="url(#fjucw9qi4xmdx)" height="258.1094" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="823" y="651.5859"/>
+        <rect fill="#FFFFFF" filter="url(#fjucw9qi4xmdx)" height="91.0547" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1016.5" y="180.3125"/>
+        <rect fill="#FFFFFF" filter="url(#fjucw9qi4xmdx)" height="91.0547" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1180" y="423.125"/>
+        <rect fill="#FFFFFF" filter="url(#fjucw9qi4xmdx)" height="30.3516" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1330.5" y="210.6641"/>
+        <rect fill="#FFFFFF" filter="url(#fjucw9qi4xmdx)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1330.5" y="879.6953"/>
+        <rect fill="#FFFFFF" filter="url(#fjucw9qi4xmdx)" height="30.3516" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1456" y="453.4766"/>
+        <rect fill="#FFFFFF" filter="url(#fjucw9qi4xmdx)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1556" y="758.9922"/>
+        <rect fill="#FFFFFF" filter="url(#fjucw9qi4xmdx)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1556" y="819.3438"/>
+        <rect fill="#FFFFFF" filter="url(#fjucw9qi4xmdx)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1646" y="698.2891"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="96" x2="96" y1="87.6094" y2="958.3984"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="370" x2="370" y1="87.6094" y2="958.3984"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="828" x2="828" y1="87.6094" y2="958.3984"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="1021" x2="1021" y1="87.6094" y2="958.3984"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="1185" x2="1185" y1="87.6094" y2="958.3984"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="1335" x2="1335" y1="87.6094" y2="958.3984"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="1461" x2="1461" y1="87.6094" y2="958.3984"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="1561" x2="1561" y1="87.6094" y2="958.3984"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="1651" x2="1651" y1="87.6094" y2="958.3984"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="170" x="8" y="84.5332">Gestor Recursos Humanos</text>
+        <ellipse cx="96" cy="13" fill="#FEFECE" filter="url(#fjucw9qi4xmdx)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <path d="M96,21 L96,48 M83,29 L109,29 M96,48 L83,63 M96,48 L109,63 " fill="#FEFECE" filter="url(#fjucw9qi4xmdx)" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="170" x="8" y="971.9316">Gestor Recursos Humanos</text>
+        <ellipse cx="96" cy="985.0078" fill="#FEFECE" filter="url(#fjucw9qi4xmdx)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <path d="M96,993.0078 L96,1020.0078 M83,1001.0078 L109,1001.0078 M96,1020.0078 L83,1035.0078 M96,1020.0078 L109,1035.0078 " fill="#FEFECE" filter="url(#fjucw9qi4xmdx)" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <rect fill="#FEFECE" filter="url(#fjucw9qi4xmdx)" height="49.2188" style="stroke: #A80036; stroke-width: 1.5;" width="168" x="284" y="33.3906"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="95" x="320.5" y="54.3906">«presentation»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="154" x="291" y="72">AtribuirNivelCriticidadeUI</text>
+        <rect fill="#FEFECE" filter="url(#fjucw9qi4xmdx)" height="49.2188" style="stroke: #A80036; stroke-width: 1.5;" width="168" x="284" y="957.3984"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="95" x="320.5" y="978.3984">«presentation»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="154" x="291" y="996.0078">AtribuirNivelCriticidadeUI</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="84" x="783" y="66.3906">«application»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="204" x="723" y="84">AtribuirNivelCriticidadeController</text>
+        <ellipse cx="828" cy="36.3906" fill="#FEFECE" filter="url(#fjucw9qi4xmdx)" rx="12" ry="12" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <polygon fill="#A80036" points="824,24.3906,830,19.3906,828,24.3906,830,29.3906,824,24.3906" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="84" x="783" y="971.3984">«application»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="204" x="723" y="989.0078">AtribuirNivelCriticidadeController</text>
+        <ellipse cx="828" cy="1008.6172" fill="#FEFECE" filter="url(#fjucw9qi4xmdx)" rx="12" ry="12" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <polygon fill="#A80036" points="824,996.6172,830,991.6172,828,996.6172,830,1001.6172,824,996.6172" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <rect fill="#FEFECE" filter="url(#fjucw9qi4xmdx)" height="31.6094" style="stroke: #A80036; stroke-width: 1.5;" width="153" x="943" y="51"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="139" x="950" y="72.5332">ListarCatalogoService</text>
+        <rect fill="#FEFECE" filter="url(#fjucw9qi4xmdx)" height="31.6094" style="stroke: #A80036; stroke-width: 1.5;" width="153" x="943" y="957.3984"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="139" x="950" y="978.9316">ListarCatalogoService</text>
+        <rect fill="#FEFECE" filter="url(#fjucw9qi4xmdx)" height="31.6094" style="stroke: #A80036; stroke-width: 1.5;" width="146" x="1110" y="51"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="132" x="1117" y="72.5332">ListarNivelCriticidade</text>
+        <rect fill="#FEFECE" filter="url(#fjucw9qi4xmdx)" height="31.6094" style="stroke: #A80036; stroke-width: 1.5;" width="146" x="1110" y="957.3984"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="132" x="1117" y="978.9316">ListarNivelCriticidade</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="79" x="1293" y="66.3906">«repository»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="125" x="1270" y="84">CatalogoRepository</text>
+        <path d="M1317.5,16.3906 C1317.5,6.3906 1335.5,6.3906 1335.5,6.3906 C1335.5,6.3906 1353.5,6.3906 1353.5,16.3906 L1353.5,42.3906 C1353.5,52.3906 1335.5,52.3906 1335.5,52.3906 C1335.5,52.3906 1317.5,52.3906 1317.5,42.3906 L1317.5,16.3906 " fill="#FEFECE" filter="url(#fjucw9qi4xmdx)" style="stroke: #000000; stroke-width: 1.5;"/>
+        <path d="M1317.5,16.3906 C1317.5,26.3906 1335.5,26.3906 1335.5,26.3906 C1335.5,26.3906 1353.5,26.3906 1353.5,16.3906 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="79" x="1293" y="971.3984">«repository»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="125" x="1270" y="989.0078">CatalogoRepository</text>
+        <path d="M1317.5,1002.6172 C1317.5,992.6172 1335.5,992.6172 1335.5,992.6172 C1335.5,992.6172 1353.5,992.6172 1353.5,1002.6172 L1353.5,1028.6172 C1353.5,1038.6172 1335.5,1038.6172 1335.5,1038.6172 C1335.5,1038.6172 1317.5,1038.6172 1317.5,1028.6172 L1317.5,1002.6172 " fill="#FEFECE" filter="url(#fjucw9qi4xmdx)" style="stroke: #000000; stroke-width: 1.5;"/>
+        <path d="M1317.5,1002.6172 C1317.5,1012.6172 1335.5,1012.6172 1335.5,1012.6172 C1335.5,1012.6172 1353.5,1012.6172 1353.5,1002.6172 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="79" x="1418.5" y="66.3906">«repository»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="94" x="1411" y="84">SLARepository</text>
+        <path d="M1443,16.3906 C1443,6.3906 1461,6.3906 1461,6.3906 C1461,6.3906 1479,6.3906 1479,16.3906 L1479,42.3906 C1479,52.3906 1461,52.3906 1461,52.3906 C1461,52.3906 1443,52.3906 1443,42.3906 L1443,16.3906 " fill="#FEFECE" filter="url(#fjucw9qi4xmdx)" style="stroke: #000000; stroke-width: 1.5;"/>
+        <path d="M1443,16.3906 C1443,26.3906 1461,26.3906 1461,26.3906 C1461,26.3906 1479,26.3906 1479,16.3906 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="79" x="1418.5" y="971.3984">«repository»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="94" x="1411" y="989.0078">SLARepository</text>
+        <path d="M1443,1002.6172 C1443,992.6172 1461,992.6172 1461,992.6172 C1461,992.6172 1479,992.6172 1479,1002.6172 L1479,1028.6172 C1479,1038.6172 1461,1038.6172 1461,1038.6172 C1461,1038.6172 1443,1038.6172 1443,1028.6172 L1443,1002.6172 " fill="#FEFECE" filter="url(#fjucw9qi4xmdx)" style="stroke: #000000; stroke-width: 1.5;"/>
+        <path d="M1443,1002.6172 C1443,1012.6172 1461,1012.6172 1461,1012.6172 C1461,1012.6172 1479,1012.6172 1479,1002.6172 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/>
+        <rect fill="#FEFECE" filter="url(#fjucw9qi4xmdx)" height="49.2188" style="stroke: #A80036; stroke-width: 1.5;" width="76" x="1521" y="33.3906"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="62" x="1528" y="54.3906">«domain»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="57" x="1530.5" y="72">Catalogo</text>
+        <rect fill="#FEFECE" filter="url(#fjucw9qi4xmdx)" height="49.2188" style="stroke: #A80036; stroke-width: 1.5;" width="76" x="1521" y="957.3984"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="62" x="1528" y="978.3984">«domain»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="57" x="1530.5" y="996.0078">Catalogo</text>
+        <rect fill="#FEFECE" filter="url(#fjucw9qi4xmdx)" height="49.2188" style="stroke: #A80036; stroke-width: 1.5;" width="76" x="1611" y="33.3906"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="62" x="1618" y="54.3906">«domain»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="59" x="1619.5" y="72">Objetivos</text>
+        <rect fill="#FEFECE" filter="url(#fjucw9qi4xmdx)" height="49.2188" style="stroke: #A80036; stroke-width: 1.5;" width="76" x="1611" y="957.3984"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="62" x="1618" y="978.3984">«domain»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="59" x="1619.5" y="996.0078">Objetivos</text>
+        <rect fill="#FFFFFF" filter="url(#fjucw9qi4xmdx)" height="212.4609" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="365" y="119.6094"/>
+        <rect fill="#FFFFFF" filter="url(#fjucw9qi4xmdx)" height="212.4609" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="365" y="362.4219"/>
+        <rect fill="#FFFFFF" filter="url(#fjucw9qi4xmdx)" height="334.8125" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="365" y="605.2344"/>
+        <rect fill="#FFFFFF" filter="url(#fjucw9qi4xmdx)" height="151.7578" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="823" y="149.9609"/>
+        <rect fill="#FFFFFF" filter="url(#fjucw9qi4xmdx)" height="151.7578" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="823" y="392.7734"/>
+        <rect fill="#FFFFFF" filter="url(#fjucw9qi4xmdx)" height="258.1094" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="823" y="651.5859"/>
+        <rect fill="#FFFFFF" filter="url(#fjucw9qi4xmdx)" height="91.0547" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1016.5" y="180.3125"/>
+        <rect fill="#FFFFFF" filter="url(#fjucw9qi4xmdx)" height="91.0547" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1180" y="423.125"/>
+        <rect fill="#FFFFFF" filter="url(#fjucw9qi4xmdx)" height="30.3516" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1330.5" y="210.6641"/>
+        <rect fill="#FFFFFF" filter="url(#fjucw9qi4xmdx)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1330.5" y="879.6953"/>
+        <rect fill="#FFFFFF" filter="url(#fjucw9qi4xmdx)" height="30.3516" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1456" y="453.4766"/>
+        <rect fill="#FFFFFF" filter="url(#fjucw9qi4xmdx)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1556" y="758.9922"/>
+        <rect fill="#FFFFFF" filter="url(#fjucw9qi4xmdx)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1556" y="819.3438"/>
+        <rect fill="#FFFFFF" filter="url(#fjucw9qi4xmdx)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1646" y="698.2891"/>
+        <polygon fill="#A80036" points="353,115.6094,363,119.6094,353,123.6094,357,119.6094" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="96" x2="359" y1="119.6094" y2="119.6094"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="179" x="103" y="115.1045">Inicia atribuçao nivel criticidade</text>
+        <polygon fill="#A80036" points="811,145.9609,821,149.9609,811,153.9609,815,149.9609" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="375" x2="817" y1="149.9609" y2="149.9609"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="44" x="382" y="145.4561">create()</text>
+        <polygon fill="#A80036" points="1004.5,176.3125,1014.5,180.3125,1004.5,184.3125,1008.5,180.3125" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="833" x2="1010.5" y1="180.3125" y2="180.3125"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="79" x="840" y="175.8076">allCatalogos()</text>
+        <polygon fill="#A80036" points="1318.5,206.6641,1328.5,210.6641,1318.5,214.6641,1322.5,210.6641" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1026.5" x2="1324.5" y1="210.6641" y2="210.6641"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="43" x="1033.5" y="206.1592">findAll()</text>
+        <polygon fill="#A80036" points="1037.5,237.0156,1027.5,241.0156,1037.5,245.0156,1033.5,241.0156" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1031.5" x2="1334.5" y1="241.0156" y2="241.0156"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="109" x="1043.5" y="236.5107">iterable&lt;Catalogo&gt;</text>
+        <polygon fill="#A80036" points="844,267.3672,834,271.3672,844,275.3672,840,271.3672" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="838" x2="1020.5" y1="271.3672" y2="271.3672"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="109" x="850" y="266.8623">iterable&lt;Catalogo&gt;</text>
+        <polygon fill="#A80036" points="386,297.7188,376,301.7188,386,305.7188,382,301.7188" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="380" x2="827" y1="301.7188" y2="301.7188"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="109" x="392" y="297.2139">iterable&lt;Catalogo&gt;</text>
+        <polygon fill="#A80036" points="107,328.0703,97,332.0703,107,336.0703,103,332.0703" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="101" x2="369" y1="332.0703" y2="332.0703"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="204" x="113" y="327.5654">Lista todas os Catalogo disponiveis</text>
+        <polygon fill="#A80036" points="353,358.4219,363,362.4219,353,366.4219,357,362.4219" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="96" x2="359" y1="362.4219" y2="362.4219"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="130" x="103" y="357.917">seleciona um catalogo</text>
+        <polygon fill="#A80036" points="811,388.7734,821,392.7734,811,396.7734,815,392.7734" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="375" x2="817" y1="392.7734" y2="392.7734"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="44" x="382" y="388.2686">create()</text>
+        <polygon fill="#A80036" points="1168,419.125,1178,423.125,1168,427.125,1172,423.125" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="833" x2="1174" y1="423.125" y2="423.125"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="109" x="840" y="418.6201">allNivelCriticidade()</text>
+        <polygon fill="#A80036" points="1444,449.4766,1454,453.4766,1444,457.4766,1448,453.4766" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1190" x2="1450" y1="453.4766" y2="453.4766"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="43" x="1197" y="448.9717">findAll()</text>
+        <polygon fill="#A80036" points="1201,479.8281,1191,483.8281,1201,487.8281,1197,483.8281" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1195" x2="1460" y1="483.8281" y2="483.8281"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="146" x="1207" y="479.3232">iterable&lt;NivelCriticidade&gt;</text>
+        <polygon fill="#A80036" points="844,510.1797,834,514.1797,844,518.1797,840,514.1797" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="838" x2="1184" y1="514.1797" y2="514.1797"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="146" x="850" y="509.6748">iterable&lt;NivelCriticidade&gt;</text>
+        <polygon fill="#A80036" points="386,540.5313,376,544.5313,386,548.5313,382,544.5313" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="380" x2="827" y1="544.5313" y2="544.5313"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="146" x="392" y="540.0264">iterable&lt;NivelCriticidade&gt;</text>
+        <polygon fill="#A80036" points="107,570.8828,97,574.8828,107,578.8828,103,574.8828" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="101" x2="369" y1="574.8828" y2="574.8828"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="245" x="113" y="570.3779">Lista todas os Nivel Criticidade disponiveis</text>
+        <polygon fill="#A80036" points="353,601.2344,363,605.2344,353,609.2344,357,605.2344" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="96" x2="359" y1="605.2344" y2="605.2344"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="175" x="103" y="600.7295">Definir objetivos costumizados</text>
+        <polygon fill="#A80036" points="811,647.5859,821,651.5859,811,655.5859,815,651.5859" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="375" x2="817" y1="651.5859" y2="651.5859"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="228" x="382" y="631.0811">createObjetivos(tempoMedioAprovacao,</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="429" x="382" y="647.4326">tempoMaximoAprovacao,tempoMedioResolucao,tempoMaximoResolucao)</text>
+        <polygon fill="#A80036" points="1634,694.2891,1644,698.2891,1634,702.2891,1638,698.2891" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="833" x2="1640" y1="698.2891" y2="698.2891"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="175" x="840" y="677.7842">create(tempoMedioAprovacao,</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="429" x="840" y="694.1357">tempoMaximoAprovacao,tempoMedioResolucao,tempoMaximoResolucao)</text>
+        <polygon fill="#A80036" points="1544,754.9922,1554,758.9922,1544,762.9922,1548,758.9922" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="833" x2="1550" y1="758.9922" y2="758.9922"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="129" x="840" y="754.4873">setObjetivos(objetivos)</text>
+        <polygon fill="#A80036" points="1544,815.3438,1554,819.3438,1544,823.3438,1548,819.3438" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="833" x2="1550" y1="819.3438" y2="819.3438"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="200" x="840" y="814.8389">setNivelCriticidade(nivelCriticidade)</text>
+        <polygon fill="#A80036" points="1318.5,875.6953,1328.5,879.6953,1318.5,883.6953,1322.5,879.6953" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="833" x2="1324.5" y1="879.6953" y2="879.6953"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="83" x="840" y="875.1904">save(catalogo)</text>
+        <polygon fill="#A80036" points="107,936.0469,97,940.0469,107,944.0469,103,940.0469" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="101" x2="369" y1="940.0469" y2="940.0469"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="51" x="113" y="935.542">Sucesso</text>
+        <!--
+@startuml
+
+actor "Gestor Recursos Humanos" as GSH
+participant AtribuirNivelCriticidadeUI as UI <<presentation>>
+control AtribuirNivelCriticidadeController as Controller <<application>>
+participant ListarCatalogoService as listServiceCatalogo
+participant ListarNivelCriticidade as listServiceCriticidade
+database CatalogoRepository as Repository <<repository>>
+database SLARepository as SLARepository <<repository>>
+participant Catalogo as DomainCatalogo <<domain>>
+participant Objetivos as DomainObjetivos <<domain>>
+
+GSH -> UI: Inicia atribuçao nivel criticidade
+activate UI
+UI -> Controller: create()
+activate Controller
+Controller -> listServiceCatalogo: allCatalogos()
+activate listServiceCatalogo
+listServiceCatalogo -> Repository: findAll()
+activate Repository
+Repository -> listServiceCatalogo: iterable<Catalogo>
+deactivate Repository
+listServiceCatalogo -> Controller: iterable<Catalogo>
+deactivate listServiceCatalogo
+Controller -> UI: iterable<Catalogo>
+deactivate Controller
+UI -> GSH: Lista todas os Catalogo disponiveis
+deactivate UI
+
+GSH -> UI: seleciona um catalogo
+activate UI
+UI -> Controller: create()
+activate Controller
+Controller -> listServiceCriticidade: allNivelCriticidade()
+activate listServiceCriticidade
+listServiceCriticidade -> SLARepository: findAll()
+activate SLARepository
+SLARepository -> listServiceCriticidade: iterable<NivelCriticidade>
+deactivate SLARepository
+listServiceCriticidade -> Controller: iterable<NivelCriticidade>
+deactivate listServiceCriticidade
+Controller -> UI: iterable<NivelCriticidade>
+deactivate Controller
+UI -> GSH: Lista todas os Nivel Criticidade disponiveis
+deactivate UI
+
+
+GSH -> UI: Definir objetivos costumizados
+activate UI
+UI -> Controller: createObjetivos(tempoMedioAprovacao,\ntempoMaximoAprovacao,tempoMedioResolucao,tempoMaximoResolucao)
+activate Controller
+Controller -> DomainObjetivos: create(tempoMedioAprovacao,\ntempoMaximoAprovacao,tempoMedioResolucao,tempoMaximoResolucao)
+activate DomainObjetivos
+deactivate DomainObjetivos
+Controller -> DomainCatalogo: setObjetivos(objetivos)
+activate DomainCatalogo
+deactivate DomainCatalogo
+Controller -> DomainCatalogo: setNivelCriticidade(nivelCriticidade)
+activate DomainCatalogo
+deactivate DomainCatalogo
+Controller -> Repository: save(catalogo)
+activate Repository
+deactivate Repository
+deactivate DomainObjetivos
+deactivate Controller
+UI-> GSH: Sucesso
+deactivate UI
+
+@enduml
+
+PlantUML version 2017.11(Wed Apr 19 17:18:59 BST 2017)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_111-b14
+Operating System: Windows 10
+OS Version: 10.0
+Default Encoding: UTF-8
+Language: en
+Country: US
+-->
+    </g>
+</svg>

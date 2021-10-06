@@ -1,0 +1,181 @@
+<html lang="pt">
+
+<head>
+   
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <script src="https://npmcdn.com/bootstrap@4.0.0-alpha.5/dist/js/bootstrap.min.js"></script>
+    <title>Dashboard</title>
+
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+
+    <script src="./rcomp-ajax.js"></script>
+
+</head>
+
+<body bgcolor=#C0C0C0 onload="coisa">
+
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="jumbotron">
+                    <h2>
+                        Dashboard
+                    </h2>
+                    <p>
+                        Dashboard do utilizador para ver os seus dados estatísticos relativos a tarefas pendentes, que
+                        já terminaram e que terminarão em breve
+                    </p>
+                </div>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>
+                                #
+                            </th>
+                            <th>
+                                Product
+                            </th>
+                            <th>
+                                Payment Taken
+                            </th>
+                            <th>
+                                Status
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                1
+                            </td>
+                            <td>
+                                TB - Monthly
+                            </td>
+                            <td>
+                                01/04/2012
+                            </td>
+                            <td>
+                                Default
+                            </td>
+                        </tr>
+                        <tr class="table-active">
+                            <td>
+                                1
+                            </td>
+                            <td>
+                                TB - Monthly
+                            </td>
+                            <td>
+                                01/04/2012
+                            </td>
+                            <td>
+                                Approved
+                            </td>
+                        </tr>
+                        <tr class="table-success">
+                            <td>
+                                2
+                            </td>
+                            <td>
+                                TB - Monthly
+                            </td>
+                            <td>
+                                02/04/2012
+                            </td>
+                            <td>
+                                Declined
+                            </td>
+                        </tr>
+                        <tr class="table-warning">
+                            <td>
+                                3
+                            </td>
+                            <td>
+                                TB - Monthly
+                            </td>
+                            <td>
+                                03/04/2012
+                            </td>
+                            <td>
+                                Pending
+                            </td>
+                        </tr>
+                        <tr class="table-danger">
+                            <td>
+                                4
+                            </td>
+                            <td>
+                                TB - Monthly
+                            </td>
+                            <td>
+                                04/04/2012
+                            </td>
+                            <td>
+                                Call in to confirm
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <h2>
+                    Heading
+                </h2>
+                <p>
+                    Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
+                    mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna
+                    mollis euismod. Donec sed odio dui.
+                </p>
+                <p>
+                    <a class="btn" href="#">View details »</a>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h2>
+                    Heading
+                </h2>
+                <p>
+                    Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
+                    mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna
+                    mollis euismod. Donec sed odio dui.
+                </p>
+                <p>
+                    <a class="btn" href="#">View details »</a>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h2>
+                    Heading
+                </h2>
+                <p>
+                    Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
+                    mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna
+                    mollis euismod. Donec sed odio dui.
+                </p>
+                <p>
+                    <a class="btn" href="#">View details »</a>
+                </p>
+                <big>
+                    <div id="votes">
+                        Please wait, loading voting results ...
+                    </div>
+                </big>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

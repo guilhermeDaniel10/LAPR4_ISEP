@@ -1,0 +1,85 @@
+commit 3433bec963c79cce3b3b2754c4b1893a8b2897b6
+Author: Rui Franco <1191038@isep.ipp.pt>
+Date:   Sun Jun 20 03:04:00 2021 +0100
+
+    #DMG02-222 #DMG02-223 Analise e design do US 4052
+
+A	documentation/SprintD/US_4052/US_4052.md
+
+commit 3c3a7c601af60f098be10543d8ecaba61ef789f3
+Author: Rui Franco <1191038@isep.ipp.pt>
+Date:   Sun Jun 20 03:02:58 2021 +0100
+
+    #DMG02-190 #DMG02-191 Analise e design do US 5003
+
+A	documentation/SprintD/US_5003/US_5003.md
+
+commit 240b2279bcf7adba1d46adc5f126b9b6b3e3b710
+Author: Rui Franco <1191038@isep.ipp.pt>
+Date:   Sun Jun 20 01:41:44 2021 +0100
+
+    #DMG02-216 Correcoes no calculo do tempo das consultas de SLAs
+
+M	base.core/src/main/java/eapli/base/objetivosmanagement/domain/TempoMaxAprovacao.java
+M	base.core/src/main/java/eapli/base/objetivosmanagement/domain/TempoMaxResolucao.java
+M	base.core/src/main/java/eapli/base/objetivosmanagement/domain/TempoMedioAprovacao.java
+M	base.core/src/main/java/eapli/base/objetivosmanagement/domain/TempoMedioResolucao.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaPedidoRepository.java
+
+commit 9ccfc2df2fd6a974ac89e089f360ff9c4a7babe5
+Author: Rui Franco <1191038@isep.ipp.pt>
+Date:   Sat Jun 19 19:03:13 2021 +0100
+
+    #DMG02-216 Controller e UI us-2013
+
+M	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/MainMenu.java
+A	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/SLA/ListarCumprimentoSlaAction.java
+A	base.app.backoffice.console/src/main/java/eapli/base/app/backoffice/console/presentation/SLA/ListarCumprimentoSlaUI.java
+M	base.core/src/main/java/eapli/base/objetivosmanagement/domain/Objetivos.java
+M	base.core/src/main/java/eapli/base/servicomanagement/domain/AtividadeAprovacao.java
+A	base.core/src/main/java/eapli/base/slamanagement/application/ListarCumprimentoSlaController.java
+M	base.persistence.impl/src/main/resources/META-INF/persistence.xml
+M	base.persistence.impl/target/maven-archiver/pom.properties
+M	base.persistence.impl/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+A	base.persistence.impl/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+
+commit 25dc0a22754733e564b3e906bf287d54b4e050c4
+Author: Rui Franco <1191038@isep.ipp.pt>
+Date:   Sat Jun 19 19:02:19 2021 +0100
+
+    Implementaçao de repositorio equipa in memory
+
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/inmemory/InMemoryEquipaRepository.java
+
+commit 62c450a8abea52a92ce8ff3205641a6c2f895451
+Author: Rui Franco <1191038@isep.ipp.pt>
+Date:   Sat Jun 19 19:01:57 2021 +0100
+
+    #DMG02-216 Consultas sobre cumprimento de SLAs
+
+M	base.core/src/main/java/eapli/base/pedidomanagement/application/ListPedidoService.java
+M	base.core/src/main/java/eapli/base/pedidomanagement/repositories/PedidoRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/inmemory/InMemoryPedidoRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaPedidoRepository.java
+M	base.persistence.impl/src/main/java/eapli/base/persistence/impl/jpa/JpaTarefaRepository.java
+
+commit f0b1f5408dcee0bf3bc2c5b1dda907b3fa2befe4
+Author: Rui Franco <1191038@isep.ipp.pt>
+Date:   Sat Jun 19 18:59:10 2021 +0100
+
+    #DMG02-216 Alteracoes ao dominio para responder ao US-2013
+
+M	base.core/src/main/java/eapli/base/objetivosmanagement/domain/TempoMaxAprovacao.java
+M	base.core/src/main/java/eapli/base/objetivosmanagement/domain/TempoMaxResolucao.java
+M	base.core/src/main/java/eapli/base/objetivosmanagement/domain/TempoMedioAprovacao.java
+M	base.core/src/main/java/eapli/base/pedidomanagement/domain/Pedido.java
+
+commit fe7a1247c474eae9798e5d009ce95a69f17f8cef
+Author: Rui Franco <1191038@isep.ipp.pt>
+Date:   Sat Jun 19 18:58:20 2021 +0100
+
+    #DMG02-214 #DMG02-215 Analise e design US-2013
+
+A	documentation/SprintD/US_2013/US_2013.md
+A	documentation/SprintD/US_2013/US_2013_SD.puml
+A	documentation/SprintD/US_2013/US_2013_SD.svg

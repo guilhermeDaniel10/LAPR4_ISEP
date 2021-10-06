@@ -1,0 +1,69 @@
+@startuml
+
+actor "Gestor Recursos Humanos" as GSH
+participant AtribuirNivelCriticidadeUI as UI <<presentation>>
+control AtribuirNivelCriticidadeController as Controller <<application>>
+participant ListarCatalogoService as listServiceCatalogo
+participant ListarNivelCriticidade as listServiceCriticidade
+database CatalogoRepository as Repository <<repository>>
+database SLARepository as SLARepository <<repository>>
+participant Catalogo as DomainCatalogo <<domain>>
+participant Objetivos as DomainObjetivos <<domain>>
+
+GSH -> UI: Inicia atribuçao nivel criticidade
+activate UI
+UI -> Controller: create()
+activate Controller
+Controller -> listServiceCatalogo: allCatalogos()
+activate listServiceCatalogo
+listServiceCatalogo -> Repository: findAll()
+activate Repository
+Repository -> listServiceCatalogo: iterable<Catalogo>
+deactivate Repository
+listServiceCatalogo -> Controller: iterable<Catalogo>
+deactivate listServiceCatalogo
+Controller -> UI: iterable<Catalogo>
+deactivate Controller
+UI -> GSH: Lista todas os Catalogo disponiveis
+deactivate UI
+
+GSH -> UI: seleciona um catalogo
+activate UI
+UI -> Controller: create()
+activate Controller
+Controller -> listServiceCriticidade: allNivelCriticidade()
+activate listServiceCriticidade
+listServiceCriticidade -> SLARepository: findAll()
+activate SLARepository
+SLARepository -> listServiceCriticidade: iterable<NivelCriticidade>
+deactivate SLARepository
+listServiceCriticidade -> Controller: iterable<NivelCriticidade>
+deactivate listServiceCriticidade
+Controller -> UI: iterable<NivelCriticidade>
+deactivate Controller
+UI -> GSH: Lista todas os Nivel Criticidade disponiveis
+deactivate UI
+
+
+GSH -> UI: Definir objetivos costumizados
+activate UI
+UI -> Controller: createObjetivos(tempoMedioAprovacao,\ntempoMaximoAprovacao,tempoMedioResolucao,tempoMaximoResolucao)
+activate Controller
+Controller -> DomainObjetivos: create(tempoMedioAprovacao,\ntempoMaximoAprovacao,tempoMedioResolucao,tempoMaximoResolucao)
+activate DomainObjetivos
+deactivate DomainObjetivos
+Controller -> DomainCatalogo: setObjetivos(objetivos)
+activate DomainCatalogo
+deactivate DomainCatalogo
+Controller -> DomainCatalogo: setNivelCriticidade(nivelCriticidade)
+activate DomainCatalogo
+deactivate DomainCatalogo
+Controller -> Repository: save(catalogo)
+activate Repository
+deactivate Repository
+deactivate DomainObjetivos
+deactivate Controller
+UI-> GSH: Sucesso
+deactivate UI
+
+@enduml

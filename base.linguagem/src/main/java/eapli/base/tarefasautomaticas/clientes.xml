@@ -1,0 +1,69 @@
+﻿<?xml version="1.0"?>
+<Clientes>
+  <Cliente>
+      <ID>Cli1</ID>
+      <Nome>Ricardo Salgado Ladrao</Nome>
+      <AnosVinculado>7</AnosVinculado>
+      <Email>guilhermedaniel70@gmail.com</Email>
+  </Cliente>
+  <Cliente>
+      <ID>Cli2</ID>
+      <Nome>Marco Silva</Nome>
+      <AnosVinculado>2</AnosVinculado>
+      <Email>1181743@isep.ipp.pt</Email>
+  </Cliente>
+  <Cliente>
+      <ID>Cli3</ID>
+      <Nome>Miguel Paixao</Nome>
+      <AnosVinculado>8</AnosVinculado>
+      <Email>1171589@isep.ipp.pt</Email>
+  </Cliente>
+  <Cliente>
+      <ID>Cli4</ID>
+      <Nome>Joana Bastos</Nome>
+      <AnosVinculado>1</AnosVinculado>
+      <Email>1191038@isep.ipp.pt</Email>
+  </Cliente>
+  <Cliente>
+      <ID>Cli5</ID>
+      <Nome>Marta Couto</Nome>
+      <AnosVinculado>10</AnosVinculado>
+      <Email>guilhermedaniel@netcabo.pt</Email>
+  </Cliente>
+  <Cliente>
+      <ID>Cli6</ID>
+      <Nome>Cristiano Ronaldo</Nome>
+      <AnosVinculado>7</AnosVinculado>
+      <Email>guilhermedaniel70@gmail.com</Email>
+  </Cliente>
+  <Cliente>
+      <ID>Cli7</ID>
+      <Nome>Sergio Conceicao</Nome>
+      <AnosVinculado>4</AnosVinculado>
+      <Email>lucasdejesussasousa@gmail.com</Email>
+  </Cliente>
+  <Cliente>
+      <ID>Cli8</ID>
+      <Nome>Jorge Jesus</Nome>
+      <AnosVinculado>2</AnosVinculado>
+      <Email>guilhermedaniel70@gmail.com</Email>
+  </Cliente>
+  <Cliente>
+      <ID>Cli9</ID>
+      <Nome>Joao Moutinho</Nome>
+      <AnosVinculado>10</AnosVinculado>
+      <Email>lucasdejesussasousa@gmail.com</Email>
+  </Cliente>
+  <Cliente>
+      <ID>Cli10</ID>
+      <Nome>Ricardo Quaresma</Nome>
+      <AnosVinculado>4</AnosVinculado>
+      <Email>guilhermedaniel70@gmail.com</Email>
+  </Cliente>
+  <Cliente>
+      <ID>Cli11</ID>
+      <Nome>Patricia Mamona</Nome>
+      <AnosVinculado>6</AnosVinculado>
+      <Email>lucasdejesussasousa@gmail.com</Email>
+  </Cliente>
+</Clientes>

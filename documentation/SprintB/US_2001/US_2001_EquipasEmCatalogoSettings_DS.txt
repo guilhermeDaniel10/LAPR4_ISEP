@@ -1,0 +1,28 @@
+@startuml
+        participant ":RegistarCatalogoUI" as ui
+        participant ":EquipasEmCatalogoSettings" as equipaS
+        participant ":setEquipasComAcesso" as listS
+		participant ":allEquipasoList" as listE
+		
+	    activate ui
+	    ui-> equipaS: EquipasEmCatalogoSettings(allEquipas)
+	    
+		activate equipaS
+		equipaS-> listS **
+		equipaS->listE **
+		equipaS-> equipaS: result = makeList(equipas)
+		equipaS-> listE: allEquipasoList = result
+		activate listE
+		deactivate listE
+		
+		ui-> equipaS: equipasEscolhidasComAcesso = setEquipasEmCatalogo
+		equipaS-> equipaS: showEquipas
+		loop até serem definidas todas as equipas com acesso
+		equipaS-> listE: add
+		activate listE
+		deactivate listE
+		end
+	    
+		deactivate equipaS
+		deactivate ui
+@enduml

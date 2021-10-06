@@ -1,0 +1,151 @@
+@startuml
+participant ":MotorAsServer" as ui
+		participant ":ListPedidoManualController" as ctrl
+		participant ":ConcurrentHashMap" as safeMap
+		participant ":String" as version
+		participant ":AtribuirTarefaAColaboradorController" as atriController
+		participant ":PersistenceContext" as pc
+		participant ":RepositoryFactory" as rf
+		participant ":PedidoRepository" as repoC
+		participant ":Colaborador" as colab
+		participant ":Pedido" as p
+		participant ":Tarefa" as t
+		participant ":PedidoRepository" as repoP
+        participant ":TarefaRepository" as repoT
+        participant ":ColaboradorRepository" as repoC
+        participant ":EquipaRepository" as repoE
+        participant ":WorkflowRepository" as repoW
+        participant ":Workflow" as work
+        activate ui
+        ui->ui:getPropValues()
+        ui->ui:fillMapEquipaColaboradores()
+		ui->ui:AssignarTarefasManuaisAColaboradores(version, safeMap)
+		loop
+
+	    ui->ctrl:pedidosParaExecucaoManual()
+		activate ctrl
+		ctrl->pc:repositories()
+		activate pc
+		pc->rf:create
+		activate rf
+		rf->repoC:create
+		activate repoC
+		deactivate repoC
+		deactivate rf
+		deactivate pc
+		ctrl->repoC:pedidosParaExecucaoManual()
+		activate repoC
+		deactivate repoC
+		ctrl-->ui:newPedidosExecucaoManual()
+		deactivate ctrl
+
+		loop enquanto houver pedidos sem o estado alterado para atribuidas
+
+		alt version == First_Come_First_Served
+		ui->safeMap: get(equipa)
+		activate safeMap
+		deactivate safeMap
+		ui->safeMap: colab = poll()
+		activate safeMap
+		deactivate safeMap
+		ui->atriController: atribuirPedidoAColaborador(p, colab)
+		activate atriController
+
+		atriController->pc:repositories()
+		activate pc
+		pc->rf:create
+		activate rf
+		rf->repoP:create
+		activate repoP
+		deactivate repoP
+		rf->repoT:create
+		activate repoT
+		deactivate repoT
+		rf->repoC:create
+		activate repoC
+		deactivate repoC
+        rf->repoE:create
+        activate repoE
+		deactivate repoE
+		rf->repoW:create
+		activate repoW
+		deactivate repoW
+		deactivate rf
+		deactivate pc
+
+		atriController->repoW: save(newWork)
+		activate repoW
+		deactivate repoW
+
+		atriController->p: changeState(EM_RESOLUCAO)
+		activate p
+		deactivate p
+
+		atriController->repoP: save(p)
+		activate repoP
+		deactivate repoP
+
+		atriController->t: newTarefa = new Tarefa(p, EM_EXECUCAO, newWork)
+        activate t
+		deactivate t
+        atriController->repoT:  save(newTarefa)
+		activate repoT
+		deactivate repoT
+
+		deactivate atriController
+		ui->safeMap: add(colab)
+		activate safeMap
+		deactivate safeMap
+        else  version == Algoritmo_Inteligente
+        ui->atriController: colab = colaboradorComMenorTempoTotalExecucaoDeEquipa(p)
+		activate atriController
+		deactivate atriController
+		ui->atriController: atribuirPedidoAColaborador(p, colab)
+		activate atriController
+			atriController->pc:repositories()
+		activate pc
+		pc->rf:create
+		activate rf
+		rf->repoP:create
+		activate repoP
+		deactivate repoP
+		rf->repoT:create
+		activate repoT
+		deactivate repoT
+		rf->repoC:create
+		activate repoC
+		deactivate repoC
+        rf->repoE:create
+        activate repoE
+		deactivate repoE
+		rf->repoW:create
+		activate repoW
+		deactivate repoW
+		deactivate rf
+		deactivate pc
+
+		atriController->repoW: save(newWork)
+		activate repoW
+		deactivate repoW
+
+		atriController->p: changeState(EM_RESOLUCAO)
+		activate p
+		deactivate p
+
+		atriController->repoP: save(p)
+		activate repoP
+		deactivate repoP
+
+		atriController->t: newTarefa = new Tarefa(p, EM_EXECUCAO, newWork)
+        activate t
+		deactivate t
+        atriController->repoT:  save(newTarefa)
+		activate repoT
+		deactivate repoT
+		deactivate atriController
+		end
+		end
+		 end
+
+		deactivate ui
+@enduml

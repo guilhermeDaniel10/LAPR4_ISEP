@@ -1,0 +1,1 @@
+identificador IDENTIFICADOR quantidade metodo pagamento plano pagamento email nome tipo desconto recorrencia percentagem desconto fatura valor desconto data limite tipo cliente

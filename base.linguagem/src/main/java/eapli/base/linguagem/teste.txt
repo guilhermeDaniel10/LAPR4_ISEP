@@ -1,0 +1,3 @@
+1 TEXTO NF 0 "([0-9]+|[a-zA-Z]+|'('|')'|'['|']'|'+'|'*'|'-'| )+" "Txtoeee grande coisa"
+2 TEXTO NF 1 "([0-9]+|[a-zA-Z]+|'('|')'|'['|']'|'+'|'*'|'-'| )+" "$$&&"
+3 BOOLEANO NF 0 "true|false" "true"

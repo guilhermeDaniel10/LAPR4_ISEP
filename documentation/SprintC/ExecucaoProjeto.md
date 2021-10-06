@@ -1,0 +1,3 @@
+Para a execução do projeto, já no Sprint B, seguiu-se uma abordagem fica para correr o programa. No ssh1 do ISEP está a correr uma base de dados (10.8.0.80) recorrendo ao H2. No ssh2 irá esta a correr o motor de fluxo de atividades que irá estar em constante funcionamento com o ssh5 que corresponderá ao executor de fluxo de atividades. 
+A aplicação de serviços e RH e a aplicação de utilizadores irá estar a correr localmente.
+Para correr o projeto, será necessário correr o ficheiro run-motorfluxoatividades.bat/sh para fazer boot ao motor de fluxos, e também ao run-executoratividades.bat/sh, apra correr o executor de atividades.

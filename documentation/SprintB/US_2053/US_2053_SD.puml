@@ -1,0 +1,23 @@
+@startuml
+
+actor "Responsavel Recursos Humanos" as RRH
+participant AssociarColaboradorUI as UI <<presentation>>
+control AssociarColaboradorController as Controller <<application>>
+
+
+RRH -> UI: Iniciar associação/remoção de um colaborador a uma equipa
+activate UI
+UI->Controller: create()
+activate Controller
+deactivate Controller
+UI->RRH: Associar ou remover colaborador
+deactivate UI
+
+RRH -> UI: Seleciona a opção
+activate UI
+alt Associar
+ref over UI, Controller:  US_2053_Associar
+else Remover
+ref over UI, Controller:  US_2053_Remover
+end
+@enduml

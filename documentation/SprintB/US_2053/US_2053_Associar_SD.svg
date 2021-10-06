@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="892px" preserveAspectRatio="none" style="width:1320px;height:892px;" version="1.1" viewBox="0 0 1320 892" width="1320px" zoomAndPan="magnify">
+    <defs>
+        <filter height="300%" id="fp8ag20boy5pl" width="300%" x="-1" y="-1">
+            <feGaussianBlur result="blurOut" stdDeviation="2.0"/>
+            <feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/>
+            <feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/>
+            <feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/>
+        </filter>
+    </defs>
+    <g>
+        <rect fill="#FFFFFF" filter="url(#fp8ag20boy5pl)" height="212.4609" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="373.5" y="119.6094"/>
+        <rect fill="#FFFFFF" filter="url(#fp8ag20boy5pl)" height="273.1641" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="373.5" y="362.4219"/>
+        <rect fill="#FFFFFF" filter="url(#fp8ag20boy5pl)" height="121.4063" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="373.5" y="665.9375"/>
+        <rect fill="#FFFFFF" filter="url(#fp8ag20boy5pl)" height="151.7578" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="574.5" y="149.9609"/>
+        <rect fill="#FFFFFF" filter="url(#fp8ag20boy5pl)" height="212.4609" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="574.5" y="392.7734"/>
+        <rect fill="#FFFFFF" filter="url(#fp8ag20boy5pl)" height="60.7031" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="574.5" y="696.2891"/>
+        <rect fill="#FFFFFF" filter="url(#fp8ag20boy5pl)" height="91.0547" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="782" y="180.3125"/>
+        <rect fill="#FFFFFF" filter="url(#fp8ag20boy5pl)" height="30.3516" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="965.5" y="210.6641"/>
+        <rect fill="#FFFFFF" filter="url(#fp8ag20boy5pl)" height="30.3516" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="965.5" y="423.125"/>
+        <rect fill="#FFFFFF" filter="url(#fp8ag20boy5pl)" height="30.3516" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1100.5" y="483.8281"/>
+        <rect fill="#FFFFFF" filter="url(#fp8ag20boy5pl)" height="30.3516" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1100.5" y="726.6406"/>
+        <rect fill="#FFFFFF" filter="url(#fp8ag20boy5pl)" height="30.3516" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1234.5" y="544.5313"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="115" x2="115" y1="87.6094" y2="805.6953"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="378" x2="378" y1="87.6094" y2="805.6953"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="579" x2="579" y1="87.6094" y2="805.6953"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="787" x2="787" y1="87.6094" y2="805.6953"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="970" x2="970" y1="87.6094" y2="805.6953"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="1105" x2="1105" y1="87.6094" y2="805.6953"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="1239" x2="1239" y1="87.6094" y2="805.6953"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="209" x="8" y="84.5332">Responsavel Recursos Humanos</text>
+        <ellipse cx="115.5" cy="13" fill="#FEFECE" filter="url(#fp8ag20boy5pl)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <path d="M115.5,21 L115.5,48 M102.5,29 L128.5,29 M115.5,48 L102.5,63 M115.5,48 L128.5,63 " fill="#FEFECE" filter="url(#fp8ag20boy5pl)" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="209" x="8" y="819.2285">Responsavel Recursos Humanos</text>
+        <ellipse cx="115.5" cy="832.3047" fill="#FEFECE" filter="url(#fp8ag20boy5pl)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <path d="M115.5,840.3047 L115.5,867.3047 M102.5,848.3047 L128.5,848.3047 M115.5,867.3047 L102.5,882.3047 M115.5,867.3047 L128.5,882.3047 " fill="#FEFECE" filter="url(#fp8ag20boy5pl)" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <rect fill="#FEFECE" filter="url(#fp8ag20boy5pl)" height="49.2188" style="stroke: #A80036; stroke-width: 1.5;" width="159" x="297" y="33.3906"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="95" x="329" y="54.3906">«presentation»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="145" x="304" y="72">AssociarColaboradorUI</text>
+        <rect fill="#FEFECE" filter="url(#fp8ag20boy5pl)" height="49.2188" style="stroke: #A80036; stroke-width: 1.5;" width="159" x="297" y="804.6953"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="95" x="329" y="825.6953">«presentation»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="145" x="304" y="843.3047">AssociarColaboradorUI</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="84" x="534.5" y="66.3906">«application»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="195" x="479" y="84">AssociarColaboradorController</text>
+        <ellipse cx="579.5" cy="36.3906" fill="#FEFECE" filter="url(#fp8ag20boy5pl)" rx="12" ry="12" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <polygon fill="#A80036" points="575.5,24.3906,581.5,19.3906,579.5,24.3906,581.5,29.3906,575.5,24.3906" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="84" x="534.5" y="818.6953">«application»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="195" x="479" y="836.3047">AssociarColaboradorController</text>
+        <ellipse cx="579.5" cy="855.9141" fill="#FEFECE" filter="url(#fp8ag20boy5pl)" rx="12" ry="12" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <polygon fill="#A80036" points="575.5,843.9141,581.5,838.9141,579.5,843.9141,581.5,848.9141,575.5,843.9141" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <rect fill="#FEFECE" filter="url(#fp8ag20boy5pl)" height="31.6094" style="stroke: #A80036; stroke-width: 1.5;" width="190" x="690" y="51"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="176" x="697" y="72.5332">ListarColaboradoresService</text>
+        <rect fill="#FEFECE" filter="url(#fp8ag20boy5pl)" height="31.6094" style="stroke: #A80036; stroke-width: 1.5;" width="190" x="690" y="804.6953"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="176" x="697" y="826.2285">ListarColaboradoresService</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="79" x="928" y="66.3906">«repository»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="147" x="894" y="84">ColaboradorRepository</text>
+        <path d="M952.5,16.3906 C952.5,6.3906 970.5,6.3906 970.5,6.3906 C970.5,6.3906 988.5,6.3906 988.5,16.3906 L988.5,42.3906 C988.5,52.3906 970.5,52.3906 970.5,52.3906 C970.5,52.3906 952.5,52.3906 952.5,42.3906 L952.5,16.3906 " fill="#FEFECE" filter="url(#fp8ag20boy5pl)" style="stroke: #000000; stroke-width: 1.5;"/>
+        <path d="M952.5,16.3906 C952.5,26.3906 970.5,26.3906 970.5,26.3906 C970.5,26.3906 988.5,26.3906 988.5,16.3906 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="79" x="928" y="818.6953">«repository»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="147" x="894" y="836.3047">ColaboradorRepository</text>
+        <path d="M952.5,849.9141 C952.5,839.9141 970.5,839.9141 970.5,839.9141 C970.5,839.9141 988.5,839.9141 988.5,849.9141 L988.5,875.9141 C988.5,885.9141 970.5,885.9141 970.5,885.9141 C970.5,885.9141 952.5,885.9141 952.5,875.9141 L952.5,849.9141 " fill="#FEFECE" filter="url(#fp8ag20boy5pl)" style="stroke: #000000; stroke-width: 1.5;"/>
+        <path d="M952.5,849.9141 C952.5,859.9141 970.5,859.9141 970.5,859.9141 C970.5,859.9141 988.5,859.9141 988.5,849.9141 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/>
+        <rect fill="#FEFECE" filter="url(#fp8ag20boy5pl)" height="49.2188" style="stroke: #A80036; stroke-width: 1.5;" width="93" x="1057" y="33.3906"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="62" x="1072.5" y="54.3906">«domain»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="79" x="1064" y="72">Colaborador</text>
+        <rect fill="#FEFECE" filter="url(#fp8ag20boy5pl)" height="49.2188" style="stroke: #A80036; stroke-width: 1.5;" width="93" x="1057" y="804.6953"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="62" x="1072.5" y="825.6953">«domain»</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="79" x="1064" y="843.3047">Colaborador</text>
+        <rect fill="#FEFECE" filter="url(#fp8ag20boy5pl)" height="31.6094" style="stroke: #A80036; stroke-width: 1.5;" width="147" x="1164" y="51"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="133" x="1171" y="72.5332">ListarEquipasService</text>
+        <rect fill="#FEFECE" filter="url(#fp8ag20boy5pl)" height="31.6094" style="stroke: #A80036; stroke-width: 1.5;" width="147" x="1164" y="804.6953"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="133" x="1171" y="826.2285">ListarEquipasService</text>
+        <rect fill="#FFFFFF" filter="url(#fp8ag20boy5pl)" height="212.4609" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="373.5" y="119.6094"/>
+        <rect fill="#FFFFFF" filter="url(#fp8ag20boy5pl)" height="273.1641" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="373.5" y="362.4219"/>
+        <rect fill="#FFFFFF" filter="url(#fp8ag20boy5pl)" height="121.4063" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="373.5" y="665.9375"/>
+        <rect fill="#FFFFFF" filter="url(#fp8ag20boy5pl)" height="151.7578" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="574.5" y="149.9609"/>
+        <rect fill="#FFFFFF" filter="url(#fp8ag20boy5pl)" height="212.4609" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="574.5" y="392.7734"/>
+        <rect fill="#FFFFFF" filter="url(#fp8ag20boy5pl)" height="60.7031" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="574.5" y="696.2891"/>
+        <rect fill="#FFFFFF" filter="url(#fp8ag20boy5pl)" height="91.0547" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="782" y="180.3125"/>
+        <rect fill="#FFFFFF" filter="url(#fp8ag20boy5pl)" height="30.3516" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="965.5" y="210.6641"/>
+        <rect fill="#FFFFFF" filter="url(#fp8ag20boy5pl)" height="30.3516" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="965.5" y="423.125"/>
+        <rect fill="#FFFFFF" filter="url(#fp8ag20boy5pl)" height="30.3516" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1100.5" y="483.8281"/>
+        <rect fill="#FFFFFF" filter="url(#fp8ag20boy5pl)" height="30.3516" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1100.5" y="726.6406"/>
+        <rect fill="#FFFFFF" filter="url(#fp8ag20boy5pl)" height="30.3516" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1234.5" y="544.5313"/>
+        <polygon fill="#A80036" points="361.5,115.6094,371.5,119.6094,361.5,123.6094,365.5,119.6094" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="115.5" x2="367.5" y1="119.6094" y2="119.6094"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="171" x="122.5" y="115.1045">Inicia associação colaborador</text>
+        <polygon fill="#A80036" points="562.5,145.9609,572.5,149.9609,562.5,153.9609,566.5,149.9609" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="383.5" x2="568.5" y1="149.9609" y2="149.9609"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="44" x="390.5" y="145.4561">create()</text>
+        <polygon fill="#A80036" points="770,176.3125,780,180.3125,770,184.3125,774,180.3125" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="584.5" x2="776" y1="180.3125" y2="180.3125"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="104" x="591.5" y="175.8076">allColaboradores()</text>
+        <polygon fill="#A80036" points="953.5,206.6641,963.5,210.6641,953.5,214.6641,957.5,210.6641" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="792" x2="959.5" y1="210.6641" y2="210.6641"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="43" x="799" y="206.1592">findAll()</text>
+        <polygon fill="#A80036" points="803,237.0156,793,241.0156,803,245.0156,799,241.0156" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="797" x2="969.5" y1="241.0156" y2="241.0156"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="127" x="809" y="236.5107">iterable&lt;Colaborador&gt;</text>
+        <polygon fill="#A80036" points="595.5,267.3672,585.5,271.3672,595.5,275.3672,591.5,271.3672" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="589.5" x2="786" y1="271.3672" y2="271.3672"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="127" x="601.5" y="266.8623">iterable&lt;Colaborador&gt;</text>
+        <polygon fill="#A80036" points="394.5,297.7188,384.5,301.7188,394.5,305.7188,390.5,301.7188" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="388.5" x2="578.5" y1="301.7188" y2="301.7188"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="127" x="400.5" y="297.2139">iterable&lt;Colaborador&gt;</text>
+        <polygon fill="#A80036" points="126.5,328.0703,116.5,332.0703,126.5,336.0703,122.5,332.0703" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="120.5" x2="377.5" y1="332.0703" y2="332.0703"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="234" x="132.5" y="327.5654">Lista todas os colaboradores disponiveis</text>
+        <polygon fill="#A80036" points="361.5,358.4219,371.5,362.4219,361.5,366.4219,365.5,362.4219" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="115.5" x2="367.5" y1="362.4219" y2="362.4219"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="150" x="122.5" y="357.917">Seleciona um colaborador</text>
+        <polygon fill="#A80036" points="562.5,388.7734,572.5,392.7734,562.5,396.7734,566.5,392.7734" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="383.5" x2="568.5" y1="392.7734" y2="392.7734"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="172" x="390.5" y="388.2686">getColaborador(colaboradorId)</text>
+        <polygon fill="#A80036" points="953.5,419.125,963.5,423.125,953.5,427.125,957.5,423.125" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="584.5" x2="959.5" y1="423.125" y2="423.125"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="95" x="591.5" y="418.6201">getColaborador()</text>
+        <polygon fill="#A80036" points="595.5,449.4766,585.5,453.4766,595.5,457.4766,591.5,453.4766" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="589.5" x2="969.5" y1="453.4766" y2="453.4766"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="67" x="601.5" y="448.9717">colaborador</text>
+        <polygon fill="#A80036" points="1088.5,479.8281,1098.5,483.8281,1088.5,487.8281,1092.5,483.8281" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="584.5" x2="1094.5" y1="483.8281" y2="483.8281"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="97" x="591.5" y="479.3232">getTiposEquipa()</text>
+        <polygon fill="#A80036" points="595.5,510.1797,585.5,514.1797,595.5,518.1797,591.5,514.1797" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="589.5" x2="1104.5" y1="514.1797" y2="514.1797"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="122" x="601.5" y="509.6748">iterable&lt;TipoEquipa&gt;</text>
+        <polygon fill="#A80036" points="1222.5,540.5313,1232.5,544.5313,1222.5,548.5313,1226.5,544.5313" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="584.5" x2="1228.5" y1="544.5313" y2="544.5313"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="219" x="591.5" y="540.0264">listarEquipasTipoDiferente(tipoEquipa)</text>
+        <polygon fill="#A80036" points="595.5,570.8828,585.5,574.8828,595.5,578.8828,591.5,574.8828" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="589.5" x2="1238.5" y1="574.8828" y2="574.8828"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="98" x="601.5" y="570.3779">iterable&lt;Equipa&gt;</text>
+        <polygon fill="#A80036" points="394.5,601.2344,384.5,605.2344,394.5,609.2344,390.5,605.2344" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="388.5" x2="578.5" y1="605.2344" y2="605.2344"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="98" x="400.5" y="600.7295">iterable&lt;Equipa&gt;</text>
+        <polygon fill="#A80036" points="126.5,631.5859,116.5,635.5859,126.5,639.5859,122.5,635.5859" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="120.5" x2="377.5" y1="635.5859" y2="635.5859"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="203" x="132.5" y="631.0811">Lista todas as equipas compativeis</text>
+        <polygon fill="#A80036" points="361.5,661.9375,371.5,665.9375,361.5,669.9375,365.5,665.9375" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="115.5" x2="367.5" y1="665.9375" y2="665.9375"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="101" x="122.5" y="661.4326">Seleciona Equipa</text>
+        <polygon fill="#A80036" points="562.5,692.2891,572.5,696.2891,562.5,700.2891,566.5,696.2891" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="383.5" x2="568.5" y1="696.2891" y2="696.2891"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="105" x="390.5" y="691.7842">setEquipa(teamId)</text>
+        <polygon fill="#A80036" points="1088.5,722.6406,1098.5,726.6406,1088.5,730.6406,1092.5,726.6406" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="584.5" x2="1094.5" y1="726.6406" y2="726.6406"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="135" x="591.5" y="722.1357">associarEquipa(equipa)</text>
+        <polygon fill="#A80036" points="958.5,752.9922,968.5,756.9922,958.5,760.9922,962.5,756.9922" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="579.5" x2="964.5" y1="756.9922" y2="756.9922"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="101" x="586.5" y="752.4873">save(colaborador)</text>
+        <polygon fill="#A80036" points="126.5,783.3438,116.5,787.3438,126.5,791.3438,122.5,787.3438" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="120.5" x2="377.5" y1="787.3438" y2="787.3438"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="51" x="132.5" y="782.8389">Sucesso</text>
+        <!--
+@startuml
+
+actor "Responsavel Recursos Humanos" as RRH
+participant AssociarColaboradorUI as UI <<presentation>>
+control AssociarColaboradorController as Controller <<application>>
+participant ListarColaboradoresService as listService
+database ColaboradorRepository as Repository <<repository>>
+participant Colaborador as Domain <<domain>>
+
+RRH -> UI: Inicia associação colaborador
+activate UI
+UI -> Controller: create()
+activate Controller
+Controller -> listService: allColaboradores()
+activate listService
+listService -> Repository: findAll()
+activate Repository
+Repository -> listService: iterable<Colaborador>
+deactivate Repository
+listService -> Controller: iterable<Colaborador>
+deactivate listService
+Controller -> UI: iterable<Colaborador>
+deactivate Controller
+UI -> RRH: Lista todas os colaboradores disponiveis
+deactivate UI
+
+RRH -> UI: Seleciona um colaborador
+activate UI
+UI -> Controller: getColaborador(colaboradorId)
+activate Controller
+Controller -> Repository: getColaborador()
+activate Repository
+Repository -> Controller: colaborador
+deactivate Repository
+Controller -> Domain: getTiposEquipa()
+activate Domain
+Domain -> Controller: iterable<TipoEquipa>
+deactivate Domain
+Controller -> ListarEquipasService: listarEquipasTipoDiferente(tipoEquipa)
+activate ListarEquipasService
+ListarEquipasService -> Controller: iterable<Equipa>
+deactivate ListarEquipasService
+Controller -> UI: iterable<Equipa>
+deactivate Controller
+UI -> RRH: Lista todas as equipas compativeis
+deactivate UI
+
+RRH -> UI: Seleciona Equipa
+activate UI
+UI -> Controller: setEquipa(teamId)
+activate Controller
+Controller -> Domain: associarEquipa(equipa)
+activate Domain
+Controller -> Repository: save(colaborador)
+deactivate Domain
+deactivate Controller
+UI-> RRH: Sucesso
+deactivate UI
+deactivate UI
+@enduml
+
+PlantUML version 2017.11(Wed Apr 19 17:18:59 BST 2017)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_111-b14
+Operating System: Windows 10
+OS Version: 10.0
+Default Encoding: UTF-8
+Language: en
+Country: US
+-->
+    </g>
+</svg>
